@@ -1,0 +1,1768 @@
+{
+  "generator": "眼镜猫 · 参考图素体网格规格",
+  "sheet": "02_精灵表/人形素体_精灵表.png",
+  "cell": [
+    160,
+    190
+  ],
+  "cols": 8,
+  "rows": 8,
+  "frames": [
+    {
+      "index": 0,
+      "id": "q_bare_bald",
+      "name": "Q版·基础型·光头",
+      "group": "板A_Q版2.5头身",
+      "slot": "body",
+      "direction": "N",
+      "rect": [
+        0,
+        0,
+        160,
+        190
+      ],
+      "row": 1,
+      "col": 1,
+      "loop": "static",
+      "fps": 8
+    },
+    {
+      "index": 1,
+      "id": "q_bare_hair",
+      "name": "Q版·基础型·灰白短发",
+      "group": "板A_Q版2.5头身",
+      "slot": "body",
+      "direction": "N",
+      "rect": [
+        160,
+        0,
+        160,
+        190
+      ],
+      "row": 1,
+      "col": 2,
+      "loop": "static",
+      "fps": 8
+    },
+    {
+      "index": 2,
+      "id": "q_tee_bald",
+      "name": "Q版·白T·光头",
+      "group": "板A_Q版2.5头身",
+      "slot": "body",
+      "direction": "N",
+      "rect": [
+        320,
+        0,
+        160,
+        190
+      ],
+      "row": 1,
+      "col": 3,
+      "loop": "static",
+      "fps": 8
+    },
+    {
+      "index": 3,
+      "id": "q_tee_hair",
+      "name": "Q版·白T·短发",
+      "group": "板A_Q版2.5头身",
+      "slot": "body",
+      "direction": "N",
+      "rect": [
+        480,
+        0,
+        160,
+        190
+      ],
+      "row": 1,
+      "col": 4,
+      "loop": "static",
+      "fps": 8
+    },
+    {
+      "index": 4,
+      "id": "q_overall_bald",
+      "name": "Q版·背带裤·光头",
+      "group": "板A_Q版2.5头身",
+      "slot": "body",
+      "direction": "N",
+      "rect": [
+        640,
+        0,
+        160,
+        190
+      ],
+      "row": 1,
+      "col": 5,
+      "loop": "static",
+      "fps": 8
+    },
+    {
+      "index": 5,
+      "id": "q_hoodie_bald",
+      "name": "Q版·连帽卫衣·光头",
+      "group": "板A_Q版2.5头身",
+      "slot": "body",
+      "direction": "N",
+      "rect": [
+        800,
+        0,
+        160,
+        190
+      ],
+      "row": 1,
+      "col": 6,
+      "loop": "static",
+      "fps": 8
+    },
+    {
+      "index": 6,
+      "id": "q_overall_hair",
+      "name": "Q版·背带裤·短发",
+      "group": "板A_Q版2.5头身",
+      "slot": "body",
+      "direction": "N",
+      "rect": [
+        960,
+        0,
+        160,
+        190
+      ],
+      "row": 1,
+      "col": 7,
+      "loop": "static",
+      "fps": 8
+    },
+    {
+      "index": 7,
+      "id": "q_hoodie_hair",
+      "name": "Q版·连帽卫衣·短发",
+      "group": "板A_Q版2.5头身",
+      "slot": "body",
+      "direction": "N",
+      "rect": [
+        1120,
+        0,
+        160,
+        190
+      ],
+      "row": 1,
+      "col": 8,
+      "loop": "static",
+      "fps": 8
+    },
+    {
+      "index": 8,
+      "id": "s_bare_bald",
+      "name": "少女·基础型·光头",
+      "group": "板B_少女5.5头身",
+      "slot": "body",
+      "direction": "N",
+      "rect": [
+        0,
+        190,
+        160,
+        190
+      ],
+      "row": 2,
+      "col": 1,
+      "loop": "static",
+      "fps": 8
+    },
+    {
+      "index": 9,
+      "id": "s_bare_hair",
+      "name": "少女·基础型·灰白短发",
+      "group": "板B_少女5.5头身",
+      "slot": "body",
+      "direction": "N",
+      "rect": [
+        160,
+        190,
+        160,
+        190
+      ],
+      "row": 2,
+      "col": 2,
+      "loop": "static",
+      "fps": 8
+    },
+    {
+      "index": 10,
+      "id": "s_tee_bald",
+      "name": "少女·白T·光头",
+      "group": "板B_少女5.5头身",
+      "slot": "body",
+      "direction": "N",
+      "rect": [
+        320,
+        190,
+        160,
+        190
+      ],
+      "row": 2,
+      "col": 3,
+      "loop": "static",
+      "fps": 8
+    },
+    {
+      "index": 11,
+      "id": "s_bare_hair2",
+      "name": "少女·基础型·短发(重复)",
+      "group": "板B_少女5.5头身",
+      "slot": "body",
+      "direction": "N",
+      "rect": [
+        480,
+        190,
+        160,
+        190
+      ],
+      "row": 2,
+      "col": 4,
+      "loop": "static",
+      "fps": 8
+    },
+    {
+      "index": 12,
+      "id": "s_bare_bald2",
+      "name": "少女·基础型·光头(重复)",
+      "group": "板B_少女5.5头身",
+      "slot": "body",
+      "direction": "N",
+      "rect": [
+        640,
+        190,
+        160,
+        190
+      ],
+      "row": 2,
+      "col": 5,
+      "loop": "static",
+      "fps": 8
+    },
+    {
+      "index": 13,
+      "id": "s_hoodie_bald",
+      "name": "少女·连帽卫衣·光头",
+      "group": "板B_少女5.5头身",
+      "slot": "body",
+      "direction": "N",
+      "rect": [
+        800,
+        190,
+        160,
+        190
+      ],
+      "row": 2,
+      "col": 6,
+      "loop": "static",
+      "fps": 8
+    },
+    {
+      "index": 14,
+      "id": "s_overall_bald",
+      "name": "少女·背带裤·光头",
+      "group": "板B_少女5.5头身",
+      "slot": "body",
+      "direction": "N",
+      "rect": [
+        960,
+        190,
+        160,
+        190
+      ],
+      "row": 2,
+      "col": 7,
+      "loop": "static",
+      "fps": 8
+    },
+    {
+      "index": 15,
+      "id": "s_overall_hair",
+      "name": "少女·背带裤·短发",
+      "group": "板B_少女5.5头身",
+      "slot": "body",
+      "direction": "N",
+      "rect": [
+        1120,
+        190,
+        160,
+        190
+      ],
+      "row": 2,
+      "col": 8,
+      "loop": "static",
+      "fps": 8
+    },
+    {
+      "index": 16,
+      "id": "hair_short",
+      "name": "灰白蓬松短发",
+      "group": "板C_头部配件",
+      "slot": "head",
+      "direction": "N",
+      "rect": [
+        0,
+        380,
+        160,
+        190
+      ],
+      "row": 3,
+      "col": 1,
+      "loop": "static",
+      "fps": 8
+    },
+    {
+      "index": 17,
+      "id": "hair_short__s",
+      "name": "灰白蓬松短发（少女版）",
+      "group": "板C_头部配件",
+      "slot": "head",
+      "direction": "N",
+      "rect": [
+        160,
+        380,
+        160,
+        190
+      ],
+      "row": 3,
+      "col": 2,
+      "loop": "static",
+      "fps": 8
+    },
+    {
+      "index": 18,
+      "id": "hair_cap",
+      "name": "素色光头发网",
+      "group": "板C_头部配件",
+      "slot": "head",
+      "direction": "N",
+      "rect": [
+        320,
+        380,
+        160,
+        190
+      ],
+      "row": 3,
+      "col": 3,
+      "loop": "static",
+      "fps": 8
+    },
+    {
+      "index": 19,
+      "id": "hair_cap__s",
+      "name": "素色光头发网（少女版）",
+      "group": "板C_头部配件",
+      "slot": "head",
+      "direction": "N",
+      "rect": [
+        480,
+        380,
+        160,
+        190
+      ],
+      "row": 3,
+      "col": 4,
+      "loop": "static",
+      "fps": 8
+    },
+    {
+      "index": 20,
+      "id": "hair_twin",
+      "name": "灰白双马尾",
+      "group": "板C_头部配件",
+      "slot": "head",
+      "direction": "N",
+      "rect": [
+        640,
+        380,
+        160,
+        190
+      ],
+      "row": 3,
+      "col": 5,
+      "loop": "static",
+      "fps": 8
+    },
+    {
+      "index": 21,
+      "id": "hair_twin__s",
+      "name": "灰白双马尾（少女版）",
+      "group": "板C_头部配件",
+      "slot": "head",
+      "direction": "N",
+      "rect": [
+        800,
+        380,
+        160,
+        190
+      ],
+      "row": 3,
+      "col": 6,
+      "loop": "static",
+      "fps": 8
+    },
+    {
+      "index": 22,
+      "id": "hair_long",
+      "name": "灰白长直发",
+      "group": "板C_头部配件",
+      "slot": "head",
+      "direction": "N",
+      "rect": [
+        960,
+        380,
+        160,
+        190
+      ],
+      "row": 3,
+      "col": 7,
+      "loop": "static",
+      "fps": 8
+    },
+    {
+      "index": 23,
+      "id": "hair_long__s",
+      "name": "灰白长直发（少女版）",
+      "group": "板C_头部配件",
+      "slot": "head",
+      "direction": "N",
+      "rect": [
+        1120,
+        380,
+        160,
+        190
+      ],
+      "row": 3,
+      "col": 8,
+      "loop": "static",
+      "fps": 8
+    },
+    {
+      "index": 24,
+      "id": "ear_cat",
+      "name": "灰白猫耳托一对",
+      "group": "板C_头部配件",
+      "slot": "head",
+      "direction": "N",
+      "rect": [
+        0,
+        570,
+        160,
+        190
+      ],
+      "row": 4,
+      "col": 1,
+      "loop": "static",
+      "fps": 8
+    },
+    {
+      "index": 25,
+      "id": "ear_cat__s",
+      "name": "灰白猫耳托一对（少女版）",
+      "group": "板C_头部配件",
+      "slot": "head",
+      "direction": "N",
+      "rect": [
+        160,
+        570,
+        160,
+        190
+      ],
+      "row": 4,
+      "col": 2,
+      "loop": "static",
+      "fps": 8
+    },
+    {
+      "index": 26,
+      "id": "ear_elf",
+      "name": "精灵尖耳一对",
+      "group": "板C_头部配件",
+      "slot": "head",
+      "direction": "N",
+      "rect": [
+        320,
+        570,
+        160,
+        190
+      ],
+      "row": 4,
+      "col": 3,
+      "loop": "static",
+      "fps": 8
+    },
+    {
+      "index": 27,
+      "id": "ear_elf__s",
+      "name": "精灵尖耳一对（少女版）",
+      "group": "板C_头部配件",
+      "slot": "head",
+      "direction": "N",
+      "rect": [
+        480,
+        570,
+        160,
+        190
+      ],
+      "row": 4,
+      "col": 4,
+      "loop": "static",
+      "fps": 8
+    },
+    {
+      "index": 28,
+      "id": "horn_small",
+      "name": "小犄角一对",
+      "group": "板C_头部配件",
+      "slot": "head",
+      "direction": "N",
+      "rect": [
+        640,
+        570,
+        160,
+        190
+      ],
+      "row": 4,
+      "col": 5,
+      "loop": "static",
+      "fps": 8
+    },
+    {
+      "index": 29,
+      "id": "horn_small__s",
+      "name": "小犄角一对（少女版）",
+      "group": "板C_头部配件",
+      "slot": "head",
+      "direction": "N",
+      "rect": [
+        800,
+        570,
+        160,
+        190
+      ],
+      "row": 4,
+      "col": 6,
+      "loop": "static",
+      "fps": 8
+    },
+    {
+      "index": 30,
+      "id": "horn_big",
+      "name": "大弯角一对",
+      "group": "板C_头部配件",
+      "slot": "head",
+      "direction": "N",
+      "rect": [
+        960,
+        570,
+        160,
+        190
+      ],
+      "row": 4,
+      "col": 7,
+      "loop": "static",
+      "fps": 8
+    },
+    {
+      "index": 31,
+      "id": "horn_big__s",
+      "name": "大弯角一对（少女版）",
+      "group": "板C_头部配件",
+      "slot": "head",
+      "direction": "N",
+      "rect": [
+        1120,
+        570,
+        160,
+        190
+      ],
+      "row": 4,
+      "col": 8,
+      "loop": "static",
+      "fps": 8
+    },
+    {
+      "index": 32,
+      "id": "eye_open",
+      "name": "蓝色圆睁眼",
+      "group": "板D_面部配件",
+      "slot": "face",
+      "direction": "N",
+      "rect": [
+        0,
+        760,
+        160,
+        190
+      ],
+      "row": 5,
+      "col": 1,
+      "loop": "static",
+      "fps": 8
+    },
+    {
+      "index": 33,
+      "id": "eye_open__s",
+      "name": "蓝色圆睁眼（少女版）",
+      "group": "板D_面部配件",
+      "slot": "face",
+      "direction": "N",
+      "rect": [
+        160,
+        760,
+        160,
+        190
+      ],
+      "row": 5,
+      "col": 2,
+      "loop": "static",
+      "fps": 8
+    },
+    {
+      "index": 34,
+      "id": "eye_closed",
+      "name": "闭眼弯弧",
+      "group": "板D_面部配件",
+      "slot": "face",
+      "direction": "N",
+      "rect": [
+        320,
+        760,
+        160,
+        190
+      ],
+      "row": 5,
+      "col": 3,
+      "loop": "static",
+      "fps": 8
+    },
+    {
+      "index": 35,
+      "id": "eye_closed__s",
+      "name": "闭眼弯弧（少女版）",
+      "group": "板D_面部配件",
+      "slot": "face",
+      "direction": "N",
+      "rect": [
+        480,
+        760,
+        160,
+        190
+      ],
+      "row": 5,
+      "col": 4,
+      "loop": "static",
+      "fps": 8
+    },
+    {
+      "index": 36,
+      "id": "eye_smile",
+      "name": "笑眼弯月",
+      "group": "板D_面部配件",
+      "slot": "face",
+      "direction": "N",
+      "rect": [
+        640,
+        760,
+        160,
+        190
+      ],
+      "row": 5,
+      "col": 5,
+      "loop": "static",
+      "fps": 8
+    },
+    {
+      "index": 37,
+      "id": "eye_smile__s",
+      "name": "笑眼弯月（少女版）",
+      "group": "板D_面部配件",
+      "slot": "face",
+      "direction": "N",
+      "rect": [
+        800,
+        760,
+        160,
+        190
+      ],
+      "row": 5,
+      "col": 6,
+      "loop": "static",
+      "fps": 8
+    },
+    {
+      "index": 38,
+      "id": "eye_star",
+      "name": "星星眼",
+      "group": "板D_面部配件",
+      "slot": "face",
+      "direction": "N",
+      "rect": [
+        960,
+        760,
+        160,
+        190
+      ],
+      "row": 5,
+      "col": 7,
+      "loop": "static",
+      "fps": 8
+    },
+    {
+      "index": 39,
+      "id": "eye_star__s",
+      "name": "星星眼（少女版）",
+      "group": "板D_面部配件",
+      "slot": "face",
+      "direction": "N",
+      "rect": [
+        1120,
+        760,
+        160,
+        190
+      ],
+      "row": 5,
+      "col": 8,
+      "loop": "static",
+      "fps": 8
+    },
+    {
+      "index": 40,
+      "id": "glasses_round",
+      "name": "黑色粗圆框眼镜",
+      "group": "板D_面部配件",
+      "slot": "face",
+      "direction": "N",
+      "rect": [
+        0,
+        950,
+        160,
+        190
+      ],
+      "row": 6,
+      "col": 1,
+      "loop": "static",
+      "fps": 8
+    },
+    {
+      "index": 41,
+      "id": "glasses_round__s",
+      "name": "黑色粗圆框眼镜（少女版）",
+      "group": "板D_面部配件",
+      "slot": "face",
+      "direction": "N",
+      "rect": [
+        160,
+        950,
+        160,
+        190
+      ],
+      "row": 6,
+      "col": 2,
+      "loop": "static",
+      "fps": 8
+    },
+    {
+      "index": 42,
+      "id": "blush",
+      "name": "淡粉腮红一对",
+      "group": "板D_面部配件",
+      "slot": "face",
+      "direction": "N",
+      "rect": [
+        320,
+        950,
+        160,
+        190
+      ],
+      "row": 6,
+      "col": 3,
+      "loop": "static",
+      "fps": 8
+    },
+    {
+      "index": 43,
+      "id": "blush__s",
+      "name": "淡粉腮红一对（少女版）",
+      "group": "板D_面部配件",
+      "slot": "face",
+      "direction": "N",
+      "rect": [
+        480,
+        950,
+        160,
+        190
+      ],
+      "row": 6,
+      "col": 4,
+      "loop": "static",
+      "fps": 8
+    },
+    {
+      "index": 44,
+      "id": "mouth_open",
+      "name": "张嘴吐舌",
+      "group": "板D_面部配件",
+      "slot": "face",
+      "direction": "N",
+      "rect": [
+        640,
+        950,
+        160,
+        190
+      ],
+      "row": 6,
+      "col": 5,
+      "loop": "static",
+      "fps": 8
+    },
+    {
+      "index": 45,
+      "id": "mouth_open__s",
+      "name": "张嘴吐舌（少女版）",
+      "group": "板D_面部配件",
+      "slot": "face",
+      "direction": "N",
+      "rect": [
+        800,
+        950,
+        160,
+        190
+      ],
+      "row": 6,
+      "col": 6,
+      "loop": "static",
+      "fps": 8
+    },
+    {
+      "index": 46,
+      "id": "mouth_o",
+      "name": "O形小圆嘴",
+      "group": "板D_面部配件",
+      "slot": "face",
+      "direction": "N",
+      "rect": [
+        960,
+        950,
+        160,
+        190
+      ],
+      "row": 6,
+      "col": 7,
+      "loop": "static",
+      "fps": 8
+    },
+    {
+      "index": 47,
+      "id": "mouth_o__s",
+      "name": "O形小圆嘴（少女版）",
+      "group": "板D_面部配件",
+      "slot": "face",
+      "direction": "N",
+      "rect": [
+        1120,
+        950,
+        160,
+        190
+      ],
+      "row": 6,
+      "col": 8,
+      "loop": "static",
+      "fps": 8
+    },
+    {
+      "index": 48,
+      "id": "skin_graytabby",
+      "name": "灰白虎斑",
+      "group": "板E_毛色变体",
+      "slot": "skin",
+      "direction": "N",
+      "rect": [
+        0,
+        1140,
+        160,
+        190
+      ],
+      "row": 7,
+      "col": 1,
+      "loop": "static",
+      "fps": 8
+    },
+    {
+      "index": 49,
+      "id": "skin_cream",
+      "name": "纯白奶油",
+      "group": "板E_毛色变体",
+      "slot": "skin",
+      "direction": "N",
+      "rect": [
+        160,
+        1140,
+        160,
+        190
+      ],
+      "row": 7,
+      "col": 2,
+      "loop": "static",
+      "fps": 8
+    },
+    {
+      "index": 50,
+      "id": "skin_orange",
+      "name": "暖橘虎斑",
+      "group": "板E_毛色变体",
+      "slot": "skin",
+      "direction": "N",
+      "rect": [
+        320,
+        1140,
+        160,
+        190
+      ],
+      "row": 7,
+      "col": 3,
+      "loop": "static",
+      "fps": 8
+    },
+    {
+      "index": 51,
+      "id": "skin_black",
+      "name": "炭灰黑",
+      "group": "板E_毛色变体",
+      "slot": "skin",
+      "direction": "N",
+      "rect": [
+        480,
+        1140,
+        160,
+        190
+      ],
+      "row": 7,
+      "col": 4,
+      "loop": "static",
+      "fps": 8
+    },
+    {
+      "index": 52,
+      "id": "skin_cow",
+      "name": "奶牛黑白",
+      "group": "板E_毛色变体",
+      "slot": "skin",
+      "direction": "N",
+      "rect": [
+        640,
+        1140,
+        160,
+        190
+      ],
+      "row": 7,
+      "col": 5,
+      "loop": "static",
+      "fps": 8
+    },
+    {
+      "index": 53,
+      "id": "skin_calico",
+      "name": "三花",
+      "group": "板E_毛色变体",
+      "slot": "skin",
+      "direction": "N",
+      "rect": [
+        800,
+        1140,
+        160,
+        190
+      ],
+      "row": 7,
+      "col": 6,
+      "loop": "static",
+      "fps": 8
+    },
+    {
+      "index": 54,
+      "id": "skin_pink",
+      "name": "樱花粉",
+      "group": "板E_毛色变体",
+      "slot": "skin",
+      "direction": "N",
+      "rect": [
+        960,
+        1140,
+        160,
+        190
+      ],
+      "row": 7,
+      "col": 7,
+      "loop": "static",
+      "fps": 8
+    },
+    {
+      "index": 55,
+      "id": "skin_blue",
+      "name": "雾蓝灰",
+      "group": "板E_毛色变体",
+      "slot": "skin",
+      "direction": "N",
+      "rect": [
+        1120,
+        1140,
+        160,
+        190
+      ],
+      "row": 7,
+      "col": 8,
+      "loop": "static",
+      "fps": 8
+    },
+    {
+      "index": 56,
+      "id": "act_stand1",
+      "name": "正面端坐待机",
+      "group": "板F_基础动作",
+      "slot": "pose",
+      "direction": "N",
+      "rect": [
+        0,
+        1330,
+        160,
+        190
+      ],
+      "row": 8,
+      "col": 1,
+      "loop": "AABB",
+      "fps": 8
+    },
+    {
+      "index": 57,
+      "id": "act_stand2",
+      "name": "轻微呼吸站姿",
+      "group": "板F_基础动作",
+      "slot": "pose",
+      "direction": "N",
+      "rect": [
+        160,
+        1330,
+        160,
+        190
+      ],
+      "row": 8,
+      "col": 2,
+      "loop": "AABB",
+      "fps": 8
+    },
+    {
+      "index": 58,
+      "id": "act_walk",
+      "name": "迈步走路",
+      "group": "板F_基础动作",
+      "slot": "pose",
+      "direction": "N",
+      "rect": [
+        320,
+        1330,
+        160,
+        190
+      ],
+      "row": 8,
+      "col": 3,
+      "loop": "AABB",
+      "fps": 8
+    },
+    {
+      "index": 59,
+      "id": "act_run",
+      "name": "奔跑跃起",
+      "group": "板F_基础动作",
+      "slot": "pose",
+      "direction": "N",
+      "rect": [
+        480,
+        1330,
+        160,
+        190
+      ],
+      "row": 8,
+      "col": 4,
+      "loop": "AABB",
+      "fps": 8
+    },
+    {
+      "index": 60,
+      "id": "act_sit",
+      "name": "乖巧坐姿",
+      "group": "板F_基础动作",
+      "slot": "pose",
+      "direction": "N",
+      "rect": [
+        640,
+        1330,
+        160,
+        190
+      ],
+      "row": 8,
+      "col": 5,
+      "loop": "AABB",
+      "fps": 8
+    },
+    {
+      "index": 61,
+      "id": "act_lie",
+      "name": "侧躺躺平",
+      "group": "板F_基础动作",
+      "slot": "pose",
+      "direction": "N",
+      "rect": [
+        800,
+        1330,
+        160,
+        190
+      ],
+      "row": 8,
+      "col": 6,
+      "loop": "AABB",
+      "fps": 8
+    },
+    {
+      "index": 62,
+      "id": "act_wave",
+      "name": "举单手挥手",
+      "group": "板F_基础动作",
+      "slot": "pose",
+      "direction": "N",
+      "rect": [
+        960,
+        1330,
+        160,
+        190
+      ],
+      "row": 8,
+      "col": 7,
+      "loop": "AABB",
+      "fps": 8
+    },
+    {
+      "index": 63,
+      "id": "act_chest",
+      "name": "双手抱胸",
+      "group": "板F_基础动作",
+      "slot": "pose",
+      "direction": "N",
+      "rect": [
+        1120,
+        1330,
+        160,
+        190
+      ],
+      "row": 8,
+      "col": 8,
+      "loop": "AABB",
+      "fps": 8
+    }
+  ],
+  "note": "棋盘格/透明底，不用绿幕；frame.rect 为 [x,y,w,h] 像素",
+  "directions_supported": [
+    "N",
+    "NE",
+    "E",
+    "SE",
+    "S",
+    "SW",
+    "W",
+    "NW"
+  ],
+  "direction_labels": {
+    "N": "正面",
+    "NE": "右前斜",
+    "E": "右侧",
+    "SE": "右后斜",
+    "S": "背面",
+    "SW": "左后斜",
+    "W": "左侧",
+    "NW": "左前斜"
+  },
+  "direction_inference": {
+    "method": "B 批 8 张各取 r2c2 代表格，依据耳突位置与身体轮廓目视判读",
+    "confidence": {
+      "N": "中",
+      "NE": "中",
+      "E": "高",
+      "SE": "中",
+      "S": "中",
+      "SW": "中",
+      "W": "高",
+      "NW": "中"
+    },
+    "caveat": "仅 E/W 置信度高；白模无五官，N/S 及四个斜向均为推断，方位名未在原始素材中标注；若 N↔S 或左右需对调，改 DIRECTION 一处即可",
+    "asset_frames_not_affected": true
+  },
+  "reference_frames": {
+    "total": 412,
+    "by_dir8": {
+      "N": 32,
+      "NE": 32,
+      "E": 32,
+      "SE": 32,
+      "S": 32,
+      "SW": 32,
+      "W": 32,
+      "NW": 32
+    },
+    "by_coarse": {
+      "front": 156,
+      "side": 96,
+      "turn": 32,
+      "back": 128
+    },
+    "by_batch": {
+      "A": 156,
+      "B": 256
+    },
+    "batches": {
+      "A": "G1~G5 混合动作网格（5 板）",
+      "B": "H1~H8 八方向等距 turntable（8 板，每板 8×4）"
+    },
+    "note": "13 板均为 3D 白模参考，不是可装配美术；B 批才是完整 8 方向"
+  },
+  "asset_direction": "N",
+  "asset_direction_coarse": "front",
+  "gaps": {
+    "missing_asset_directions": [
+      "NE",
+      "E",
+      "SE",
+      "S",
+      "SW",
+      "W",
+      "NW"
+    ],
+    "note": "本 sheet 的 64 帧全部为正面(N)厚涂资产；8 方向目前只存在于 3D 白模参考帧，未编造进资产",
+    "action_frame_count": 8,
+    "reference_action_frame_count": 412,
+    "candidate_coverage": [
+      "N",
+      "E",
+      "S",
+      "W"
+    ],
+    "candidate_note": "候选层 4/8 可演示，但未经人眼挑选，不计入可装配资产；8 向资产层仍只有 N 的 64 帧"
+  },
+  "candidates": {
+    "status": "candidate_not_approved",
+    "sheet": "/data/workspace/八向资产/八向候选_精灵表_4向.png",
+    "cell": [
+      160,
+      190
+    ],
+    "cols": 8,
+    "rows": 4,
+    "covered": [
+      "N",
+      "E",
+      "S",
+      "W"
+    ],
+    "not_generated": [
+      "NE",
+      "SE",
+      "SW",
+      "NW"
+    ],
+    "frames": [
+      {
+        "index": 0,
+        "dir8": "N",
+        "phase": "并脚站立",
+        "id": "N_p1",
+        "rect": [
+          0,
+          0,
+          160,
+          190
+        ],
+        "row": 1,
+        "col": 1,
+        "status": "candidate"
+      },
+      {
+        "index": 8,
+        "dir8": "N",
+        "phase": "迈左腿",
+        "id": "N_p2",
+        "rect": [
+          0,
+          190,
+          160,
+          190
+        ],
+        "row": 2,
+        "col": 1,
+        "status": "candidate"
+      },
+      {
+        "index": 16,
+        "dir8": "N",
+        "phase": "双腿交错",
+        "id": "N_p3",
+        "rect": [
+          0,
+          380,
+          160,
+          190
+        ],
+        "row": 3,
+        "col": 1,
+        "status": "candidate"
+      },
+      {
+        "index": 24,
+        "dir8": "N",
+        "phase": "迈右腿",
+        "id": "N_p4",
+        "rect": [
+          0,
+          570,
+          160,
+          190
+        ],
+        "row": 4,
+        "col": 1,
+        "status": "candidate"
+      },
+      {
+        "index": 1,
+        "dir8": "NE",
+        "phase": "并脚站立",
+        "id": null,
+        "rect": [
+          160,
+          0,
+          160,
+          190
+        ],
+        "row": 1,
+        "col": 2,
+        "status": "not_generated"
+      },
+      {
+        "index": 9,
+        "dir8": "NE",
+        "phase": "迈左腿",
+        "id": null,
+        "rect": [
+          160,
+          190,
+          160,
+          190
+        ],
+        "row": 2,
+        "col": 2,
+        "status": "not_generated"
+      },
+      {
+        "index": 17,
+        "dir8": "NE",
+        "phase": "双腿交错",
+        "id": null,
+        "rect": [
+          160,
+          380,
+          160,
+          190
+        ],
+        "row": 3,
+        "col": 2,
+        "status": "not_generated"
+      },
+      {
+        "index": 25,
+        "dir8": "NE",
+        "phase": "迈右腿",
+        "id": null,
+        "rect": [
+          160,
+          570,
+          160,
+          190
+        ],
+        "row": 4,
+        "col": 2,
+        "status": "not_generated"
+      },
+      {
+        "index": 2,
+        "dir8": "E",
+        "phase": "并脚站立",
+        "id": "E_p1",
+        "rect": [
+          320,
+          0,
+          160,
+          190
+        ],
+        "row": 1,
+        "col": 3,
+        "status": "candidate"
+      },
+      {
+        "index": 10,
+        "dir8": "E",
+        "phase": "迈左腿",
+        "id": "E_p2",
+        "rect": [
+          320,
+          190,
+          160,
+          190
+        ],
+        "row": 2,
+        "col": 3,
+        "status": "candidate"
+      },
+      {
+        "index": 18,
+        "dir8": "E",
+        "phase": "双腿交错",
+        "id": "E_p3",
+        "rect": [
+          320,
+          380,
+          160,
+          190
+        ],
+        "row": 3,
+        "col": 3,
+        "status": "candidate"
+      },
+      {
+        "index": 26,
+        "dir8": "E",
+        "phase": "迈右腿",
+        "id": "E_p4",
+        "rect": [
+          320,
+          570,
+          160,
+          190
+        ],
+        "row": 4,
+        "col": 3,
+        "status": "candidate"
+      },
+      {
+        "index": 3,
+        "dir8": "SE",
+        "phase": "并脚站立",
+        "id": null,
+        "rect": [
+          480,
+          0,
+          160,
+          190
+        ],
+        "row": 1,
+        "col": 4,
+        "status": "not_generated"
+      },
+      {
+        "index": 11,
+        "dir8": "SE",
+        "phase": "迈左腿",
+        "id": null,
+        "rect": [
+          480,
+          190,
+          160,
+          190
+        ],
+        "row": 2,
+        "col": 4,
+        "status": "not_generated"
+      },
+      {
+        "index": 19,
+        "dir8": "SE",
+        "phase": "双腿交错",
+        "id": null,
+        "rect": [
+          480,
+          380,
+          160,
+          190
+        ],
+        "row": 3,
+        "col": 4,
+        "status": "not_generated"
+      },
+      {
+        "index": 27,
+        "dir8": "SE",
+        "phase": "迈右腿",
+        "id": null,
+        "rect": [
+          480,
+          570,
+          160,
+          190
+        ],
+        "row": 4,
+        "col": 4,
+        "status": "not_generated"
+      },
+      {
+        "index": 4,
+        "dir8": "S",
+        "phase": "并脚站立",
+        "id": "S_p1",
+        "rect": [
+          640,
+          0,
+          160,
+          190
+        ],
+        "row": 1,
+        "col": 5,
+        "status": "candidate"
+      },
+      {
+        "index": 12,
+        "dir8": "S",
+        "phase": "迈左腿",
+        "id": "S_p2",
+        "rect": [
+          640,
+          190,
+          160,
+          190
+        ],
+        "row": 2,
+        "col": 5,
+        "status": "candidate"
+      },
+      {
+        "index": 20,
+        "dir8": "S",
+        "phase": "双腿交错",
+        "id": "S_p3",
+        "rect": [
+          640,
+          380,
+          160,
+          190
+        ],
+        "row": 3,
+        "col": 5,
+        "status": "candidate"
+      },
+      {
+        "index": 28,
+        "dir8": "S",
+        "phase": "迈右腿",
+        "id": "S_p4",
+        "rect": [
+          640,
+          570,
+          160,
+          190
+        ],
+        "row": 4,
+        "col": 5,
+        "status": "candidate"
+      },
+      {
+        "index": 5,
+        "dir8": "SW",
+        "phase": "并脚站立",
+        "id": null,
+        "rect": [
+          800,
+          0,
+          160,
+          190
+        ],
+        "row": 1,
+        "col": 6,
+        "status": "not_generated"
+      },
+      {
+        "index": 13,
+        "dir8": "SW",
+        "phase": "迈左腿",
+        "id": null,
+        "rect": [
+          800,
+          190,
+          160,
+          190
+        ],
+        "row": 2,
+        "col": 6,
+        "status": "not_generated"
+      },
+      {
+        "index": 21,
+        "dir8": "SW",
+        "phase": "双腿交错",
+        "id": null,
+        "rect": [
+          800,
+          380,
+          160,
+          190
+        ],
+        "row": 3,
+        "col": 6,
+        "status": "not_generated"
+      },
+      {
+        "index": 29,
+        "dir8": "SW",
+        "phase": "迈右腿",
+        "id": null,
+        "rect": [
+          800,
+          570,
+          160,
+          190
+        ],
+        "row": 4,
+        "col": 6,
+        "status": "not_generated"
+      },
+      {
+        "index": 6,
+        "dir8": "W",
+        "phase": "并脚站立",
+        "id": "W_p1",
+        "rect": [
+          960,
+          0,
+          160,
+          190
+        ],
+        "row": 1,
+        "col": 7,
+        "status": "candidate"
+      },
+      {
+        "index": 14,
+        "dir8": "W",
+        "phase": "迈左腿",
+        "id": "W_p2",
+        "rect": [
+          960,
+          190,
+          160,
+          190
+        ],
+        "row": 2,
+        "col": 7,
+        "status": "candidate"
+      },
+      {
+        "index": 22,
+        "dir8": "W",
+        "phase": "双腿交错",
+        "id": "W_p3",
+        "rect": [
+          960,
+          380,
+          160,
+          190
+        ],
+        "row": 3,
+        "col": 7,
+        "status": "candidate"
+      },
+      {
+        "index": 30,
+        "dir8": "W",
+        "phase": "迈右腿",
+        "id": "W_p4",
+        "rect": [
+          960,
+          570,
+          160,
+          190
+        ],
+        "row": 4,
+        "col": 7,
+        "status": "candidate"
+      },
+      {
+        "index": 7,
+        "dir8": "NW",
+        "phase": "并脚站立",
+        "id": null,
+        "rect": [
+          1120,
+          0,
+          160,
+          190
+        ],
+        "row": 1,
+        "col": 8,
+        "status": "not_generated"
+      },
+      {
+        "index": 15,
+        "dir8": "NW",
+        "phase": "迈左腿",
+        "id": null,
+        "rect": [
+          1120,
+          190,
+          160,
+          190
+        ],
+        "row": 2,
+        "col": 8,
+        "status": "not_generated"
+      },
+      {
+        "index": 23,
+        "dir8": "NW",
+        "phase": "双腿交错",
+        "id": null,
+        "rect": [
+          1120,
+          380,
+          160,
+          190
+        ],
+        "row": 3,
+        "col": 8,
+        "status": "not_generated"
+      },
+      {
+        "index": 31,
+        "dir8": "NW",
+        "phase": "迈右腿",
+        "id": null,
+        "rect": [
+          1120,
+          570,
+          160,
+          190
+        ],
+        "row": 4,
+        "col": 8,
+        "status": "not_generated"
+      }
+    ],
+    "method": {
+      "N": "板1 上排，图生图（厚涂身份锚 + 正/背姿态卡）",
+      "S": "板1 下排，同上",
+      "E": "板2 上排，毛色归一化到板1 肤色",
+      "W": "E 水平镜像（等距变换，非形变，非模型独立绘制）"
+    },
+    "rejected": {
+      "board1_phases": "正/背 4 相位差异仅 0.0446，几乎静止",
+      "boards_2_4": "三张板彼此轮廓相似度 0.11~0.18，模型收敛到同一个朝右走路姿态，未画出前斜/后斜",
+      "direction_claim": "32 帧中 30 帧与 prompt 声称方向不符；Hu 矩对无五官光头角色判别力有限，结论以目视为准",
+      "original_32": "保留在 八向资产/03_裁切帧/，不进 dist"
+    },
+    "note": "这些帧全部未转正；asset frames 的 direction 仍全部为 N，gaps 不变"
+  }
+}
