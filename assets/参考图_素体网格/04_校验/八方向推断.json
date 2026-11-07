@@ -1,0 +1,50 @@
+{
+  "1": {
+    "code": "NW",
+    "cn": "左前斜",
+    "en": "front-left",
+    "confidence": "中"
+  },
+  "2": {
+    "code": "NE",
+    "cn": "右前斜",
+    "en": "front-right",
+    "confidence": "中"
+  },
+  "3": {
+    "code": "E",
+    "cn": "右侧",
+    "en": "right",
+    "confidence": "高"
+  },
+  "4": {
+    "code": "W",
+    "cn": "左侧",
+    "en": "left",
+    "confidence": "高"
+  },
+  "5": {
+    "code": "SW",
+    "cn": "左后斜",
+    "en": "back-left",
+    "confidence": "中"
+  },
+  "6": {
+    "code": "N",
+    "cn": "正面",
+    "en": "front",
+    "confidence": "高"
+  },
+  "7": {
+    "code": "SE",
+    "cn": "右后斜",
+    "en": "back-right",
+    "confidence": "中"
+  },
+  "8": {
+    "code": "S",
+    "cn": "背面",
+    "en": "back",
+    "confidence": "高"
+  }
+}

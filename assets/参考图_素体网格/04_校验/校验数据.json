@@ -1,0 +1,10065 @@
+{
+  "unique": 15,
+  "uploaded": 19,
+  "ref_frames": 412,
+  "green_left": 1,
+  "by_direction": {
+    "front": 156,
+    "side": 96,
+    "turn": 32,
+    "back": 128
+  },
+  "by_dir8": {
+    "N": 32,
+    "NE": 32,
+    "E": 32,
+    "SE": 32,
+    "S": 32,
+    "SW": 32,
+    "W": 32,
+    "NW": 32
+  },
+  "by_batch": {
+    "A": 156,
+    "B": 256
+  },
+  "dir8_order": [
+    "N",
+    "NE",
+    "E",
+    "SE",
+    "S",
+    "SW",
+    "W",
+    "NW"
+  ],
+  "dir8_labels": {
+    "N": "正面",
+    "NE": "右前斜",
+    "E": "右侧",
+    "SE": "右后斜",
+    "S": "背面",
+    "SW": "左后斜",
+    "W": "左侧",
+    "NW": "左前斜"
+  },
+  "dir8_confidence": {
+    "N": "中",
+    "NE": "中",
+    "E": "高",
+    "SE": "中",
+    "S": "中",
+    "SW": "中",
+    "W": "高",
+    "NW": "中"
+  },
+  "directions": {
+    "G1": {
+      "direction": "front",
+      "dir8": null,
+      "batch": "A",
+      "label": "A批 · 正面 站姿/微动作",
+      "grid": "9×4",
+      "confidence": "高"
+    },
+    "G2": {
+      "direction": "front",
+      "dir8": null,
+      "batch": "A",
+      "label": "A批 · 正面 蜷缩/跳跃",
+      "grid": "7×4",
+      "confidence": "高"
+    },
+    "G3": {
+      "direction": "side",
+      "dir8": null,
+      "batch": "A",
+      "label": "A批 · 侧身 抬手/转向",
+      "grid": "9×4",
+      "confidence": "高"
+    },
+    "G4": {
+      "direction": "turn",
+      "dir8": null,
+      "batch": "A",
+      "label": "A批 · 转身 奔跑/背向过渡",
+      "grid": "9×4",
+      "confidence": "中"
+    },
+    "G5": {
+      "direction": "back",
+      "dir8": null,
+      "batch": "A",
+      "label": "A批 · 背面 背向站姿/摆臂",
+      "grid": "8×4",
+      "confidence": "高"
+    },
+    "H1": {
+      "direction": "front",
+      "dir8": "NW",
+      "batch": "B",
+      "label": "B批 · 左前斜 front-left",
+      "grid": "8×4",
+      "confidence": "中"
+    },
+    "H2": {
+      "direction": "front",
+      "dir8": "NE",
+      "batch": "B",
+      "label": "B批 · 右前斜 front-right",
+      "grid": "8×4",
+      "confidence": "中"
+    },
+    "H3": {
+      "direction": "side",
+      "dir8": "E",
+      "batch": "B",
+      "label": "B批 · 右侧 right",
+      "grid": "8×4",
+      "confidence": "高"
+    },
+    "H4": {
+      "direction": "side",
+      "dir8": "W",
+      "batch": "B",
+      "label": "B批 · 左侧 left",
+      "grid": "8×4",
+      "confidence": "高"
+    },
+    "H5": {
+      "direction": "back",
+      "dir8": "SW",
+      "batch": "B",
+      "label": "B批 · 左后斜 back-left",
+      "grid": "8×4",
+      "confidence": "中"
+    },
+    "H6": {
+      "direction": "front",
+      "dir8": "N",
+      "batch": "B",
+      "label": "B批 · 正面 front",
+      "grid": "8×4",
+      "confidence": "中"
+    },
+    "H7": {
+      "direction": "back",
+      "dir8": "SE",
+      "batch": "B",
+      "label": "B批 · 右后斜 back-right",
+      "grid": "8×4",
+      "confidence": "中"
+    },
+    "H8": {
+      "direction": "back",
+      "dir8": "S",
+      "batch": "B",
+      "label": "B批 · 背面 back",
+      "grid": "8×4",
+      "confidence": "中"
+    }
+  },
+  "sheet_frames": 64,
+  "sheet_cols": 8,
+  "sheet_rows": 8,
+  "asset_direction": "N",
+  "missing_asset_directions": [
+    "NE",
+    "E",
+    "SE",
+    "S",
+    "SW",
+    "W",
+    "NW"
+  ],
+  "ref_rows": [
+    {
+      "id": "G1_r1c1",
+      "file": "01_解读/3D参考帧/G1_r1c1.png",
+      "board": "G1",
+      "direction": "front",
+      "dir8": null,
+      "batch": "A",
+      "direction_label": "A批 · 正面 站姿/微动作",
+      "confidence": "高",
+      "row": 1,
+      "col": 1,
+      "alpha_px": 10455,
+      "green_left": 0,
+      "src_box": [
+        55,
+        34,
+        258,
+        301
+      ],
+      "canvas": [
+        160,
+        190
+      ]
+    },
+    {
+      "id": "G1_r1c2",
+      "file": "01_解读/3D参考帧/G1_r1c2.png",
+      "board": "G1",
+      "direction": "front",
+      "dir8": null,
+      "batch": "A",
+      "direction_label": "A批 · 正面 站姿/微动作",
+      "confidence": "高",
+      "row": 1,
+      "col": 2,
+      "alpha_px": 9963,
+      "green_left": 0,
+      "src_box": [
+        307,
+        34,
+        510,
+        301
+      ],
+      "canvas": [
+        160,
+        190
+      ]
+    },
+    {
+      "id": "G1_r1c3",
+      "file": "01_解读/3D参考帧/G1_r1c3.png",
+      "board": "G1",
+      "direction": "front",
+      "dir8": null,
+      "batch": "A",
+      "direction_label": "A批 · 正面 站姿/微动作",
+      "confidence": "高",
+      "row": 1,
+      "col": 3,
+      "alpha_px": 9170,
+      "green_left": 0,
+      "src_box": [
+        561,
+        34,
+        764,
+        301
+      ],
+      "canvas": [
+        160,
+        190
+      ]
+    },
+    {
+      "id": "G1_r1c4",
+      "file": "01_解读/3D参考帧/G1_r1c4.png",
+      "board": "G1",
+      "direction": "front",
+      "dir8": null,
+      "batch": "A",
+      "direction_label": "A批 · 正面 站姿/微动作",
+      "confidence": "高",
+      "row": 1,
+      "col": 4,
+      "alpha_px": 9757,
+      "green_left": 0,
+      "src_box": [
+        799,
+        34,
+        1002,
+        301
+      ],
+      "canvas": [
+        160,
+        190
+      ]
+    },
+    {
+      "id": "G1_r1c5",
+      "file": "01_解读/3D参考帧/G1_r1c5.png",
+      "board": "G1",
+      "direction": "front",
+      "dir8": null,
+      "batch": "A",
+      "direction_label": "A批 · 正面 站姿/微动作",
+      "confidence": "高",
+      "row": 1,
+      "col": 5,
+      "alpha_px": 9478,
+      "green_left": 0,
+      "src_box": [
+        1016,
+        34,
+        1219,
+        301
+      ],
+      "canvas": [
+        160,
+        190
+      ]
+    },
+    {
+      "id": "G1_r1c6",
+      "file": "01_解读/3D参考帧/G1_r1c6.png",
+      "board": "G1",
+      "direction": "front",
+      "dir8": null,
+      "batch": "A",
+      "direction_label": "A批 · 正面 站姿/微动作",
+      "confidence": "高",
+      "row": 1,
+      "col": 6,
+      "alpha_px": 8780,
+      "green_left": 0,
+      "src_box": [
+        1223,
+        34,
+        1426,
+        301
+      ],
+      "canvas": [
+        160,
+        190
+      ]
+    },
+    {
+      "id": "G1_r1c7",
+      "file": "01_解读/3D参考帧/G1_r1c7.png",
+      "board": "G1",
+      "direction": "front",
+      "dir8": null,
+      "batch": "A",
+      "direction_label": "A批 · 正面 站姿/微动作",
+      "confidence": "高",
+      "row": 1,
+      "col": 7,
+      "alpha_px": 8943,
+      "green_left": 0,
+      "src_box": [
+        1424,
+        34,
+        1627,
+        301
+      ],
+      "canvas": [
+        160,
+        190
+      ]
+    },
+    {
+      "id": "G1_r1c8",
+      "file": "01_解读/3D参考帧/G1_r1c8.png",
+      "board": "G1",
+      "direction": "front",
+      "dir8": null,
+      "batch": "A",
+      "direction_label": "A批 · 正面 站姿/微动作",
+      "confidence": "高",
+      "row": 1,
+      "col": 8,
+      "alpha_px": 9511,
+      "green_left": 0,
+      "src_box": [
+        1616,
+        34,
+        1819,
+        301
+      ],
+      "canvas": [
+        160,
+        190
+      ]
+    },
+    {
+      "id": "G1_r2c1",
+      "file": "01_解读/3D参考帧/G1_r2c1.png",
+      "board": "G1",
+      "direction": "front",
+      "dir8": null,
+      "batch": "A",
+      "direction_label": "A批 · 正面 站姿/微动作",
+      "confidence": "高",
+      "row": 2,
+      "col": 1,
+      "alpha_px": 10128,
+      "green_left": 0,
+      "src_box": [
+        55,
+        323,
+        258,
+        590
+      ],
+      "canvas": [
+        160,
+        190
+      ]
+    },
+    {
+      "id": "G1_r2c2",
+      "file": "01_解读/3D参考帧/G1_r2c2.png",
+      "board": "G1",
+      "direction": "front",
+      "dir8": null,
+      "batch": "A",
+      "direction_label": "A批 · 正面 站姿/微动作",
+      "confidence": "高",
+      "row": 2,
+      "col": 2,
+      "alpha_px": 8996,
+      "green_left": 0,
+      "src_box": [
+        307,
+        323,
+        510,
+        590
+      ],
+      "canvas": [
+        160,
+        190
+      ]
+    },
+    {
+      "id": "G1_r2c3",
+      "file": "01_解读/3D参考帧/G1_r2c3.png",
+      "board": "G1",
+      "direction": "front",
+      "dir8": null,
+      "batch": "A",
+      "direction_label": "A批 · 正面 站姿/微动作",
+      "confidence": "高",
+      "row": 2,
+      "col": 3,
+      "alpha_px": 8880,
+      "green_left": 0,
+      "src_box": [
+        561,
+        323,
+        764,
+        590
+      ],
+      "canvas": [
+        160,
+        190
+      ]
+    },
+    {
+      "id": "G1_r2c4",
+      "file": "01_解读/3D参考帧/G1_r2c4.png",
+      "board": "G1",
+      "direction": "front",
+      "dir8": null,
+      "batch": "A",
+      "direction_label": "A批 · 正面 站姿/微动作",
+      "confidence": "高",
+      "row": 2,
+      "col": 4,
+      "alpha_px": 9014,
+      "green_left": 0,
+      "src_box": [
+        799,
+        323,
+        1002,
+        590
+      ],
+      "canvas": [
+        160,
+        190
+      ]
+    },
+    {
+      "id": "G1_r2c5",
+      "file": "01_解读/3D参考帧/G1_r2c5.png",
+      "board": "G1",
+      "direction": "front",
+      "dir8": null,
+      "batch": "A",
+      "direction_label": "A批 · 正面 站姿/微动作",
+      "confidence": "高",
+      "row": 2,
+      "col": 5,
+      "alpha_px": 8829,
+      "green_left": 0,
+      "src_box": [
+        1016,
+        323,
+        1219,
+        590
+      ],
+      "canvas": [
+        160,
+        190
+      ]
+    },
+    {
+      "id": "G1_r2c6",
+      "file": "01_解读/3D参考帧/G1_r2c6.png",
+      "board": "G1",
+      "direction": "front",
+      "dir8": null,
+      "batch": "A",
+      "direction_label": "A批 · 正面 站姿/微动作",
+      "confidence": "高",
+      "row": 2,
+      "col": 6,
+      "alpha_px": 8768,
+      "green_left": 0,
+      "src_box": [
+        1223,
+        323,
+        1426,
+        590
+      ],
+      "canvas": [
+        160,
+        190
+      ]
+    },
+    {
+      "id": "G1_r2c7",
+      "file": "01_解读/3D参考帧/G1_r2c7.png",
+      "board": "G1",
+      "direction": "front",
+      "dir8": null,
+      "batch": "A",
+      "direction_label": "A批 · 正面 站姿/微动作",
+      "confidence": "高",
+      "row": 2,
+      "col": 7,
+      "alpha_px": 8631,
+      "green_left": 0,
+      "src_box": [
+        1424,
+        323,
+        1627,
+        590
+      ],
+      "canvas": [
+        160,
+        190
+      ]
+    },
+    {
+      "id": "G1_r2c8",
+      "file": "01_解读/3D参考帧/G1_r2c8.png",
+      "board": "G1",
+      "direction": "front",
+      "dir8": null,
+      "batch": "A",
+      "direction_label": "A批 · 正面 站姿/微动作",
+      "confidence": "高",
+      "row": 2,
+      "col": 8,
+      "alpha_px": 9820,
+      "green_left": 0,
+      "src_box": [
+        1616,
+        323,
+        1819,
+        590
+      ],
+      "canvas": [
+        160,
+        190
+      ]
+    },
+    {
+      "id": "G1_r3c1",
+      "file": "01_解读/3D参考帧/G1_r3c1.png",
+      "board": "G1",
+      "direction": "front",
+      "dir8": null,
+      "batch": "A",
+      "direction_label": "A批 · 正面 站姿/微动作",
+      "confidence": "高",
+      "row": 3,
+      "col": 1,
+      "alpha_px": 9673,
+      "green_left": 0,
+      "src_box": [
+        55,
+        602,
+        258,
+        869
+      ],
+      "canvas": [
+        160,
+        190
+      ]
+    },
+    {
+      "id": "G1_r3c2",
+      "file": "01_解读/3D参考帧/G1_r3c2.png",
+      "board": "G1",
+      "direction": "front",
+      "dir8": null,
+      "batch": "A",
+      "direction_label": "A批 · 正面 站姿/微动作",
+      "confidence": "高",
+      "row": 3,
+      "col": 2,
+      "alpha_px": 8662,
+      "green_left": 0,
+      "src_box": [
+        307,
+        602,
+        510,
+        869
+      ],
+      "canvas": [
+        160,
+        190
+      ]
+    },
+    {
+      "id": "G1_r3c3",
+      "file": "01_解读/3D参考帧/G1_r3c3.png",
+      "board": "G1",
+      "direction": "front",
+      "dir8": null,
+      "batch": "A",
+      "direction_label": "A批 · 正面 站姿/微动作",
+      "confidence": "高",
+      "row": 3,
+      "col": 3,
+      "alpha_px": 8500,
+      "green_left": 0,
+      "src_box": [
+        561,
+        602,
+        764,
+        869
+      ],
+      "canvas": [
+        160,
+        190
+      ]
+    },
+    {
+      "id": "G1_r3c4",
+      "file": "01_解读/3D参考帧/G1_r3c4.png",
+      "board": "G1",
+      "direction": "front",
+      "dir8": null,
+      "batch": "A",
+      "direction_label": "A批 · 正面 站姿/微动作",
+      "confidence": "高",
+      "row": 3,
+      "col": 4,
+      "alpha_px": 8372,
+      "green_left": 0,
+      "src_box": [
+        799,
+        602,
+        1002,
+        869
+      ],
+      "canvas": [
+        160,
+        190
+      ]
+    },
+    {
+      "id": "G1_r3c5",
+      "file": "01_解读/3D参考帧/G1_r3c5.png",
+      "board": "G1",
+      "direction": "front",
+      "dir8": null,
+      "batch": "A",
+      "direction_label": "A批 · 正面 站姿/微动作",
+      "confidence": "高",
+      "row": 3,
+      "col": 5,
+      "alpha_px": 8162,
+      "green_left": 0,
+      "src_box": [
+        1016,
+        602,
+        1219,
+        869
+      ],
+      "canvas": [
+        160,
+        190
+      ]
+    },
+    {
+      "id": "G1_r3c6",
+      "file": "01_解读/3D参考帧/G1_r3c6.png",
+      "board": "G1",
+      "direction": "front",
+      "dir8": null,
+      "batch": "A",
+      "direction_label": "A批 · 正面 站姿/微动作",
+      "confidence": "高",
+      "row": 3,
+      "col": 6,
+      "alpha_px": 8188,
+      "green_left": 0,
+      "src_box": [
+        1223,
+        602,
+        1426,
+        869
+      ],
+      "canvas": [
+        160,
+        190
+      ]
+    },
+    {
+      "id": "G1_r3c7",
+      "file": "01_解读/3D参考帧/G1_r3c7.png",
+      "board": "G1",
+      "direction": "front",
+      "dir8": null,
+      "batch": "A",
+      "direction_label": "A批 · 正面 站姿/微动作",
+      "confidence": "高",
+      "row": 3,
+      "col": 7,
+      "alpha_px": 8601,
+      "green_left": 0,
+      "src_box": [
+        1424,
+        602,
+        1627,
+        869
+      ],
+      "canvas": [
+        160,
+        190
+      ]
+    },
+    {
+      "id": "G1_r3c8",
+      "file": "01_解读/3D参考帧/G1_r3c8.png",
+      "board": "G1",
+      "direction": "front",
+      "dir8": null,
+      "batch": "A",
+      "direction_label": "A批 · 正面 站姿/微动作",
+      "confidence": "高",
+      "row": 3,
+      "col": 8,
+      "alpha_px": 8822,
+      "green_left": 0,
+      "src_box": [
+        1616,
+        602,
+        1819,
+        869
+      ],
+      "canvas": [
+        160,
+        190
+      ]
+    },
+    {
+      "id": "G1_r4c1",
+      "file": "01_解读/3D参考帧/G1_r4c1.png",
+      "board": "G1",
+      "direction": "front",
+      "dir8": null,
+      "batch": "A",
+      "direction_label": "A批 · 正面 站姿/微动作",
+      "confidence": "高",
+      "row": 4,
+      "col": 1,
+      "alpha_px": 9362,
+      "green_left": 0,
+      "src_box": [
+        55,
+        874,
+        258,
+        1141
+      ],
+      "canvas": [
+        160,
+        190
+      ]
+    },
+    {
+      "id": "G1_r4c2",
+      "file": "01_解读/3D参考帧/G1_r4c2.png",
+      "board": "G1",
+      "direction": "front",
+      "dir8": null,
+      "batch": "A",
+      "direction_label": "A批 · 正面 站姿/微动作",
+      "confidence": "高",
+      "row": 4,
+      "col": 2,
+      "alpha_px": 8176,
+      "green_left": 0,
+      "src_box": [
+        307,
+        874,
+        510,
+        1141
+      ],
+      "canvas": [
+        160,
+        190
+      ]
+    },
+    {
+      "id": "G1_r4c3",
+      "file": "01_解读/3D参考帧/G1_r4c3.png",
+      "board": "G1",
+      "direction": "front",
+      "dir8": null,
+      "batch": "A",
+      "direction_label": "A批 · 正面 站姿/微动作",
+      "confidence": "高",
+      "row": 4,
+      "col": 3,
+      "alpha_px": 8345,
+      "green_left": 0,
+      "src_box": [
+        561,
+        874,
+        764,
+        1141
+      ],
+      "canvas": [
+        160,
+        190
+      ]
+    },
+    {
+      "id": "G1_r4c4",
+      "file": "01_解读/3D参考帧/G1_r4c4.png",
+      "board": "G1",
+      "direction": "front",
+      "dir8": null,
+      "batch": "A",
+      "direction_label": "A批 · 正面 站姿/微动作",
+      "confidence": "高",
+      "row": 4,
+      "col": 4,
+      "alpha_px": 8721,
+      "green_left": 0,
+      "src_box": [
+        799,
+        874,
+        1002,
+        1141
+      ],
+      "canvas": [
+        160,
+        190
+      ]
+    },
+    {
+      "id": "G1_r4c5",
+      "file": "01_解读/3D参考帧/G1_r4c5.png",
+      "board": "G1",
+      "direction": "front",
+      "dir8": null,
+      "batch": "A",
+      "direction_label": "A批 · 正面 站姿/微动作",
+      "confidence": "高",
+      "row": 4,
+      "col": 5,
+      "alpha_px": 8461,
+      "green_left": 0,
+      "src_box": [
+        1016,
+        874,
+        1219,
+        1141
+      ],
+      "canvas": [
+        160,
+        190
+      ]
+    },
+    {
+      "id": "G1_r4c6",
+      "file": "01_解读/3D参考帧/G1_r4c6.png",
+      "board": "G1",
+      "direction": "front",
+      "dir8": null,
+      "batch": "A",
+      "direction_label": "A批 · 正面 站姿/微动作",
+      "confidence": "高",
+      "row": 4,
+      "col": 6,
+      "alpha_px": 7836,
+      "green_left": 0,
+      "src_box": [
+        1223,
+        874,
+        1426,
+        1141
+      ],
+      "canvas": [
+        160,
+        190
+      ]
+    },
+    {
+      "id": "G1_r4c7",
+      "file": "01_解读/3D参考帧/G1_r4c7.png",
+      "board": "G1",
+      "direction": "front",
+      "dir8": null,
+      "batch": "A",
+      "direction_label": "A批 · 正面 站姿/微动作",
+      "confidence": "高",
+      "row": 4,
+      "col": 7,
+      "alpha_px": 7991,
+      "green_left": 0,
+      "src_box": [
+        1424,
+        874,
+        1627,
+        1141
+      ],
+      "canvas": [
+        160,
+        190
+      ]
+    },
+    {
+      "id": "G1_r4c8",
+      "file": "01_解读/3D参考帧/G1_r4c8.png",
+      "board": "G1",
+      "direction": "front",
+      "dir8": null,
+      "batch": "A",
+      "direction_label": "A批 · 正面 站姿/微动作",
+      "confidence": "高",
+      "row": 4,
+      "col": 8,
+      "alpha_px": 9126,
+      "green_left": 0,
+      "src_box": [
+        1616,
+        874,
+        1819,
+        1141
+      ],
+      "canvas": [
+        160,
+        190
+      ]
+    },
+    {
+      "id": "G2_r1c1",
+      "file": "01_解读/3D参考帧/G2_r1c1.png",
+      "board": "G2",
+      "direction": "front",
+      "dir8": null,
+      "batch": "A",
+      "direction_label": "A批 · 正面 蜷缩/跳跃",
+      "confidence": "高",
+      "row": 1,
+      "col": 1,
+      "alpha_px": 7584,
+      "green_left": 0,
+      "src_box": [
+        49,
+        48,
+        318,
+        303
+      ],
+      "canvas": [
+        160,
+        190
+      ]
+    },
+    {
+      "id": "G2_r1c2",
+      "file": "01_解读/3D参考帧/G2_r1c2.png",
+      "board": "G2",
+      "direction": "front",
+      "dir8": null,
+      "batch": "A",
+      "direction_label": "A批 · 正面 蜷缩/跳跃",
+      "confidence": "高",
+      "row": 1,
+      "col": 2,
+      "alpha_px": 7314,
+      "green_left": 0,
+      "src_box": [
+        323,
+        48,
+        592,
+        303
+      ],
+      "canvas": [
+        160,
+        190
+      ]
+    },
+    {
+      "id": "G2_r1c3",
+      "file": "01_解读/3D参考帧/G2_r1c3.png",
+      "board": "G2",
+      "direction": "front",
+      "dir8": null,
+      "batch": "A",
+      "direction_label": "A批 · 正面 蜷缩/跳跃",
+      "confidence": "高",
+      "row": 1,
+      "col": 3,
+      "alpha_px": 7722,
+      "green_left": 0,
+      "src_box": [
+        609,
+        48,
+        878,
+        303
+      ],
+      "canvas": [
+        160,
+        190
+      ]
+    },
+    {
+      "id": "G2_r1c4",
+      "file": "01_解读/3D参考帧/G2_r1c4.png",
+      "board": "G2",
+      "direction": "front",
+      "dir8": null,
+      "batch": "A",
+      "direction_label": "A批 · 正面 蜷缩/跳跃",
+      "confidence": "高",
+      "row": 1,
+      "col": 4,
+      "alpha_px": 7725,
+      "green_left": 0,
+      "src_box": [
+        893,
+        48,
+        1162,
+        303
+      ],
+      "canvas": [
+        160,
+        190
+      ]
+    },
+    {
+      "id": "G2_r1c5",
+      "file": "01_解读/3D参考帧/G2_r1c5.png",
+      "board": "G2",
+      "direction": "front",
+      "dir8": null,
+      "batch": "A",
+      "direction_label": "A批 · 正面 蜷缩/跳跃",
+      "confidence": "高",
+      "row": 1,
+      "col": 5,
+      "alpha_px": 7693,
+      "green_left": 0,
+      "src_box": [
+        1169,
+        48,
+        1438,
+        303
+      ],
+      "canvas": [
+        160,
+        190
+      ]
+    },
+    {
+      "id": "G2_r1c6",
+      "file": "01_解读/3D参考帧/G2_r1c6.png",
+      "board": "G2",
+      "direction": "front",
+      "dir8": null,
+      "batch": "A",
+      "direction_label": "A批 · 正面 蜷缩/跳跃",
+      "confidence": "高",
+      "row": 1,
+      "col": 6,
+      "alpha_px": 7713,
+      "green_left": 0,
+      "src_box": [
+        1447,
+        48,
+        1716,
+        303
+      ],
+      "canvas": [
+        160,
+        190
+      ]
+    },
+    {
+      "id": "G2_r1c7",
+      "file": "01_解读/3D参考帧/G2_r1c7.png",
+      "board": "G2",
+      "direction": "front",
+      "dir8": null,
+      "batch": "A",
+      "direction_label": "A批 · 正面 蜷缩/跳跃",
+      "confidence": "高",
+      "row": 1,
+      "col": 7,
+      "alpha_px": 7360,
+      "green_left": 0,
+      "src_box": [
+        1728,
+        48,
+        1997,
+        303
+      ],
+      "canvas": [
+        160,
+        190
+      ]
+    },
+    {
+      "id": "G2_r2c1",
+      "file": "01_解读/3D参考帧/G2_r2c1.png",
+      "board": "G2",
+      "direction": "front",
+      "dir8": null,
+      "batch": "A",
+      "direction_label": "A批 · 正面 蜷缩/跳跃",
+      "confidence": "高",
+      "row": 2,
+      "col": 1,
+      "alpha_px": 6708,
+      "green_left": 0,
+      "src_box": [
+        49,
+        338,
+        318,
+        593
+      ],
+      "canvas": [
+        160,
+        190
+      ]
+    },
+    {
+      "id": "G2_r2c2",
+      "file": "01_解读/3D参考帧/G2_r2c2.png",
+      "board": "G2",
+      "direction": "front",
+      "dir8": null,
+      "batch": "A",
+      "direction_label": "A批 · 正面 蜷缩/跳跃",
+      "confidence": "高",
+      "row": 2,
+      "col": 2,
+      "alpha_px": 6075,
+      "green_left": 0,
+      "src_box": [
+        323,
+        338,
+        592,
+        593
+      ],
+      "canvas": [
+        160,
+        190
+      ]
+    },
+    {
+      "id": "G2_r2c3",
+      "file": "01_解读/3D参考帧/G2_r2c3.png",
+      "board": "G2",
+      "direction": "front",
+      "dir8": null,
+      "batch": "A",
+      "direction_label": "A批 · 正面 蜷缩/跳跃",
+      "confidence": "高",
+      "row": 2,
+      "col": 3,
+      "alpha_px": 6350,
+      "green_left": 0,
+      "src_box": [
+        609,
+        338,
+        878,
+        593
+      ],
+      "canvas": [
+        160,
+        190
+      ]
+    },
+    {
+      "id": "G2_r2c4",
+      "file": "01_解读/3D参考帧/G2_r2c4.png",
+      "board": "G2",
+      "direction": "front",
+      "dir8": null,
+      "batch": "A",
+      "direction_label": "A批 · 正面 蜷缩/跳跃",
+      "confidence": "高",
+      "row": 2,
+      "col": 4,
+      "alpha_px": 6356,
+      "green_left": 0,
+      "src_box": [
+        893,
+        338,
+        1162,
+        593
+      ],
+      "canvas": [
+        160,
+        190
+      ]
+    },
+    {
+      "id": "G2_r2c5",
+      "file": "01_解读/3D参考帧/G2_r2c5.png",
+      "board": "G2",
+      "direction": "front",
+      "dir8": null,
+      "batch": "A",
+      "direction_label": "A批 · 正面 蜷缩/跳跃",
+      "confidence": "高",
+      "row": 2,
+      "col": 5,
+      "alpha_px": 6531,
+      "green_left": 0,
+      "src_box": [
+        1169,
+        338,
+        1438,
+        593
+      ],
+      "canvas": [
+        160,
+        190
+      ]
+    },
+    {
+      "id": "G2_r2c6",
+      "file": "01_解读/3D参考帧/G2_r2c6.png",
+      "board": "G2",
+      "direction": "front",
+      "dir8": null,
+      "batch": "A",
+      "direction_label": "A批 · 正面 蜷缩/跳跃",
+      "confidence": "高",
+      "row": 2,
+      "col": 6,
+      "alpha_px": 5472,
+      "green_left": 0,
+      "src_box": [
+        1447,
+        338,
+        1716,
+        593
+      ],
+      "canvas": [
+        160,
+        190
+      ]
+    },
+    {
+      "id": "G2_r2c7",
+      "file": "01_解读/3D参考帧/G2_r2c7.png",
+      "board": "G2",
+      "direction": "front",
+      "dir8": null,
+      "batch": "A",
+      "direction_label": "A批 · 正面 蜷缩/跳跃",
+      "confidence": "高",
+      "row": 2,
+      "col": 7,
+      "alpha_px": 6302,
+      "green_left": 0,
+      "src_box": [
+        1728,
+        338,
+        1997,
+        593
+      ],
+      "canvas": [
+        160,
+        190
+      ]
+    },
+    {
+      "id": "G2_r3c1",
+      "file": "01_解读/3D参考帧/G2_r3c1.png",
+      "board": "G2",
+      "direction": "front",
+      "dir8": null,
+      "batch": "A",
+      "direction_label": "A批 · 正面 蜷缩/跳跃",
+      "confidence": "高",
+      "row": 3,
+      "col": 1,
+      "alpha_px": 6362,
+      "green_left": 0,
+      "src_box": [
+        49,
+        603,
+        318,
+        858
+      ],
+      "canvas": [
+        160,
+        190
+      ]
+    },
+    {
+      "id": "G2_r3c2",
+      "file": "01_解读/3D参考帧/G2_r3c2.png",
+      "board": "G2",
+      "direction": "front",
+      "dir8": null,
+      "batch": "A",
+      "direction_label": "A批 · 正面 蜷缩/跳跃",
+      "confidence": "高",
+      "row": 3,
+      "col": 2,
+      "alpha_px": 5804,
+      "green_left": 0,
+      "src_box": [
+        323,
+        603,
+        592,
+        858
+      ],
+      "canvas": [
+        160,
+        190
+      ]
+    },
+    {
+      "id": "G2_r3c3",
+      "file": "01_解读/3D参考帧/G2_r3c3.png",
+      "board": "G2",
+      "direction": "front",
+      "dir8": null,
+      "batch": "A",
+      "direction_label": "A批 · 正面 蜷缩/跳跃",
+      "confidence": "高",
+      "row": 3,
+      "col": 3,
+      "alpha_px": 5657,
+      "green_left": 0,
+      "src_box": [
+        609,
+        603,
+        878,
+        858
+      ],
+      "canvas": [
+        160,
+        190
+      ]
+    },
+    {
+      "id": "G2_r3c4",
+      "file": "01_解读/3D参考帧/G2_r3c4.png",
+      "board": "G2",
+      "direction": "front",
+      "dir8": null,
+      "batch": "A",
+      "direction_label": "A批 · 正面 蜷缩/跳跃",
+      "confidence": "高",
+      "row": 3,
+      "col": 4,
+      "alpha_px": 5960,
+      "green_left": 0,
+      "src_box": [
+        893,
+        603,
+        1162,
+        858
+      ],
+      "canvas": [
+        160,
+        190
+      ]
+    },
+    {
+      "id": "G2_r3c5",
+      "file": "01_解读/3D参考帧/G2_r3c5.png",
+      "board": "G2",
+      "direction": "front",
+      "dir8": null,
+      "batch": "A",
+      "direction_label": "A批 · 正面 蜷缩/跳跃",
+      "confidence": "高",
+      "row": 3,
+      "col": 5,
+      "alpha_px": 5987,
+      "green_left": 0,
+      "src_box": [
+        1169,
+        603,
+        1438,
+        858
+      ],
+      "canvas": [
+        160,
+        190
+      ]
+    },
+    {
+      "id": "G2_r3c6",
+      "file": "01_解读/3D参考帧/G2_r3c6.png",
+      "board": "G2",
+      "direction": "front",
+      "dir8": null,
+      "batch": "A",
+      "direction_label": "A批 · 正面 蜷缩/跳跃",
+      "confidence": "高",
+      "row": 3,
+      "col": 6,
+      "alpha_px": 5535,
+      "green_left": 0,
+      "src_box": [
+        1447,
+        603,
+        1716,
+        858
+      ],
+      "canvas": [
+        160,
+        190
+      ]
+    },
+    {
+      "id": "G2_r3c7",
+      "file": "01_解读/3D参考帧/G2_r3c7.png",
+      "board": "G2",
+      "direction": "front",
+      "dir8": null,
+      "batch": "A",
+      "direction_label": "A批 · 正面 蜷缩/跳跃",
+      "confidence": "高",
+      "row": 3,
+      "col": 7,
+      "alpha_px": 6053,
+      "green_left": 0,
+      "src_box": [
+        1728,
+        603,
+        1997,
+        858
+      ],
+      "canvas": [
+        160,
+        190
+      ]
+    },
+    {
+      "id": "G2_r4c1",
+      "file": "01_解读/3D参考帧/G2_r4c1.png",
+      "board": "G2",
+      "direction": "front",
+      "dir8": null,
+      "batch": "A",
+      "direction_label": "A批 · 正面 蜷缩/跳跃",
+      "confidence": "高",
+      "row": 4,
+      "col": 1,
+      "alpha_px": 5552,
+      "green_left": 0,
+      "src_box": [
+        49,
+        858,
+        318,
+        1113
+      ],
+      "canvas": [
+        160,
+        190
+      ]
+    },
+    {
+      "id": "G2_r4c2",
+      "file": "01_解读/3D参考帧/G2_r4c2.png",
+      "board": "G2",
+      "direction": "front",
+      "dir8": null,
+      "batch": "A",
+      "direction_label": "A批 · 正面 蜷缩/跳跃",
+      "confidence": "高",
+      "row": 4,
+      "col": 2,
+      "alpha_px": 5883,
+      "green_left": 0,
+      "src_box": [
+        323,
+        858,
+        592,
+        1113
+      ],
+      "canvas": [
+        160,
+        190
+      ]
+    },
+    {
+      "id": "G2_r4c3",
+      "file": "01_解读/3D参考帧/G2_r4c3.png",
+      "board": "G2",
+      "direction": "front",
+      "dir8": null,
+      "batch": "A",
+      "direction_label": "A批 · 正面 蜷缩/跳跃",
+      "confidence": "高",
+      "row": 4,
+      "col": 3,
+      "alpha_px": 5818,
+      "green_left": 0,
+      "src_box": [
+        609,
+        858,
+        878,
+        1113
+      ],
+      "canvas": [
+        160,
+        190
+      ]
+    },
+    {
+      "id": "G2_r4c4",
+      "file": "01_解读/3D参考帧/G2_r4c4.png",
+      "board": "G2",
+      "direction": "front",
+      "dir8": null,
+      "batch": "A",
+      "direction_label": "A批 · 正面 蜷缩/跳跃",
+      "confidence": "高",
+      "row": 4,
+      "col": 4,
+      "alpha_px": 6466,
+      "green_left": 0,
+      "src_box": [
+        893,
+        858,
+        1162,
+        1113
+      ],
+      "canvas": [
+        160,
+        190
+      ]
+    },
+    {
+      "id": "G2_r4c5",
+      "file": "01_解读/3D参考帧/G2_r4c5.png",
+      "board": "G2",
+      "direction": "front",
+      "dir8": null,
+      "batch": "A",
+      "direction_label": "A批 · 正面 蜷缩/跳跃",
+      "confidence": "高",
+      "row": 4,
+      "col": 5,
+      "alpha_px": 6275,
+      "green_left": 0,
+      "src_box": [
+        1169,
+        858,
+        1438,
+        1113
+      ],
+      "canvas": [
+        160,
+        190
+      ]
+    },
+    {
+      "id": "G2_r4c6",
+      "file": "01_解读/3D参考帧/G2_r4c6.png",
+      "board": "G2",
+      "direction": "front",
+      "dir8": null,
+      "batch": "A",
+      "direction_label": "A批 · 正面 蜷缩/跳跃",
+      "confidence": "高",
+      "row": 4,
+      "col": 6,
+      "alpha_px": 5887,
+      "green_left": 0,
+      "src_box": [
+        1447,
+        858,
+        1716,
+        1113
+      ],
+      "canvas": [
+        160,
+        190
+      ]
+    },
+    {
+      "id": "G2_r4c7",
+      "file": "01_解读/3D参考帧/G2_r4c7.png",
+      "board": "G2",
+      "direction": "front",
+      "dir8": null,
+      "batch": "A",
+      "direction_label": "A批 · 正面 蜷缩/跳跃",
+      "confidence": "高",
+      "row": 4,
+      "col": 7,
+      "alpha_px": 6100,
+      "green_left": 0,
+      "src_box": [
+        1728,
+        858,
+        1997,
+        1113
+      ],
+      "canvas": [
+        160,
+        190
+      ]
+    },
+    {
+      "id": "G3_r1c1",
+      "file": "01_解读/3D参考帧/G3_r1c1.png",
+      "board": "G3",
+      "direction": "side",
+      "dir8": null,
+      "batch": "A",
+      "direction_label": "A批 · 侧身 抬手/转向",
+      "confidence": "高",
+      "row": 1,
+      "col": 1,
+      "alpha_px": 9396,
+      "green_left": 0,
+      "src_box": [
+        84,
+        43,
+        279,
+        302
+      ],
+      "canvas": [
+        160,
+        190
+      ]
+    },
+    {
+      "id": "G3_r1c2",
+      "file": "01_解读/3D参考帧/G3_r1c2.png",
+      "board": "G3",
+      "direction": "side",
+      "dir8": null,
+      "batch": "A",
+      "direction_label": "A批 · 侧身 抬手/转向",
+      "confidence": "高",
+      "row": 1,
+      "col": 2,
+      "alpha_px": 9417,
+      "green_left": 0,
+      "src_box": [
+        336,
+        43,
+        531,
+        302
+      ],
+      "canvas": [
+        160,
+        190
+      ]
+    },
+    {
+      "id": "G3_r1c3",
+      "file": "01_解读/3D参考帧/G3_r1c3.png",
+      "board": "G3",
+      "direction": "side",
+      "dir8": null,
+      "batch": "A",
+      "direction_label": "A批 · 侧身 抬手/转向",
+      "confidence": "高",
+      "row": 1,
+      "col": 3,
+      "alpha_px": 9484,
+      "green_left": 0,
+      "src_box": [
+        580,
+        43,
+        775,
+        302
+      ],
+      "canvas": [
+        160,
+        190
+      ]
+    },
+    {
+      "id": "G3_r1c4",
+      "file": "01_解读/3D参考帧/G3_r1c4.png",
+      "board": "G3",
+      "direction": "side",
+      "dir8": null,
+      "batch": "A",
+      "direction_label": "A批 · 侧身 抬手/转向",
+      "confidence": "高",
+      "row": 1,
+      "col": 4,
+      "alpha_px": 9339,
+      "green_left": 0,
+      "src_box": [
+        806,
+        43,
+        1001,
+        302
+      ],
+      "canvas": [
+        160,
+        190
+      ]
+    },
+    {
+      "id": "G3_r1c5",
+      "file": "01_解读/3D参考帧/G3_r1c5.png",
+      "board": "G3",
+      "direction": "side",
+      "dir8": null,
+      "batch": "A",
+      "direction_label": "A批 · 侧身 抬手/转向",
+      "confidence": "高",
+      "row": 1,
+      "col": 5,
+      "alpha_px": 9445,
+      "green_left": 0,
+      "src_box": [
+        1010,
+        43,
+        1205,
+        302
+      ],
+      "canvas": [
+        160,
+        190
+      ]
+    },
+    {
+      "id": "G3_r1c6",
+      "file": "01_解读/3D参考帧/G3_r1c6.png",
+      "board": "G3",
+      "direction": "side",
+      "dir8": null,
+      "batch": "A",
+      "direction_label": "A批 · 侧身 抬手/转向",
+      "confidence": "高",
+      "row": 1,
+      "col": 6,
+      "alpha_px": 9245,
+      "green_left": 0,
+      "src_box": [
+        1212,
+        43,
+        1407,
+        302
+      ],
+      "canvas": [
+        160,
+        190
+      ]
+    },
+    {
+      "id": "G3_r1c7",
+      "file": "01_解读/3D参考帧/G3_r1c7.png",
+      "board": "G3",
+      "direction": "side",
+      "dir8": null,
+      "batch": "A",
+      "direction_label": "A批 · 侧身 抬手/转向",
+      "confidence": "高",
+      "row": 1,
+      "col": 7,
+      "alpha_px": 8678,
+      "green_left": 0,
+      "src_box": [
+        1411,
+        43,
+        1606,
+        302
+      ],
+      "canvas": [
+        160,
+        190
+      ]
+    },
+    {
+      "id": "G3_r1c8",
+      "file": "01_解读/3D参考帧/G3_r1c8.png",
+      "board": "G3",
+      "direction": "side",
+      "dir8": null,
+      "batch": "A",
+      "direction_label": "A批 · 侧身 抬手/转向",
+      "confidence": "高",
+      "row": 1,
+      "col": 8,
+      "alpha_px": 9465,
+      "green_left": 0,
+      "src_box": [
+        1609,
+        43,
+        1804,
+        302
+      ],
+      "canvas": [
+        160,
+        190
+      ]
+    },
+    {
+      "id": "G3_r2c1",
+      "file": "01_解读/3D参考帧/G3_r2c1.png",
+      "board": "G3",
+      "direction": "side",
+      "dir8": null,
+      "batch": "A",
+      "direction_label": "A批 · 侧身 抬手/转向",
+      "confidence": "高",
+      "row": 2,
+      "col": 1,
+      "alpha_px": 10496,
+      "green_left": 0,
+      "src_box": [
+        84,
+        326,
+        279,
+        585
+      ],
+      "canvas": [
+        160,
+        190
+      ]
+    },
+    {
+      "id": "G3_r2c2",
+      "file": "01_解读/3D参考帧/G3_r2c2.png",
+      "board": "G3",
+      "direction": "side",
+      "dir8": null,
+      "batch": "A",
+      "direction_label": "A批 · 侧身 抬手/转向",
+      "confidence": "高",
+      "row": 2,
+      "col": 2,
+      "alpha_px": 10325,
+      "green_left": 0,
+      "src_box": [
+        336,
+        326,
+        531,
+        585
+      ],
+      "canvas": [
+        160,
+        190
+      ]
+    },
+    {
+      "id": "G3_r2c3",
+      "file": "01_解读/3D参考帧/G3_r2c3.png",
+      "board": "G3",
+      "direction": "side",
+      "dir8": null,
+      "batch": "A",
+      "direction_label": "A批 · 侧身 抬手/转向",
+      "confidence": "高",
+      "row": 2,
+      "col": 3,
+      "alpha_px": 9221,
+      "green_left": 0,
+      "src_box": [
+        580,
+        326,
+        775,
+        585
+      ],
+      "canvas": [
+        160,
+        190
+      ]
+    },
+    {
+      "id": "G3_r2c4",
+      "file": "01_解读/3D参考帧/G3_r2c4.png",
+      "board": "G3",
+      "direction": "side",
+      "dir8": null,
+      "batch": "A",
+      "direction_label": "A批 · 侧身 抬手/转向",
+      "confidence": "高",
+      "row": 2,
+      "col": 4,
+      "alpha_px": 9087,
+      "green_left": 0,
+      "src_box": [
+        806,
+        326,
+        1001,
+        585
+      ],
+      "canvas": [
+        160,
+        190
+      ]
+    },
+    {
+      "id": "G3_r2c5",
+      "file": "01_解读/3D参考帧/G3_r2c5.png",
+      "board": "G3",
+      "direction": "side",
+      "dir8": null,
+      "batch": "A",
+      "direction_label": "A批 · 侧身 抬手/转向",
+      "confidence": "高",
+      "row": 2,
+      "col": 5,
+      "alpha_px": 9062,
+      "green_left": 0,
+      "src_box": [
+        1010,
+        326,
+        1205,
+        585
+      ],
+      "canvas": [
+        160,
+        190
+      ]
+    },
+    {
+      "id": "G3_r2c6",
+      "file": "01_解读/3D参考帧/G3_r2c6.png",
+      "board": "G3",
+      "direction": "side",
+      "dir8": null,
+      "batch": "A",
+      "direction_label": "A批 · 侧身 抬手/转向",
+      "confidence": "高",
+      "row": 2,
+      "col": 6,
+      "alpha_px": 9114,
+      "green_left": 0,
+      "src_box": [
+        1212,
+        326,
+        1407,
+        585
+      ],
+      "canvas": [
+        160,
+        190
+      ]
+    },
+    {
+      "id": "G3_r2c7",
+      "file": "01_解读/3D参考帧/G3_r2c7.png",
+      "board": "G3",
+      "direction": "side",
+      "dir8": null,
+      "batch": "A",
+      "direction_label": "A批 · 侧身 抬手/转向",
+      "confidence": "高",
+      "row": 2,
+      "col": 7,
+      "alpha_px": 8599,
+      "green_left": 0,
+      "src_box": [
+        1411,
+        326,
+        1606,
+        585
+      ],
+      "canvas": [
+        160,
+        190
+      ]
+    },
+    {
+      "id": "G3_r2c8",
+      "file": "01_解读/3D参考帧/G3_r2c8.png",
+      "board": "G3",
+      "direction": "side",
+      "dir8": null,
+      "batch": "A",
+      "direction_label": "A批 · 侧身 抬手/转向",
+      "confidence": "高",
+      "row": 2,
+      "col": 8,
+      "alpha_px": 9141,
+      "green_left": 0,
+      "src_box": [
+        1609,
+        326,
+        1804,
+        585
+      ],
+      "canvas": [
+        160,
+        190
+      ]
+    },
+    {
+      "id": "G3_r3c1",
+      "file": "01_解读/3D参考帧/G3_r3c1.png",
+      "board": "G3",
+      "direction": "side",
+      "dir8": null,
+      "batch": "A",
+      "direction_label": "A批 · 侧身 抬手/转向",
+      "confidence": "高",
+      "row": 3,
+      "col": 1,
+      "alpha_px": 8784,
+      "green_left": 0,
+      "src_box": [
+        84,
+        596,
+        279,
+        855
+      ],
+      "canvas": [
+        160,
+        190
+      ]
+    },
+    {
+      "id": "G3_r3c2",
+      "file": "01_解读/3D参考帧/G3_r3c2.png",
+      "board": "G3",
+      "direction": "side",
+      "dir8": null,
+      "batch": "A",
+      "direction_label": "A批 · 侧身 抬手/转向",
+      "confidence": "高",
+      "row": 3,
+      "col": 2,
+      "alpha_px": 8939,
+      "green_left": 0,
+      "src_box": [
+        336,
+        596,
+        531,
+        855
+      ],
+      "canvas": [
+        160,
+        190
+      ]
+    },
+    {
+      "id": "G3_r3c3",
+      "file": "01_解读/3D参考帧/G3_r3c3.png",
+      "board": "G3",
+      "direction": "side",
+      "dir8": null,
+      "batch": "A",
+      "direction_label": "A批 · 侧身 抬手/转向",
+      "confidence": "高",
+      "row": 3,
+      "col": 3,
+      "alpha_px": 8906,
+      "green_left": 0,
+      "src_box": [
+        580,
+        596,
+        775,
+        855
+      ],
+      "canvas": [
+        160,
+        190
+      ]
+    },
+    {
+      "id": "G3_r3c4",
+      "file": "01_解读/3D参考帧/G3_r3c4.png",
+      "board": "G3",
+      "direction": "side",
+      "dir8": null,
+      "batch": "A",
+      "direction_label": "A批 · 侧身 抬手/转向",
+      "confidence": "高",
+      "row": 3,
+      "col": 4,
+      "alpha_px": 8764,
+      "green_left": 0,
+      "src_box": [
+        806,
+        596,
+        1001,
+        855
+      ],
+      "canvas": [
+        160,
+        190
+      ]
+    },
+    {
+      "id": "G3_r3c5",
+      "file": "01_解读/3D参考帧/G3_r3c5.png",
+      "board": "G3",
+      "direction": "side",
+      "dir8": null,
+      "batch": "A",
+      "direction_label": "A批 · 侧身 抬手/转向",
+      "confidence": "高",
+      "row": 3,
+      "col": 5,
+      "alpha_px": 8531,
+      "green_left": 0,
+      "src_box": [
+        1010,
+        596,
+        1205,
+        855
+      ],
+      "canvas": [
+        160,
+        190
+      ]
+    },
+    {
+      "id": "G3_r3c6",
+      "file": "01_解读/3D参考帧/G3_r3c6.png",
+      "board": "G3",
+      "direction": "side",
+      "dir8": null,
+      "batch": "A",
+      "direction_label": "A批 · 侧身 抬手/转向",
+      "confidence": "高",
+      "row": 3,
+      "col": 6,
+      "alpha_px": 8028,
+      "green_left": 0,
+      "src_box": [
+        1212,
+        596,
+        1407,
+        855
+      ],
+      "canvas": [
+        160,
+        190
+      ]
+    },
+    {
+      "id": "G3_r3c7",
+      "file": "01_解读/3D参考帧/G3_r3c7.png",
+      "board": "G3",
+      "direction": "side",
+      "dir8": null,
+      "batch": "A",
+      "direction_label": "A批 · 侧身 抬手/转向",
+      "confidence": "高",
+      "row": 3,
+      "col": 7,
+      "alpha_px": 8052,
+      "green_left": 0,
+      "src_box": [
+        1411,
+        596,
+        1606,
+        855
+      ],
+      "canvas": [
+        160,
+        190
+      ]
+    },
+    {
+      "id": "G3_r3c8",
+      "file": "01_解读/3D参考帧/G3_r3c8.png",
+      "board": "G3",
+      "direction": "side",
+      "dir8": null,
+      "batch": "A",
+      "direction_label": "A批 · 侧身 抬手/转向",
+      "confidence": "高",
+      "row": 3,
+      "col": 8,
+      "alpha_px": 8408,
+      "green_left": 0,
+      "src_box": [
+        1609,
+        596,
+        1804,
+        855
+      ],
+      "canvas": [
+        160,
+        190
+      ]
+    },
+    {
+      "id": "G3_r4c1",
+      "file": "01_解读/3D参考帧/G3_r4c1.png",
+      "board": "G3",
+      "direction": "side",
+      "dir8": null,
+      "batch": "A",
+      "direction_label": "A批 · 侧身 抬手/转向",
+      "confidence": "高",
+      "row": 4,
+      "col": 1,
+      "alpha_px": 9850,
+      "green_left": 0,
+      "src_box": [
+        84,
+        863,
+        279,
+        1122
+      ],
+      "canvas": [
+        160,
+        190
+      ]
+    },
+    {
+      "id": "G3_r4c2",
+      "file": "01_解读/3D参考帧/G3_r4c2.png",
+      "board": "G3",
+      "direction": "side",
+      "dir8": null,
+      "batch": "A",
+      "direction_label": "A批 · 侧身 抬手/转向",
+      "confidence": "高",
+      "row": 4,
+      "col": 2,
+      "alpha_px": 9752,
+      "green_left": 0,
+      "src_box": [
+        336,
+        863,
+        531,
+        1122
+      ],
+      "canvas": [
+        160,
+        190
+      ]
+    },
+    {
+      "id": "G3_r4c3",
+      "file": "01_解读/3D参考帧/G3_r4c3.png",
+      "board": "G3",
+      "direction": "side",
+      "dir8": null,
+      "batch": "A",
+      "direction_label": "A批 · 侧身 抬手/转向",
+      "confidence": "高",
+      "row": 4,
+      "col": 3,
+      "alpha_px": 9405,
+      "green_left": 0,
+      "src_box": [
+        580,
+        863,
+        775,
+        1122
+      ],
+      "canvas": [
+        160,
+        190
+      ]
+    },
+    {
+      "id": "G3_r4c4",
+      "file": "01_解读/3D参考帧/G3_r4c4.png",
+      "board": "G3",
+      "direction": "side",
+      "dir8": null,
+      "batch": "A",
+      "direction_label": "A批 · 侧身 抬手/转向",
+      "confidence": "高",
+      "row": 4,
+      "col": 4,
+      "alpha_px": 8815,
+      "green_left": 0,
+      "src_box": [
+        806,
+        863,
+        1001,
+        1122
+      ],
+      "canvas": [
+        160,
+        190
+      ]
+    },
+    {
+      "id": "G3_r4c5",
+      "file": "01_解读/3D参考帧/G3_r4c5.png",
+      "board": "G3",
+      "direction": "side",
+      "dir8": null,
+      "batch": "A",
+      "direction_label": "A批 · 侧身 抬手/转向",
+      "confidence": "高",
+      "row": 4,
+      "col": 5,
+      "alpha_px": 9010,
+      "green_left": 0,
+      "src_box": [
+        1010,
+        863,
+        1205,
+        1122
+      ],
+      "canvas": [
+        160,
+        190
+      ]
+    },
+    {
+      "id": "G3_r4c6",
+      "file": "01_解读/3D参考帧/G3_r4c6.png",
+      "board": "G3",
+      "direction": "side",
+      "dir8": null,
+      "batch": "A",
+      "direction_label": "A批 · 侧身 抬手/转向",
+      "confidence": "高",
+      "row": 4,
+      "col": 6,
+      "alpha_px": 7932,
+      "green_left": 0,
+      "src_box": [
+        1212,
+        863,
+        1407,
+        1122
+      ],
+      "canvas": [
+        160,
+        190
+      ]
+    },
+    {
+      "id": "G3_r4c7",
+      "file": "01_解读/3D参考帧/G3_r4c7.png",
+      "board": "G3",
+      "direction": "side",
+      "dir8": null,
+      "batch": "A",
+      "direction_label": "A批 · 侧身 抬手/转向",
+      "confidence": "高",
+      "row": 4,
+      "col": 7,
+      "alpha_px": 8394,
+      "green_left": 0,
+      "src_box": [
+        1411,
+        863,
+        1606,
+        1122
+      ],
+      "canvas": [
+        160,
+        190
+      ]
+    },
+    {
+      "id": "G3_r4c8",
+      "file": "01_解读/3D参考帧/G3_r4c8.png",
+      "board": "G3",
+      "direction": "side",
+      "dir8": null,
+      "batch": "A",
+      "direction_label": "A批 · 侧身 抬手/转向",
+      "confidence": "高",
+      "row": 4,
+      "col": 8,
+      "alpha_px": 9427,
+      "green_left": 0,
+      "src_box": [
+        1609,
+        863,
+        1804,
+        1122
+      ],
+      "canvas": [
+        160,
+        190
+      ]
+    },
+    {
+      "id": "G4_r1c1",
+      "file": "01_解读/3D参考帧/G4_r1c1.png",
+      "board": "G4",
+      "direction": "turn",
+      "dir8": null,
+      "batch": "A",
+      "direction_label": "A批 · 转身 奔跑/背向过渡",
+      "confidence": "中",
+      "row": 1,
+      "col": 1,
+      "alpha_px": 9146,
+      "green_left": 0,
+      "src_box": [
+        88,
+        44,
+        289,
+        305
+      ],
+      "canvas": [
+        160,
+        190
+      ]
+    },
+    {
+      "id": "G4_r1c2",
+      "file": "01_解读/3D参考帧/G4_r1c2.png",
+      "board": "G4",
+      "direction": "turn",
+      "dir8": null,
+      "batch": "A",
+      "direction_label": "A批 · 转身 奔跑/背向过渡",
+      "confidence": "中",
+      "row": 1,
+      "col": 2,
+      "alpha_px": 9061,
+      "green_left": 0,
+      "src_box": [
+        326,
+        44,
+        527,
+        305
+      ],
+      "canvas": [
+        160,
+        190
+      ]
+    },
+    {
+      "id": "G4_r1c3",
+      "file": "01_解读/3D参考帧/G4_r1c3.png",
+      "board": "G4",
+      "direction": "turn",
+      "dir8": null,
+      "batch": "A",
+      "direction_label": "A批 · 转身 奔跑/背向过渡",
+      "confidence": "中",
+      "row": 1,
+      "col": 3,
+      "alpha_px": 8235,
+      "green_left": 0,
+      "src_box": [
+        573,
+        44,
+        774,
+        305
+      ],
+      "canvas": [
+        160,
+        190
+      ]
+    },
+    {
+      "id": "G4_r1c4",
+      "file": "01_解读/3D参考帧/G4_r1c4.png",
+      "board": "G4",
+      "direction": "turn",
+      "dir8": null,
+      "batch": "A",
+      "direction_label": "A批 · 转身 奔跑/背向过渡",
+      "confidence": "中",
+      "row": 1,
+      "col": 4,
+      "alpha_px": 9173,
+      "green_left": 0,
+      "src_box": [
+        793,
+        44,
+        994,
+        305
+      ],
+      "canvas": [
+        160,
+        190
+      ]
+    },
+    {
+      "id": "G4_r1c5",
+      "file": "01_解读/3D参考帧/G4_r1c5.png",
+      "board": "G4",
+      "direction": "turn",
+      "dir8": null,
+      "batch": "A",
+      "direction_label": "A批 · 转身 奔跑/背向过渡",
+      "confidence": "中",
+      "row": 1,
+      "col": 5,
+      "alpha_px": 9060,
+      "green_left": 1,
+      "src_box": [
+        1005,
+        44,
+        1206,
+        305
+      ],
+      "canvas": [
+        160,
+        190
+      ]
+    },
+    {
+      "id": "G4_r1c6",
+      "file": "01_解读/3D参考帧/G4_r1c6.png",
+      "board": "G4",
+      "direction": "turn",
+      "dir8": null,
+      "batch": "A",
+      "direction_label": "A批 · 转身 奔跑/背向过渡",
+      "confidence": "中",
+      "row": 1,
+      "col": 6,
+      "alpha_px": 9225,
+      "green_left": 0,
+      "src_box": [
+        1213,
+        44,
+        1414,
+        305
+      ],
+      "canvas": [
+        160,
+        190
+      ]
+    },
+    {
+      "id": "G4_r1c7",
+      "file": "01_解读/3D参考帧/G4_r1c7.png",
+      "board": "G4",
+      "direction": "turn",
+      "dir8": null,
+      "batch": "A",
+      "direction_label": "A批 · 转身 奔跑/背向过渡",
+      "confidence": "中",
+      "row": 1,
+      "col": 7,
+      "alpha_px": 9232,
+      "green_left": 0,
+      "src_box": [
+        1415,
+        44,
+        1616,
+        305
+      ],
+      "canvas": [
+        160,
+        190
+      ]
+    },
+    {
+      "id": "G4_r1c8",
+      "file": "01_解读/3D参考帧/G4_r1c8.png",
+      "board": "G4",
+      "direction": "turn",
+      "dir8": null,
+      "batch": "A",
+      "direction_label": "A批 · 转身 奔跑/背向过渡",
+      "confidence": "中",
+      "row": 1,
+      "col": 8,
+      "alpha_px": 7954,
+      "green_left": 0,
+      "src_box": [
+        1604,
+        44,
+        1805,
+        305
+      ],
+      "canvas": [
+        160,
+        190
+      ]
+    },
+    {
+      "id": "G4_r2c1",
+      "file": "01_解读/3D参考帧/G4_r2c1.png",
+      "board": "G4",
+      "direction": "turn",
+      "dir8": null,
+      "batch": "A",
+      "direction_label": "A批 · 转身 奔跑/背向过渡",
+      "confidence": "中",
+      "row": 2,
+      "col": 1,
+      "alpha_px": 9488,
+      "green_left": 0,
+      "src_box": [
+        88,
+        334,
+        289,
+        595
+      ],
+      "canvas": [
+        160,
+        190
+      ]
+    },
+    {
+      "id": "G4_r2c2",
+      "file": "01_解读/3D参考帧/G4_r2c2.png",
+      "board": "G4",
+      "direction": "turn",
+      "dir8": null,
+      "batch": "A",
+      "direction_label": "A批 · 转身 奔跑/背向过渡",
+      "confidence": "中",
+      "row": 2,
+      "col": 2,
+      "alpha_px": 9190,
+      "green_left": 0,
+      "src_box": [
+        326,
+        334,
+        527,
+        595
+      ],
+      "canvas": [
+        160,
+        190
+      ]
+    },
+    {
+      "id": "G4_r2c3",
+      "file": "01_解读/3D参考帧/G4_r2c3.png",
+      "board": "G4",
+      "direction": "turn",
+      "dir8": null,
+      "batch": "A",
+      "direction_label": "A批 · 转身 奔跑/背向过渡",
+      "confidence": "中",
+      "row": 2,
+      "col": 3,
+      "alpha_px": 8763,
+      "green_left": 0,
+      "src_box": [
+        573,
+        334,
+        774,
+        595
+      ],
+      "canvas": [
+        160,
+        190
+      ]
+    },
+    {
+      "id": "G4_r2c4",
+      "file": "01_解读/3D参考帧/G4_r2c4.png",
+      "board": "G4",
+      "direction": "turn",
+      "dir8": null,
+      "batch": "A",
+      "direction_label": "A批 · 转身 奔跑/背向过渡",
+      "confidence": "中",
+      "row": 2,
+      "col": 4,
+      "alpha_px": 9622,
+      "green_left": 0,
+      "src_box": [
+        793,
+        334,
+        994,
+        595
+      ],
+      "canvas": [
+        160,
+        190
+      ]
+    },
+    {
+      "id": "G4_r2c5",
+      "file": "01_解读/3D参考帧/G4_r2c5.png",
+      "board": "G4",
+      "direction": "turn",
+      "dir8": null,
+      "batch": "A",
+      "direction_label": "A批 · 转身 奔跑/背向过渡",
+      "confidence": "中",
+      "row": 2,
+      "col": 5,
+      "alpha_px": 9576,
+      "green_left": 0,
+      "src_box": [
+        1005,
+        334,
+        1206,
+        595
+      ],
+      "canvas": [
+        160,
+        190
+      ]
+    },
+    {
+      "id": "G4_r2c6",
+      "file": "01_解读/3D参考帧/G4_r2c6.png",
+      "board": "G4",
+      "direction": "turn",
+      "dir8": null,
+      "batch": "A",
+      "direction_label": "A批 · 转身 奔跑/背向过渡",
+      "confidence": "中",
+      "row": 2,
+      "col": 6,
+      "alpha_px": 9512,
+      "green_left": 0,
+      "src_box": [
+        1213,
+        334,
+        1414,
+        595
+      ],
+      "canvas": [
+        160,
+        190
+      ]
+    },
+    {
+      "id": "G4_r2c7",
+      "file": "01_解读/3D参考帧/G4_r2c7.png",
+      "board": "G4",
+      "direction": "turn",
+      "dir8": null,
+      "batch": "A",
+      "direction_label": "A批 · 转身 奔跑/背向过渡",
+      "confidence": "中",
+      "row": 2,
+      "col": 7,
+      "alpha_px": 9322,
+      "green_left": 0,
+      "src_box": [
+        1415,
+        334,
+        1616,
+        595
+      ],
+      "canvas": [
+        160,
+        190
+      ]
+    },
+    {
+      "id": "G4_r2c8",
+      "file": "01_解读/3D参考帧/G4_r2c8.png",
+      "board": "G4",
+      "direction": "turn",
+      "dir8": null,
+      "batch": "A",
+      "direction_label": "A批 · 转身 奔跑/背向过渡",
+      "confidence": "中",
+      "row": 2,
+      "col": 8,
+      "alpha_px": 9357,
+      "green_left": 0,
+      "src_box": [
+        1604,
+        334,
+        1805,
+        595
+      ],
+      "canvas": [
+        160,
+        190
+      ]
+    },
+    {
+      "id": "G4_r3c1",
+      "file": "01_解读/3D参考帧/G4_r3c1.png",
+      "board": "G4",
+      "direction": "turn",
+      "dir8": null,
+      "batch": "A",
+      "direction_label": "A批 · 转身 奔跑/背向过渡",
+      "confidence": "中",
+      "row": 3,
+      "col": 1,
+      "alpha_px": 9285,
+      "green_left": 0,
+      "src_box": [
+        88,
+        606,
+        289,
+        867
+      ],
+      "canvas": [
+        160,
+        190
+      ]
+    },
+    {
+      "id": "G4_r3c2",
+      "file": "01_解读/3D参考帧/G4_r3c2.png",
+      "board": "G4",
+      "direction": "turn",
+      "dir8": null,
+      "batch": "A",
+      "direction_label": "A批 · 转身 奔跑/背向过渡",
+      "confidence": "中",
+      "row": 3,
+      "col": 2,
+      "alpha_px": 8563,
+      "green_left": 0,
+      "src_box": [
+        326,
+        606,
+        527,
+        867
+      ],
+      "canvas": [
+        160,
+        190
+      ]
+    },
+    {
+      "id": "G4_r3c3",
+      "file": "01_解读/3D参考帧/G4_r3c3.png",
+      "board": "G4",
+      "direction": "turn",
+      "dir8": null,
+      "batch": "A",
+      "direction_label": "A批 · 转身 奔跑/背向过渡",
+      "confidence": "中",
+      "row": 3,
+      "col": 3,
+      "alpha_px": 7958,
+      "green_left": 0,
+      "src_box": [
+        573,
+        606,
+        774,
+        867
+      ],
+      "canvas": [
+        160,
+        190
+      ]
+    },
+    {
+      "id": "G4_r3c4",
+      "file": "01_解读/3D参考帧/G4_r3c4.png",
+      "board": "G4",
+      "direction": "turn",
+      "dir8": null,
+      "batch": "A",
+      "direction_label": "A批 · 转身 奔跑/背向过渡",
+      "confidence": "中",
+      "row": 3,
+      "col": 4,
+      "alpha_px": 7888,
+      "green_left": 0,
+      "src_box": [
+        793,
+        606,
+        994,
+        867
+      ],
+      "canvas": [
+        160,
+        190
+      ]
+    },
+    {
+      "id": "G4_r3c5",
+      "file": "01_解读/3D参考帧/G4_r3c5.png",
+      "board": "G4",
+      "direction": "turn",
+      "dir8": null,
+      "batch": "A",
+      "direction_label": "A批 · 转身 奔跑/背向过渡",
+      "confidence": "中",
+      "row": 3,
+      "col": 5,
+      "alpha_px": 6664,
+      "green_left": 0,
+      "src_box": [
+        1005,
+        606,
+        1206,
+        867
+      ],
+      "canvas": [
+        160,
+        190
+      ]
+    },
+    {
+      "id": "G4_r3c6",
+      "file": "01_解读/3D参考帧/G4_r3c6.png",
+      "board": "G4",
+      "direction": "turn",
+      "dir8": null,
+      "batch": "A",
+      "direction_label": "A批 · 转身 奔跑/背向过渡",
+      "confidence": "中",
+      "row": 3,
+      "col": 6,
+      "alpha_px": 7561,
+      "green_left": 0,
+      "src_box": [
+        1213,
+        606,
+        1414,
+        867
+      ],
+      "canvas": [
+        160,
+        190
+      ]
+    },
+    {
+      "id": "G4_r3c7",
+      "file": "01_解读/3D参考帧/G4_r3c7.png",
+      "board": "G4",
+      "direction": "turn",
+      "dir8": null,
+      "batch": "A",
+      "direction_label": "A批 · 转身 奔跑/背向过渡",
+      "confidence": "中",
+      "row": 3,
+      "col": 7,
+      "alpha_px": 8809,
+      "green_left": 0,
+      "src_box": [
+        1415,
+        606,
+        1616,
+        867
+      ],
+      "canvas": [
+        160,
+        190
+      ]
+    },
+    {
+      "id": "G4_r3c8",
+      "file": "01_解读/3D参考帧/G4_r3c8.png",
+      "board": "G4",
+      "direction": "turn",
+      "dir8": null,
+      "batch": "A",
+      "direction_label": "A批 · 转身 奔跑/背向过渡",
+      "confidence": "中",
+      "row": 3,
+      "col": 8,
+      "alpha_px": 8686,
+      "green_left": 0,
+      "src_box": [
+        1604,
+        606,
+        1805,
+        867
+      ],
+      "canvas": [
+        160,
+        190
+      ]
+    },
+    {
+      "id": "G4_r4c1",
+      "file": "01_解读/3D参考帧/G4_r4c1.png",
+      "board": "G4",
+      "direction": "turn",
+      "dir8": null,
+      "batch": "A",
+      "direction_label": "A批 · 转身 奔跑/背向过渡",
+      "confidence": "中",
+      "row": 4,
+      "col": 1,
+      "alpha_px": 8925,
+      "green_left": 0,
+      "src_box": [
+        88,
+        868,
+        289,
+        1129
+      ],
+      "canvas": [
+        160,
+        190
+      ]
+    },
+    {
+      "id": "G4_r4c2",
+      "file": "01_解读/3D参考帧/G4_r4c2.png",
+      "board": "G4",
+      "direction": "turn",
+      "dir8": null,
+      "batch": "A",
+      "direction_label": "A批 · 转身 奔跑/背向过渡",
+      "confidence": "中",
+      "row": 4,
+      "col": 2,
+      "alpha_px": 7243,
+      "green_left": 0,
+      "src_box": [
+        326,
+        868,
+        527,
+        1129
+      ],
+      "canvas": [
+        160,
+        190
+      ]
+    },
+    {
+      "id": "G4_r4c3",
+      "file": "01_解读/3D参考帧/G4_r4c3.png",
+      "board": "G4",
+      "direction": "turn",
+      "dir8": null,
+      "batch": "A",
+      "direction_label": "A批 · 转身 奔跑/背向过渡",
+      "confidence": "中",
+      "row": 4,
+      "col": 3,
+      "alpha_px": 6950,
+      "green_left": 0,
+      "src_box": [
+        573,
+        868,
+        774,
+        1129
+      ],
+      "canvas": [
+        160,
+        190
+      ]
+    },
+    {
+      "id": "G4_r4c4",
+      "file": "01_解读/3D参考帧/G4_r4c4.png",
+      "board": "G4",
+      "direction": "turn",
+      "dir8": null,
+      "batch": "A",
+      "direction_label": "A批 · 转身 奔跑/背向过渡",
+      "confidence": "中",
+      "row": 4,
+      "col": 4,
+      "alpha_px": 8255,
+      "green_left": 0,
+      "src_box": [
+        793,
+        868,
+        994,
+        1129
+      ],
+      "canvas": [
+        160,
+        190
+      ]
+    },
+    {
+      "id": "G4_r4c5",
+      "file": "01_解读/3D参考帧/G4_r4c5.png",
+      "board": "G4",
+      "direction": "turn",
+      "dir8": null,
+      "batch": "A",
+      "direction_label": "A批 · 转身 奔跑/背向过渡",
+      "confidence": "中",
+      "row": 4,
+      "col": 5,
+      "alpha_px": 8074,
+      "green_left": 0,
+      "src_box": [
+        1005,
+        868,
+        1206,
+        1129
+      ],
+      "canvas": [
+        160,
+        190
+      ]
+    },
+    {
+      "id": "G4_r4c6",
+      "file": "01_解读/3D参考帧/G4_r4c6.png",
+      "board": "G4",
+      "direction": "turn",
+      "dir8": null,
+      "batch": "A",
+      "direction_label": "A批 · 转身 奔跑/背向过渡",
+      "confidence": "中",
+      "row": 4,
+      "col": 6,
+      "alpha_px": 8427,
+      "green_left": 0,
+      "src_box": [
+        1213,
+        868,
+        1414,
+        1129
+      ],
+      "canvas": [
+        160,
+        190
+      ]
+    },
+    {
+      "id": "G4_r4c7",
+      "file": "01_解读/3D参考帧/G4_r4c7.png",
+      "board": "G4",
+      "direction": "turn",
+      "dir8": null,
+      "batch": "A",
+      "direction_label": "A批 · 转身 奔跑/背向过渡",
+      "confidence": "中",
+      "row": 4,
+      "col": 7,
+      "alpha_px": 8096,
+      "green_left": 0,
+      "src_box": [
+        1415,
+        868,
+        1616,
+        1129
+      ],
+      "canvas": [
+        160,
+        190
+      ]
+    },
+    {
+      "id": "G4_r4c8",
+      "file": "01_解读/3D参考帧/G4_r4c8.png",
+      "board": "G4",
+      "direction": "turn",
+      "dir8": null,
+      "batch": "A",
+      "direction_label": "A批 · 转身 奔跑/背向过渡",
+      "confidence": "中",
+      "row": 4,
+      "col": 8,
+      "alpha_px": 8880,
+      "green_left": 0,
+      "src_box": [
+        1604,
+        868,
+        1805,
+        1129
+      ],
+      "canvas": [
+        160,
+        190
+      ]
+    },
+    {
+      "id": "G5_r1c1",
+      "file": "01_解读/3D参考帧/G5_r1c1.png",
+      "board": "G5",
+      "direction": "back",
+      "dir8": null,
+      "batch": "A",
+      "direction_label": "A批 · 背面 背向站姿/摆臂",
+      "confidence": "高",
+      "row": 1,
+      "col": 1,
+      "alpha_px": 7241,
+      "green_left": 0,
+      "src_box": [
+        32,
+        39,
+        269,
+        302
+      ],
+      "canvas": [
+        160,
+        190
+      ]
+    },
+    {
+      "id": "G5_r1c2",
+      "file": "01_解读/3D参考帧/G5_r1c2.png",
+      "board": "G5",
+      "direction": "back",
+      "dir8": null,
+      "batch": "A",
+      "direction_label": "A批 · 背面 背向站姿/摆臂",
+      "confidence": "高",
+      "row": 1,
+      "col": 2,
+      "alpha_px": 7472,
+      "green_left": 0,
+      "src_box": [
+        301,
+        39,
+        538,
+        302
+      ],
+      "canvas": [
+        160,
+        190
+      ]
+    },
+    {
+      "id": "G5_r1c3",
+      "file": "01_解读/3D参考帧/G5_r1c3.png",
+      "board": "G5",
+      "direction": "back",
+      "dir8": null,
+      "batch": "A",
+      "direction_label": "A批 · 背面 背向站姿/摆臂",
+      "confidence": "高",
+      "row": 1,
+      "col": 3,
+      "alpha_px": 7511,
+      "green_left": 0,
+      "src_box": [
+        545,
+        39,
+        782,
+        302
+      ],
+      "canvas": [
+        160,
+        190
+      ]
+    },
+    {
+      "id": "G5_r1c4",
+      "file": "01_解读/3D参考帧/G5_r1c4.png",
+      "board": "G5",
+      "direction": "back",
+      "dir8": null,
+      "batch": "A",
+      "direction_label": "A批 · 背面 背向站姿/摆臂",
+      "confidence": "高",
+      "row": 1,
+      "col": 4,
+      "alpha_px": 6428,
+      "green_left": 0,
+      "src_box": [
+        803,
+        39,
+        1040,
+        302
+      ],
+      "canvas": [
+        160,
+        190
+      ]
+    },
+    {
+      "id": "G5_r1c5",
+      "file": "01_解读/3D参考帧/G5_r1c5.png",
+      "board": "G5",
+      "direction": "back",
+      "dir8": null,
+      "batch": "A",
+      "direction_label": "A批 · 背面 背向站姿/摆臂",
+      "confidence": "高",
+      "row": 1,
+      "col": 5,
+      "alpha_px": 7267,
+      "green_left": 0,
+      "src_box": [
+        1047,
+        39,
+        1284,
+        302
+      ],
+      "canvas": [
+        160,
+        190
+      ]
+    },
+    {
+      "id": "G5_r1c6",
+      "file": "01_解读/3D参考帧/G5_r1c6.png",
+      "board": "G5",
+      "direction": "back",
+      "dir8": null,
+      "batch": "A",
+      "direction_label": "A批 · 背面 背向站姿/摆臂",
+      "confidence": "高",
+      "row": 1,
+      "col": 6,
+      "alpha_px": 7464,
+      "green_left": 0,
+      "src_box": [
+        1291,
+        39,
+        1528,
+        302
+      ],
+      "canvas": [
+        160,
+        190
+      ]
+    },
+    {
+      "id": "G5_r1c7",
+      "file": "01_解读/3D参考帧/G5_r1c7.png",
+      "board": "G5",
+      "direction": "back",
+      "dir8": null,
+      "batch": "A",
+      "direction_label": "A批 · 背面 背向站姿/摆臂",
+      "confidence": "高",
+      "row": 1,
+      "col": 7,
+      "alpha_px": 7320,
+      "green_left": 0,
+      "src_box": [
+        1540,
+        39,
+        1777,
+        302
+      ],
+      "canvas": [
+        160,
+        190
+      ]
+    },
+    {
+      "id": "G5_r1c8",
+      "file": "01_解读/3D参考帧/G5_r1c8.png",
+      "board": "G5",
+      "direction": "back",
+      "dir8": null,
+      "batch": "A",
+      "direction_label": "A批 · 背面 背向站姿/摆臂",
+      "confidence": "高",
+      "row": 1,
+      "col": 8,
+      "alpha_px": 7316,
+      "green_left": 0,
+      "src_box": [
+        1786,
+        39,
+        2023,
+        302
+      ],
+      "canvas": [
+        160,
+        190
+      ]
+    },
+    {
+      "id": "G5_r2c1",
+      "file": "01_解读/3D参考帧/G5_r2c1.png",
+      "board": "G5",
+      "direction": "back",
+      "dir8": null,
+      "batch": "A",
+      "direction_label": "A批 · 背面 背向站姿/摆臂",
+      "confidence": "高",
+      "row": 2,
+      "col": 1,
+      "alpha_px": 7379,
+      "green_left": 0,
+      "src_box": [
+        32,
+        328,
+        269,
+        591
+      ],
+      "canvas": [
+        160,
+        190
+      ]
+    },
+    {
+      "id": "G5_r2c2",
+      "file": "01_解读/3D参考帧/G5_r2c2.png",
+      "board": "G5",
+      "direction": "back",
+      "dir8": null,
+      "batch": "A",
+      "direction_label": "A批 · 背面 背向站姿/摆臂",
+      "confidence": "高",
+      "row": 2,
+      "col": 2,
+      "alpha_px": 7323,
+      "green_left": 0,
+      "src_box": [
+        301,
+        328,
+        538,
+        591
+      ],
+      "canvas": [
+        160,
+        190
+      ]
+    },
+    {
+      "id": "G5_r2c3",
+      "file": "01_解读/3D参考帧/G5_r2c3.png",
+      "board": "G5",
+      "direction": "back",
+      "dir8": null,
+      "batch": "A",
+      "direction_label": "A批 · 背面 背向站姿/摆臂",
+      "confidence": "高",
+      "row": 2,
+      "col": 3,
+      "alpha_px": 7179,
+      "green_left": 0,
+      "src_box": [
+        545,
+        328,
+        782,
+        591
+      ],
+      "canvas": [
+        160,
+        190
+      ]
+    },
+    {
+      "id": "G5_r2c4",
+      "file": "01_解读/3D参考帧/G5_r2c4.png",
+      "board": "G5",
+      "direction": "back",
+      "dir8": null,
+      "batch": "A",
+      "direction_label": "A批 · 背面 背向站姿/摆臂",
+      "confidence": "高",
+      "row": 2,
+      "col": 4,
+      "alpha_px": 6623,
+      "green_left": 0,
+      "src_box": [
+        803,
+        328,
+        1040,
+        591
+      ],
+      "canvas": [
+        160,
+        190
+      ]
+    },
+    {
+      "id": "G5_r2c5",
+      "file": "01_解读/3D参考帧/G5_r2c5.png",
+      "board": "G5",
+      "direction": "back",
+      "dir8": null,
+      "batch": "A",
+      "direction_label": "A批 · 背面 背向站姿/摆臂",
+      "confidence": "高",
+      "row": 2,
+      "col": 5,
+      "alpha_px": 6936,
+      "green_left": 0,
+      "src_box": [
+        1047,
+        328,
+        1284,
+        591
+      ],
+      "canvas": [
+        160,
+        190
+      ]
+    },
+    {
+      "id": "G5_r2c6",
+      "file": "01_解读/3D参考帧/G5_r2c6.png",
+      "board": "G5",
+      "direction": "back",
+      "dir8": null,
+      "batch": "A",
+      "direction_label": "A批 · 背面 背向站姿/摆臂",
+      "confidence": "高",
+      "row": 2,
+      "col": 6,
+      "alpha_px": 7276,
+      "green_left": 0,
+      "src_box": [
+        1291,
+        328,
+        1528,
+        591
+      ],
+      "canvas": [
+        160,
+        190
+      ]
+    },
+    {
+      "id": "G5_r2c7",
+      "file": "01_解读/3D参考帧/G5_r2c7.png",
+      "board": "G5",
+      "direction": "back",
+      "dir8": null,
+      "batch": "A",
+      "direction_label": "A批 · 背面 背向站姿/摆臂",
+      "confidence": "高",
+      "row": 2,
+      "col": 7,
+      "alpha_px": 7216,
+      "green_left": 0,
+      "src_box": [
+        1540,
+        328,
+        1777,
+        591
+      ],
+      "canvas": [
+        160,
+        190
+      ]
+    },
+    {
+      "id": "G5_r2c8",
+      "file": "01_解读/3D参考帧/G5_r2c8.png",
+      "board": "G5",
+      "direction": "back",
+      "dir8": null,
+      "batch": "A",
+      "direction_label": "A批 · 背面 背向站姿/摆臂",
+      "confidence": "高",
+      "row": 2,
+      "col": 8,
+      "alpha_px": 7200,
+      "green_left": 0,
+      "src_box": [
+        1786,
+        328,
+        2023,
+        591
+      ],
+      "canvas": [
+        160,
+        190
+      ]
+    },
+    {
+      "id": "G5_r3c1",
+      "file": "01_解读/3D参考帧/G5_r3c1.png",
+      "board": "G5",
+      "direction": "back",
+      "dir8": null,
+      "batch": "A",
+      "direction_label": "A批 · 背面 背向站姿/摆臂",
+      "confidence": "高",
+      "row": 3,
+      "col": 1,
+      "alpha_px": 7321,
+      "green_left": 0,
+      "src_box": [
+        32,
+        601,
+        269,
+        864
+      ],
+      "canvas": [
+        160,
+        190
+      ]
+    },
+    {
+      "id": "G5_r3c2",
+      "file": "01_解读/3D参考帧/G5_r3c2.png",
+      "board": "G5",
+      "direction": "back",
+      "dir8": null,
+      "batch": "A",
+      "direction_label": "A批 · 背面 背向站姿/摆臂",
+      "confidence": "高",
+      "row": 3,
+      "col": 2,
+      "alpha_px": 7282,
+      "green_left": 0,
+      "src_box": [
+        301,
+        601,
+        538,
+        864
+      ],
+      "canvas": [
+        160,
+        190
+      ]
+    },
+    {
+      "id": "G5_r3c3",
+      "file": "01_解读/3D参考帧/G5_r3c3.png",
+      "board": "G5",
+      "direction": "back",
+      "dir8": null,
+      "batch": "A",
+      "direction_label": "A批 · 背面 背向站姿/摆臂",
+      "confidence": "高",
+      "row": 3,
+      "col": 3,
+      "alpha_px": 7202,
+      "green_left": 0,
+      "src_box": [
+        545,
+        601,
+        782,
+        864
+      ],
+      "canvas": [
+        160,
+        190
+      ]
+    },
+    {
+      "id": "G5_r3c4",
+      "file": "01_解读/3D参考帧/G5_r3c4.png",
+      "board": "G5",
+      "direction": "back",
+      "dir8": null,
+      "batch": "A",
+      "direction_label": "A批 · 背面 背向站姿/摆臂",
+      "confidence": "高",
+      "row": 3,
+      "col": 4,
+      "alpha_px": 7249,
+      "green_left": 0,
+      "src_box": [
+        803,
+        601,
+        1040,
+        864
+      ],
+      "canvas": [
+        160,
+        190
+      ]
+    },
+    {
+      "id": "G5_r3c5",
+      "file": "01_解读/3D参考帧/G5_r3c5.png",
+      "board": "G5",
+      "direction": "back",
+      "dir8": null,
+      "batch": "A",
+      "direction_label": "A批 · 背面 背向站姿/摆臂",
+      "confidence": "高",
+      "row": 3,
+      "col": 5,
+      "alpha_px": 7228,
+      "green_left": 0,
+      "src_box": [
+        1047,
+        601,
+        1284,
+        864
+      ],
+      "canvas": [
+        160,
+        190
+      ]
+    },
+    {
+      "id": "G5_r3c6",
+      "file": "01_解读/3D参考帧/G5_r3c6.png",
+      "board": "G5",
+      "direction": "back",
+      "dir8": null,
+      "batch": "A",
+      "direction_label": "A批 · 背面 背向站姿/摆臂",
+      "confidence": "高",
+      "row": 3,
+      "col": 6,
+      "alpha_px": 6719,
+      "green_left": 0,
+      "src_box": [
+        1291,
+        601,
+        1528,
+        864
+      ],
+      "canvas": [
+        160,
+        190
+      ]
+    },
+    {
+      "id": "G5_r3c7",
+      "file": "01_解读/3D参考帧/G5_r3c7.png",
+      "board": "G5",
+      "direction": "back",
+      "dir8": null,
+      "batch": "A",
+      "direction_label": "A批 · 背面 背向站姿/摆臂",
+      "confidence": "高",
+      "row": 3,
+      "col": 7,
+      "alpha_px": 7172,
+      "green_left": 0,
+      "src_box": [
+        1540,
+        601,
+        1777,
+        864
+      ],
+      "canvas": [
+        160,
+        190
+      ]
+    },
+    {
+      "id": "G5_r3c8",
+      "file": "01_解读/3D参考帧/G5_r3c8.png",
+      "board": "G5",
+      "direction": "back",
+      "dir8": null,
+      "batch": "A",
+      "direction_label": "A批 · 背面 背向站姿/摆臂",
+      "confidence": "高",
+      "row": 3,
+      "col": 8,
+      "alpha_px": 7146,
+      "green_left": 0,
+      "src_box": [
+        1786,
+        601,
+        2023,
+        864
+      ],
+      "canvas": [
+        160,
+        190
+      ]
+    },
+    {
+      "id": "G5_r4c1",
+      "file": "01_解读/3D参考帧/G5_r4c1.png",
+      "board": "G5",
+      "direction": "back",
+      "dir8": null,
+      "batch": "A",
+      "direction_label": "A批 · 背面 背向站姿/摆臂",
+      "confidence": "高",
+      "row": 4,
+      "col": 1,
+      "alpha_px": 7262,
+      "green_left": 0,
+      "src_box": [
+        32,
+        873,
+        269,
+        1136
+      ],
+      "canvas": [
+        160,
+        190
+      ]
+    },
+    {
+      "id": "G5_r4c2",
+      "file": "01_解读/3D参考帧/G5_r4c2.png",
+      "board": "G5",
+      "direction": "back",
+      "dir8": null,
+      "batch": "A",
+      "direction_label": "A批 · 背面 背向站姿/摆臂",
+      "confidence": "高",
+      "row": 4,
+      "col": 2,
+      "alpha_px": 6824,
+      "green_left": 0,
+      "src_box": [
+        301,
+        873,
+        538,
+        1136
+      ],
+      "canvas": [
+        160,
+        190
+      ]
+    },
+    {
+      "id": "G5_r4c3",
+      "file": "01_解读/3D参考帧/G5_r4c3.png",
+      "board": "G5",
+      "direction": "back",
+      "dir8": null,
+      "batch": "A",
+      "direction_label": "A批 · 背面 背向站姿/摆臂",
+      "confidence": "高",
+      "row": 4,
+      "col": 3,
+      "alpha_px": 6868,
+      "green_left": 0,
+      "src_box": [
+        545,
+        873,
+        782,
+        1136
+      ],
+      "canvas": [
+        160,
+        190
+      ]
+    },
+    {
+      "id": "G5_r4c4",
+      "file": "01_解读/3D参考帧/G5_r4c4.png",
+      "board": "G5",
+      "direction": "back",
+      "dir8": null,
+      "batch": "A",
+      "direction_label": "A批 · 背面 背向站姿/摆臂",
+      "confidence": "高",
+      "row": 4,
+      "col": 4,
+      "alpha_px": 7142,
+      "green_left": 0,
+      "src_box": [
+        803,
+        873,
+        1040,
+        1136
+      ],
+      "canvas": [
+        160,
+        190
+      ]
+    },
+    {
+      "id": "G5_r4c5",
+      "file": "01_解读/3D参考帧/G5_r4c5.png",
+      "board": "G5",
+      "direction": "back",
+      "dir8": null,
+      "batch": "A",
+      "direction_label": "A批 · 背面 背向站姿/摆臂",
+      "confidence": "高",
+      "row": 4,
+      "col": 5,
+      "alpha_px": 6750,
+      "green_left": 0,
+      "src_box": [
+        1047,
+        873,
+        1284,
+        1136
+      ],
+      "canvas": [
+        160,
+        190
+      ]
+    },
+    {
+      "id": "G5_r4c6",
+      "file": "01_解读/3D参考帧/G5_r4c6.png",
+      "board": "G5",
+      "direction": "back",
+      "dir8": null,
+      "batch": "A",
+      "direction_label": "A批 · 背面 背向站姿/摆臂",
+      "confidence": "高",
+      "row": 4,
+      "col": 6,
+      "alpha_px": 6635,
+      "green_left": 0,
+      "src_box": [
+        1291,
+        873,
+        1528,
+        1136
+      ],
+      "canvas": [
+        160,
+        190
+      ]
+    },
+    {
+      "id": "G5_r4c7",
+      "file": "01_解读/3D参考帧/G5_r4c7.png",
+      "board": "G5",
+      "direction": "back",
+      "dir8": null,
+      "batch": "A",
+      "direction_label": "A批 · 背面 背向站姿/摆臂",
+      "confidence": "高",
+      "row": 4,
+      "col": 7,
+      "alpha_px": 7155,
+      "green_left": 0,
+      "src_box": [
+        1540,
+        873,
+        1777,
+        1136
+      ],
+      "canvas": [
+        160,
+        190
+      ]
+    },
+    {
+      "id": "G5_r4c8",
+      "file": "01_解读/3D参考帧/G5_r4c8.png",
+      "board": "G5",
+      "direction": "back",
+      "dir8": null,
+      "batch": "A",
+      "direction_label": "A批 · 背面 背向站姿/摆臂",
+      "confidence": "高",
+      "row": 4,
+      "col": 8,
+      "alpha_px": 6964,
+      "green_left": 0,
+      "src_box": [
+        1786,
+        873,
+        2023,
+        1136
+      ],
+      "canvas": [
+        160,
+        190
+      ]
+    },
+    {
+      "id": "H1_r1c1",
+      "file": "01_解读/3D参考帧/H1_r1c1.png",
+      "board": "H1",
+      "direction": "front",
+      "dir8": "NW",
+      "batch": "B",
+      "direction_label": "B批 · 左前斜 front-left",
+      "confidence": "中",
+      "row": 1,
+      "col": 1,
+      "alpha_px": 6971,
+      "green_left": 0,
+      "src_box": [
+        6,
+        10,
+        251,
+        285
+      ],
+      "canvas": [
+        160,
+        190
+      ]
+    },
+    {
+      "id": "H1_r1c2",
+      "file": "01_解读/3D参考帧/H1_r1c2.png",
+      "board": "H1",
+      "direction": "front",
+      "dir8": "NW",
+      "batch": "B",
+      "direction_label": "B批 · 左前斜 front-left",
+      "confidence": "中",
+      "row": 1,
+      "col": 2,
+      "alpha_px": 7077,
+      "green_left": 0,
+      "src_box": [
+        264,
+        10,
+        509,
+        285
+      ],
+      "canvas": [
+        160,
+        190
+      ]
+    },
+    {
+      "id": "H1_r1c3",
+      "file": "01_解读/3D参考帧/H1_r1c3.png",
+      "board": "H1",
+      "direction": "front",
+      "dir8": "NW",
+      "batch": "B",
+      "direction_label": "B批 · 左前斜 front-left",
+      "confidence": "中",
+      "row": 1,
+      "col": 3,
+      "alpha_px": 6896,
+      "green_left": 0,
+      "src_box": [
+        518,
+        10,
+        763,
+        285
+      ],
+      "canvas": [
+        160,
+        190
+      ]
+    },
+    {
+      "id": "H1_r1c4",
+      "file": "01_解读/3D参考帧/H1_r1c4.png",
+      "board": "H1",
+      "direction": "front",
+      "dir8": "NW",
+      "batch": "B",
+      "direction_label": "B批 · 左前斜 front-left",
+      "confidence": "中",
+      "row": 1,
+      "col": 4,
+      "alpha_px": 7043,
+      "green_left": 0,
+      "src_box": [
+        774,
+        10,
+        1019,
+        285
+      ],
+      "canvas": [
+        160,
+        190
+      ]
+    },
+    {
+      "id": "H1_r1c5",
+      "file": "01_解读/3D参考帧/H1_r1c5.png",
+      "board": "H1",
+      "direction": "front",
+      "dir8": "NW",
+      "batch": "B",
+      "direction_label": "B批 · 左前斜 front-left",
+      "confidence": "中",
+      "row": 1,
+      "col": 5,
+      "alpha_px": 7069,
+      "green_left": 0,
+      "src_box": [
+        1028,
+        10,
+        1273,
+        285
+      ],
+      "canvas": [
+        160,
+        190
+      ]
+    },
+    {
+      "id": "H1_r1c6",
+      "file": "01_解读/3D参考帧/H1_r1c6.png",
+      "board": "H1",
+      "direction": "front",
+      "dir8": "NW",
+      "batch": "B",
+      "direction_label": "B批 · 左前斜 front-left",
+      "confidence": "中",
+      "row": 1,
+      "col": 6,
+      "alpha_px": 6934,
+      "green_left": 0,
+      "src_box": [
+        1284,
+        10,
+        1529,
+        285
+      ],
+      "canvas": [
+        160,
+        190
+      ]
+    },
+    {
+      "id": "H1_r1c7",
+      "file": "01_解读/3D参考帧/H1_r1c7.png",
+      "board": "H1",
+      "direction": "front",
+      "dir8": "NW",
+      "batch": "B",
+      "direction_label": "B批 · 左前斜 front-left",
+      "confidence": "中",
+      "row": 1,
+      "col": 7,
+      "alpha_px": 6840,
+      "green_left": 0,
+      "src_box": [
+        1539,
+        10,
+        1784,
+        285
+      ],
+      "canvas": [
+        160,
+        190
+      ]
+    },
+    {
+      "id": "H1_r1c8",
+      "file": "01_解读/3D参考帧/H1_r1c8.png",
+      "board": "H1",
+      "direction": "front",
+      "dir8": "NW",
+      "batch": "B",
+      "direction_label": "B批 · 左前斜 front-left",
+      "confidence": "中",
+      "row": 1,
+      "col": 8,
+      "alpha_px": 6930,
+      "green_left": 0,
+      "src_box": [
+        1793,
+        10,
+        2038,
+        285
+      ],
+      "canvas": [
+        160,
+        190
+      ]
+    },
+    {
+      "id": "H1_r2c1",
+      "file": "01_解读/3D参考帧/H1_r2c1.png",
+      "board": "H1",
+      "direction": "front",
+      "dir8": "NW",
+      "batch": "B",
+      "direction_label": "B批 · 左前斜 front-left",
+      "confidence": "中",
+      "row": 2,
+      "col": 1,
+      "alpha_px": 6689,
+      "green_left": 0,
+      "src_box": [
+        6,
+        293,
+        251,
+        568
+      ],
+      "canvas": [
+        160,
+        190
+      ]
+    },
+    {
+      "id": "H1_r2c2",
+      "file": "01_解读/3D参考帧/H1_r2c2.png",
+      "board": "H1",
+      "direction": "front",
+      "dir8": "NW",
+      "batch": "B",
+      "direction_label": "B批 · 左前斜 front-left",
+      "confidence": "中",
+      "row": 2,
+      "col": 2,
+      "alpha_px": 6967,
+      "green_left": 0,
+      "src_box": [
+        264,
+        293,
+        509,
+        568
+      ],
+      "canvas": [
+        160,
+        190
+      ]
+    },
+    {
+      "id": "H1_r2c3",
+      "file": "01_解读/3D参考帧/H1_r2c3.png",
+      "board": "H1",
+      "direction": "front",
+      "dir8": "NW",
+      "batch": "B",
+      "direction_label": "B批 · 左前斜 front-left",
+      "confidence": "中",
+      "row": 2,
+      "col": 3,
+      "alpha_px": 7040,
+      "green_left": 0,
+      "src_box": [
+        518,
+        293,
+        763,
+        568
+      ],
+      "canvas": [
+        160,
+        190
+      ]
+    },
+    {
+      "id": "H1_r2c4",
+      "file": "01_解读/3D参考帧/H1_r2c4.png",
+      "board": "H1",
+      "direction": "front",
+      "dir8": "NW",
+      "batch": "B",
+      "direction_label": "B批 · 左前斜 front-left",
+      "confidence": "中",
+      "row": 2,
+      "col": 4,
+      "alpha_px": 6661,
+      "green_left": 0,
+      "src_box": [
+        774,
+        293,
+        1019,
+        568
+      ],
+      "canvas": [
+        160,
+        190
+      ]
+    },
+    {
+      "id": "H1_r2c5",
+      "file": "01_解读/3D参考帧/H1_r2c5.png",
+      "board": "H1",
+      "direction": "front",
+      "dir8": "NW",
+      "batch": "B",
+      "direction_label": "B批 · 左前斜 front-left",
+      "confidence": "中",
+      "row": 2,
+      "col": 5,
+      "alpha_px": 6882,
+      "green_left": 0,
+      "src_box": [
+        1028,
+        293,
+        1273,
+        568
+      ],
+      "canvas": [
+        160,
+        190
+      ]
+    },
+    {
+      "id": "H1_r2c6",
+      "file": "01_解读/3D参考帧/H1_r2c6.png",
+      "board": "H1",
+      "direction": "front",
+      "dir8": "NW",
+      "batch": "B",
+      "direction_label": "B批 · 左前斜 front-left",
+      "confidence": "中",
+      "row": 2,
+      "col": 6,
+      "alpha_px": 6527,
+      "green_left": 0,
+      "src_box": [
+        1284,
+        293,
+        1529,
+        568
+      ],
+      "canvas": [
+        160,
+        190
+      ]
+    },
+    {
+      "id": "H1_r2c7",
+      "file": "01_解读/3D参考帧/H1_r2c7.png",
+      "board": "H1",
+      "direction": "front",
+      "dir8": "NW",
+      "batch": "B",
+      "direction_label": "B批 · 左前斜 front-left",
+      "confidence": "中",
+      "row": 2,
+      "col": 7,
+      "alpha_px": 6803,
+      "green_left": 0,
+      "src_box": [
+        1539,
+        293,
+        1784,
+        568
+      ],
+      "canvas": [
+        160,
+        190
+      ]
+    },
+    {
+      "id": "H1_r2c8",
+      "file": "01_解读/3D参考帧/H1_r2c8.png",
+      "board": "H1",
+      "direction": "front",
+      "dir8": "NW",
+      "batch": "B",
+      "direction_label": "B批 · 左前斜 front-left",
+      "confidence": "中",
+      "row": 2,
+      "col": 8,
+      "alpha_px": 6387,
+      "green_left": 0,
+      "src_box": [
+        1793,
+        293,
+        2038,
+        568
+      ],
+      "canvas": [
+        160,
+        190
+      ]
+    },
+    {
+      "id": "H1_r3c1",
+      "file": "01_解读/3D参考帧/H1_r3c1.png",
+      "board": "H1",
+      "direction": "front",
+      "dir8": "NW",
+      "batch": "B",
+      "direction_label": "B批 · 左前斜 front-left",
+      "confidence": "中",
+      "row": 3,
+      "col": 1,
+      "alpha_px": 6572,
+      "green_left": 0,
+      "src_box": [
+        6,
+        579,
+        251,
+        854
+      ],
+      "canvas": [
+        160,
+        190
+      ]
+    },
+    {
+      "id": "H1_r3c2",
+      "file": "01_解读/3D参考帧/H1_r3c2.png",
+      "board": "H1",
+      "direction": "front",
+      "dir8": "NW",
+      "batch": "B",
+      "direction_label": "B批 · 左前斜 front-left",
+      "confidence": "中",
+      "row": 3,
+      "col": 2,
+      "alpha_px": 6879,
+      "green_left": 0,
+      "src_box": [
+        264,
+        579,
+        509,
+        854
+      ],
+      "canvas": [
+        160,
+        190
+      ]
+    },
+    {
+      "id": "H1_r3c3",
+      "file": "01_解读/3D参考帧/H1_r3c3.png",
+      "board": "H1",
+      "direction": "front",
+      "dir8": "NW",
+      "batch": "B",
+      "direction_label": "B批 · 左前斜 front-left",
+      "confidence": "中",
+      "row": 3,
+      "col": 3,
+      "alpha_px": 6608,
+      "green_left": 0,
+      "src_box": [
+        518,
+        579,
+        763,
+        854
+      ],
+      "canvas": [
+        160,
+        190
+      ]
+    },
+    {
+      "id": "H1_r3c4",
+      "file": "01_解读/3D参考帧/H1_r3c4.png",
+      "board": "H1",
+      "direction": "front",
+      "dir8": "NW",
+      "batch": "B",
+      "direction_label": "B批 · 左前斜 front-left",
+      "confidence": "中",
+      "row": 3,
+      "col": 4,
+      "alpha_px": 6691,
+      "green_left": 0,
+      "src_box": [
+        774,
+        579,
+        1019,
+        854
+      ],
+      "canvas": [
+        160,
+        190
+      ]
+    },
+    {
+      "id": "H1_r3c5",
+      "file": "01_解读/3D参考帧/H1_r3c5.png",
+      "board": "H1",
+      "direction": "front",
+      "dir8": "NW",
+      "batch": "B",
+      "direction_label": "B批 · 左前斜 front-left",
+      "confidence": "中",
+      "row": 3,
+      "col": 5,
+      "alpha_px": 6976,
+      "green_left": 0,
+      "src_box": [
+        1028,
+        579,
+        1273,
+        854
+      ],
+      "canvas": [
+        160,
+        190
+      ]
+    },
+    {
+      "id": "H1_r3c6",
+      "file": "01_解读/3D参考帧/H1_r3c6.png",
+      "board": "H1",
+      "direction": "front",
+      "dir8": "NW",
+      "batch": "B",
+      "direction_label": "B批 · 左前斜 front-left",
+      "confidence": "中",
+      "row": 3,
+      "col": 6,
+      "alpha_px": 6817,
+      "green_left": 0,
+      "src_box": [
+        1284,
+        579,
+        1529,
+        854
+      ],
+      "canvas": [
+        160,
+        190
+      ]
+    },
+    {
+      "id": "H1_r3c7",
+      "file": "01_解读/3D参考帧/H1_r3c7.png",
+      "board": "H1",
+      "direction": "front",
+      "dir8": "NW",
+      "batch": "B",
+      "direction_label": "B批 · 左前斜 front-left",
+      "confidence": "中",
+      "row": 3,
+      "col": 7,
+      "alpha_px": 6809,
+      "green_left": 0,
+      "src_box": [
+        1539,
+        579,
+        1784,
+        854
+      ],
+      "canvas": [
+        160,
+        190
+      ]
+    },
+    {
+      "id": "H1_r3c8",
+      "file": "01_解读/3D参考帧/H1_r3c8.png",
+      "board": "H1",
+      "direction": "front",
+      "dir8": "NW",
+      "batch": "B",
+      "direction_label": "B批 · 左前斜 front-left",
+      "confidence": "中",
+      "row": 3,
+      "col": 8,
+      "alpha_px": 6971,
+      "green_left": 0,
+      "src_box": [
+        1793,
+        579,
+        2038,
+        854
+      ],
+      "canvas": [
+        160,
+        190
+      ]
+    },
+    {
+      "id": "H1_r4c1",
+      "file": "01_解读/3D参考帧/H1_r4c1.png",
+      "board": "H1",
+      "direction": "front",
+      "dir8": "NW",
+      "batch": "B",
+      "direction_label": "B批 · 左前斜 front-left",
+      "confidence": "中",
+      "row": 4,
+      "col": 1,
+      "alpha_px": 6958,
+      "green_left": 0,
+      "src_box": [
+        6,
+        865,
+        251,
+        1140
+      ],
+      "canvas": [
+        160,
+        190
+      ]
+    },
+    {
+      "id": "H1_r4c2",
+      "file": "01_解读/3D参考帧/H1_r4c2.png",
+      "board": "H1",
+      "direction": "front",
+      "dir8": "NW",
+      "batch": "B",
+      "direction_label": "B批 · 左前斜 front-left",
+      "confidence": "中",
+      "row": 4,
+      "col": 2,
+      "alpha_px": 6893,
+      "green_left": 0,
+      "src_box": [
+        264,
+        865,
+        509,
+        1140
+      ],
+      "canvas": [
+        160,
+        190
+      ]
+    },
+    {
+      "id": "H1_r4c3",
+      "file": "01_解读/3D参考帧/H1_r4c3.png",
+      "board": "H1",
+      "direction": "front",
+      "dir8": "NW",
+      "batch": "B",
+      "direction_label": "B批 · 左前斜 front-left",
+      "confidence": "中",
+      "row": 4,
+      "col": 3,
+      "alpha_px": 7093,
+      "green_left": 0,
+      "src_box": [
+        518,
+        865,
+        763,
+        1140
+      ],
+      "canvas": [
+        160,
+        190
+      ]
+    },
+    {
+      "id": "H1_r4c4",
+      "file": "01_解读/3D参考帧/H1_r4c4.png",
+      "board": "H1",
+      "direction": "front",
+      "dir8": "NW",
+      "batch": "B",
+      "direction_label": "B批 · 左前斜 front-left",
+      "confidence": "中",
+      "row": 4,
+      "col": 4,
+      "alpha_px": 6777,
+      "green_left": 0,
+      "src_box": [
+        774,
+        865,
+        1019,
+        1140
+      ],
+      "canvas": [
+        160,
+        190
+      ]
+    },
+    {
+      "id": "H1_r4c5",
+      "file": "01_解读/3D参考帧/H1_r4c5.png",
+      "board": "H1",
+      "direction": "front",
+      "dir8": "NW",
+      "batch": "B",
+      "direction_label": "B批 · 左前斜 front-left",
+      "confidence": "中",
+      "row": 4,
+      "col": 5,
+      "alpha_px": 6726,
+      "green_left": 0,
+      "src_box": [
+        1028,
+        865,
+        1273,
+        1140
+      ],
+      "canvas": [
+        160,
+        190
+      ]
+    },
+    {
+      "id": "H1_r4c6",
+      "file": "01_解读/3D参考帧/H1_r4c6.png",
+      "board": "H1",
+      "direction": "front",
+      "dir8": "NW",
+      "batch": "B",
+      "direction_label": "B批 · 左前斜 front-left",
+      "confidence": "中",
+      "row": 4,
+      "col": 6,
+      "alpha_px": 6879,
+      "green_left": 0,
+      "src_box": [
+        1284,
+        865,
+        1529,
+        1140
+      ],
+      "canvas": [
+        160,
+        190
+      ]
+    },
+    {
+      "id": "H1_r4c7",
+      "file": "01_解读/3D参考帧/H1_r4c7.png",
+      "board": "H1",
+      "direction": "front",
+      "dir8": "NW",
+      "batch": "B",
+      "direction_label": "B批 · 左前斜 front-left",
+      "confidence": "中",
+      "row": 4,
+      "col": 7,
+      "alpha_px": 6903,
+      "green_left": 0,
+      "src_box": [
+        1539,
+        865,
+        1784,
+        1140
+      ],
+      "canvas": [
+        160,
+        190
+      ]
+    },
+    {
+      "id": "H1_r4c8",
+      "file": "01_解读/3D参考帧/H1_r4c8.png",
+      "board": "H1",
+      "direction": "front",
+      "dir8": "NW",
+      "batch": "B",
+      "direction_label": "B批 · 左前斜 front-left",
+      "confidence": "中",
+      "row": 4,
+      "col": 8,
+      "alpha_px": 6748,
+      "green_left": 0,
+      "src_box": [
+        1793,
+        865,
+        2038,
+        1140
+      ],
+      "canvas": [
+        160,
+        190
+      ]
+    },
+    {
+      "id": "H2_r1c1",
+      "file": "01_解读/3D参考帧/H2_r1c1.png",
+      "board": "H2",
+      "direction": "front",
+      "dir8": "NE",
+      "batch": "B",
+      "direction_label": "B批 · 右前斜 front-right",
+      "confidence": "中",
+      "row": 1,
+      "col": 1,
+      "alpha_px": 6874,
+      "green_left": 0,
+      "src_box": [
+        2,
+        10,
+        249,
+        285
+      ],
+      "canvas": [
+        160,
+        190
+      ]
+    },
+    {
+      "id": "H2_r1c2",
+      "file": "01_解读/3D参考帧/H2_r1c2.png",
+      "board": "H2",
+      "direction": "front",
+      "dir8": "NE",
+      "batch": "B",
+      "direction_label": "B批 · 右前斜 front-right",
+      "confidence": "中",
+      "row": 1,
+      "col": 2,
+      "alpha_px": 6975,
+      "green_left": 0,
+      "src_box": [
+        256,
+        10,
+        503,
+        285
+      ],
+      "canvas": [
+        160,
+        190
+      ]
+    },
+    {
+      "id": "H2_r1c3",
+      "file": "01_解读/3D参考帧/H2_r1c3.png",
+      "board": "H2",
+      "direction": "front",
+      "dir8": "NE",
+      "batch": "B",
+      "direction_label": "B批 · 右前斜 front-right",
+      "confidence": "中",
+      "row": 1,
+      "col": 3,
+      "alpha_px": 6799,
+      "green_left": 0,
+      "src_box": [
+        514,
+        10,
+        761,
+        285
+      ],
+      "canvas": [
+        160,
+        190
+      ]
+    },
+    {
+      "id": "H2_r1c4",
+      "file": "01_解读/3D参考帧/H2_r1c4.png",
+      "board": "H2",
+      "direction": "front",
+      "dir8": "NE",
+      "batch": "B",
+      "direction_label": "B批 · 右前斜 front-right",
+      "confidence": "中",
+      "row": 1,
+      "col": 4,
+      "alpha_px": 6937,
+      "green_left": 0,
+      "src_box": [
+        769,
+        10,
+        1016,
+        285
+      ],
+      "canvas": [
+        160,
+        190
+      ]
+    },
+    {
+      "id": "H2_r1c5",
+      "file": "01_解读/3D参考帧/H2_r1c5.png",
+      "board": "H2",
+      "direction": "front",
+      "dir8": "NE",
+      "batch": "B",
+      "direction_label": "B批 · 右前斜 front-right",
+      "confidence": "中",
+      "row": 1,
+      "col": 5,
+      "alpha_px": 6955,
+      "green_left": 0,
+      "src_box": [
+        1027,
+        10,
+        1274,
+        285
+      ],
+      "canvas": [
+        160,
+        190
+      ]
+    },
+    {
+      "id": "H2_r1c6",
+      "file": "01_解读/3D参考帧/H2_r1c6.png",
+      "board": "H2",
+      "direction": "front",
+      "dir8": "NE",
+      "batch": "B",
+      "direction_label": "B批 · 右前斜 front-right",
+      "confidence": "中",
+      "row": 1,
+      "col": 6,
+      "alpha_px": 6831,
+      "green_left": 0,
+      "src_box": [
+        1284,
+        10,
+        1531,
+        285
+      ],
+      "canvas": [
+        160,
+        190
+      ]
+    },
+    {
+      "id": "H2_r1c7",
+      "file": "01_解读/3D参考帧/H2_r1c7.png",
+      "board": "H2",
+      "direction": "front",
+      "dir8": "NE",
+      "batch": "B",
+      "direction_label": "B批 · 右前斜 front-right",
+      "confidence": "中",
+      "row": 1,
+      "col": 7,
+      "alpha_px": 6756,
+      "green_left": 0,
+      "src_box": [
+        1540,
+        10,
+        1787,
+        285
+      ],
+      "canvas": [
+        160,
+        190
+      ]
+    },
+    {
+      "id": "H2_r1c8",
+      "file": "01_解读/3D参考帧/H2_r1c8.png",
+      "board": "H2",
+      "direction": "front",
+      "dir8": "NE",
+      "batch": "B",
+      "direction_label": "B批 · 右前斜 front-right",
+      "confidence": "中",
+      "row": 1,
+      "col": 8,
+      "alpha_px": 6816,
+      "green_left": 0,
+      "src_box": [
+        1799,
+        10,
+        2046,
+        285
+      ],
+      "canvas": [
+        160,
+        190
+      ]
+    },
+    {
+      "id": "H2_r2c1",
+      "file": "01_解读/3D参考帧/H2_r2c1.png",
+      "board": "H2",
+      "direction": "front",
+      "dir8": "NE",
+      "batch": "B",
+      "direction_label": "B批 · 右前斜 front-right",
+      "confidence": "中",
+      "row": 2,
+      "col": 1,
+      "alpha_px": 6587,
+      "green_left": 0,
+      "src_box": [
+        2,
+        293,
+        249,
+        568
+      ],
+      "canvas": [
+        160,
+        190
+      ]
+    },
+    {
+      "id": "H2_r2c2",
+      "file": "01_解读/3D参考帧/H2_r2c2.png",
+      "board": "H2",
+      "direction": "front",
+      "dir8": "NE",
+      "batch": "B",
+      "direction_label": "B批 · 右前斜 front-right",
+      "confidence": "中",
+      "row": 2,
+      "col": 2,
+      "alpha_px": 6878,
+      "green_left": 0,
+      "src_box": [
+        256,
+        293,
+        503,
+        568
+      ],
+      "canvas": [
+        160,
+        190
+      ]
+    },
+    {
+      "id": "H2_r2c3",
+      "file": "01_解读/3D参考帧/H2_r2c3.png",
+      "board": "H2",
+      "direction": "front",
+      "dir8": "NE",
+      "batch": "B",
+      "direction_label": "B批 · 右前斜 front-right",
+      "confidence": "中",
+      "row": 2,
+      "col": 3,
+      "alpha_px": 6936,
+      "green_left": 0,
+      "src_box": [
+        514,
+        293,
+        761,
+        568
+      ],
+      "canvas": [
+        160,
+        190
+      ]
+    },
+    {
+      "id": "H2_r2c4",
+      "file": "01_解读/3D参考帧/H2_r2c4.png",
+      "board": "H2",
+      "direction": "front",
+      "dir8": "NE",
+      "batch": "B",
+      "direction_label": "B批 · 右前斜 front-right",
+      "confidence": "中",
+      "row": 2,
+      "col": 4,
+      "alpha_px": 6555,
+      "green_left": 0,
+      "src_box": [
+        769,
+        293,
+        1016,
+        568
+      ],
+      "canvas": [
+        160,
+        190
+      ]
+    },
+    {
+      "id": "H2_r2c5",
+      "file": "01_解读/3D参考帧/H2_r2c5.png",
+      "board": "H2",
+      "direction": "front",
+      "dir8": "NE",
+      "batch": "B",
+      "direction_label": "B批 · 右前斜 front-right",
+      "confidence": "中",
+      "row": 2,
+      "col": 5,
+      "alpha_px": 6779,
+      "green_left": 0,
+      "src_box": [
+        1027,
+        293,
+        1274,
+        568
+      ],
+      "canvas": [
+        160,
+        190
+      ]
+    },
+    {
+      "id": "H2_r2c6",
+      "file": "01_解读/3D参考帧/H2_r2c6.png",
+      "board": "H2",
+      "direction": "front",
+      "dir8": "NE",
+      "batch": "B",
+      "direction_label": "B批 · 右前斜 front-right",
+      "confidence": "中",
+      "row": 2,
+      "col": 6,
+      "alpha_px": 6445,
+      "green_left": 0,
+      "src_box": [
+        1284,
+        293,
+        1531,
+        568
+      ],
+      "canvas": [
+        160,
+        190
+      ]
+    },
+    {
+      "id": "H2_r2c7",
+      "file": "01_解读/3D参考帧/H2_r2c7.png",
+      "board": "H2",
+      "direction": "front",
+      "dir8": "NE",
+      "batch": "B",
+      "direction_label": "B批 · 右前斜 front-right",
+      "confidence": "中",
+      "row": 2,
+      "col": 7,
+      "alpha_px": 6702,
+      "green_left": 0,
+      "src_box": [
+        1540,
+        293,
+        1787,
+        568
+      ],
+      "canvas": [
+        160,
+        190
+      ]
+    },
+    {
+      "id": "H2_r2c8",
+      "file": "01_解读/3D参考帧/H2_r2c8.png",
+      "board": "H2",
+      "direction": "front",
+      "dir8": "NE",
+      "batch": "B",
+      "direction_label": "B批 · 右前斜 front-right",
+      "confidence": "中",
+      "row": 2,
+      "col": 8,
+      "alpha_px": 6290,
+      "green_left": 0,
+      "src_box": [
+        1799,
+        293,
+        2046,
+        568
+      ],
+      "canvas": [
+        160,
+        190
+      ]
+    },
+    {
+      "id": "H2_r3c1",
+      "file": "01_解读/3D参考帧/H2_r3c1.png",
+      "board": "H2",
+      "direction": "front",
+      "dir8": "NE",
+      "batch": "B",
+      "direction_label": "B批 · 右前斜 front-right",
+      "confidence": "中",
+      "row": 3,
+      "col": 1,
+      "alpha_px": 6485,
+      "green_left": 0,
+      "src_box": [
+        2,
+        579,
+        249,
+        854
+      ],
+      "canvas": [
+        160,
+        190
+      ]
+    },
+    {
+      "id": "H2_r3c2",
+      "file": "01_解读/3D参考帧/H2_r3c2.png",
+      "board": "H2",
+      "direction": "front",
+      "dir8": "NE",
+      "batch": "B",
+      "direction_label": "B批 · 右前斜 front-right",
+      "confidence": "中",
+      "row": 3,
+      "col": 2,
+      "alpha_px": 6787,
+      "green_left": 0,
+      "src_box": [
+        256,
+        579,
+        503,
+        854
+      ],
+      "canvas": [
+        160,
+        190
+      ]
+    },
+    {
+      "id": "H2_r3c3",
+      "file": "01_解读/3D参考帧/H2_r3c3.png",
+      "board": "H2",
+      "direction": "front",
+      "dir8": "NE",
+      "batch": "B",
+      "direction_label": "B批 · 右前斜 front-right",
+      "confidence": "中",
+      "row": 3,
+      "col": 3,
+      "alpha_px": 6519,
+      "green_left": 0,
+      "src_box": [
+        514,
+        579,
+        761,
+        854
+      ],
+      "canvas": [
+        160,
+        190
+      ]
+    },
+    {
+      "id": "H2_r3c4",
+      "file": "01_解读/3D参考帧/H2_r3c4.png",
+      "board": "H2",
+      "direction": "front",
+      "dir8": "NE",
+      "batch": "B",
+      "direction_label": "B批 · 右前斜 front-right",
+      "confidence": "中",
+      "row": 3,
+      "col": 4,
+      "alpha_px": 6603,
+      "green_left": 0,
+      "src_box": [
+        769,
+        579,
+        1016,
+        854
+      ],
+      "canvas": [
+        160,
+        190
+      ]
+    },
+    {
+      "id": "H2_r3c5",
+      "file": "01_解读/3D参考帧/H2_r3c5.png",
+      "board": "H2",
+      "direction": "front",
+      "dir8": "NE",
+      "batch": "B",
+      "direction_label": "B批 · 右前斜 front-right",
+      "confidence": "中",
+      "row": 3,
+      "col": 5,
+      "alpha_px": 6887,
+      "green_left": 0,
+      "src_box": [
+        1027,
+        579,
+        1274,
+        854
+      ],
+      "canvas": [
+        160,
+        190
+      ]
+    },
+    {
+      "id": "H2_r3c6",
+      "file": "01_解读/3D参考帧/H2_r3c6.png",
+      "board": "H2",
+      "direction": "front",
+      "dir8": "NE",
+      "batch": "B",
+      "direction_label": "B批 · 右前斜 front-right",
+      "confidence": "中",
+      "row": 3,
+      "col": 6,
+      "alpha_px": 6715,
+      "green_left": 0,
+      "src_box": [
+        1284,
+        579,
+        1531,
+        854
+      ],
+      "canvas": [
+        160,
+        190
+      ]
+    },
+    {
+      "id": "H2_r3c7",
+      "file": "01_解读/3D参考帧/H2_r3c7.png",
+      "board": "H2",
+      "direction": "front",
+      "dir8": "NE",
+      "batch": "B",
+      "direction_label": "B批 · 右前斜 front-right",
+      "confidence": "中",
+      "row": 3,
+      "col": 7,
+      "alpha_px": 6727,
+      "green_left": 0,
+      "src_box": [
+        1540,
+        579,
+        1787,
+        854
+      ],
+      "canvas": [
+        160,
+        190
+      ]
+    },
+    {
+      "id": "H2_r3c8",
+      "file": "01_解读/3D参考帧/H2_r3c8.png",
+      "board": "H2",
+      "direction": "front",
+      "dir8": "NE",
+      "batch": "B",
+      "direction_label": "B批 · 右前斜 front-right",
+      "confidence": "中",
+      "row": 3,
+      "col": 8,
+      "alpha_px": 6857,
+      "green_left": 0,
+      "src_box": [
+        1799,
+        579,
+        2046,
+        854
+      ],
+      "canvas": [
+        160,
+        190
+      ]
+    },
+    {
+      "id": "H2_r4c1",
+      "file": "01_解读/3D参考帧/H2_r4c1.png",
+      "board": "H2",
+      "direction": "front",
+      "dir8": "NE",
+      "batch": "B",
+      "direction_label": "B批 · 右前斜 front-right",
+      "confidence": "中",
+      "row": 4,
+      "col": 1,
+      "alpha_px": 6869,
+      "green_left": 0,
+      "src_box": [
+        2,
+        865,
+        249,
+        1140
+      ],
+      "canvas": [
+        160,
+        190
+      ]
+    },
+    {
+      "id": "H2_r4c2",
+      "file": "01_解读/3D参考帧/H2_r4c2.png",
+      "board": "H2",
+      "direction": "front",
+      "dir8": "NE",
+      "batch": "B",
+      "direction_label": "B批 · 右前斜 front-right",
+      "confidence": "中",
+      "row": 4,
+      "col": 2,
+      "alpha_px": 6792,
+      "green_left": 0,
+      "src_box": [
+        256,
+        865,
+        503,
+        1140
+      ],
+      "canvas": [
+        160,
+        190
+      ]
+    },
+    {
+      "id": "H2_r4c3",
+      "file": "01_解读/3D参考帧/H2_r4c3.png",
+      "board": "H2",
+      "direction": "front",
+      "dir8": "NE",
+      "batch": "B",
+      "direction_label": "B批 · 右前斜 front-right",
+      "confidence": "中",
+      "row": 4,
+      "col": 3,
+      "alpha_px": 6994,
+      "green_left": 0,
+      "src_box": [
+        514,
+        865,
+        761,
+        1140
+      ],
+      "canvas": [
+        160,
+        190
+      ]
+    },
+    {
+      "id": "H2_r4c4",
+      "file": "01_解读/3D参考帧/H2_r4c4.png",
+      "board": "H2",
+      "direction": "front",
+      "dir8": "NE",
+      "batch": "B",
+      "direction_label": "B批 · 右前斜 front-right",
+      "confidence": "中",
+      "row": 4,
+      "col": 4,
+      "alpha_px": 6689,
+      "green_left": 0,
+      "src_box": [
+        769,
+        865,
+        1016,
+        1140
+      ],
+      "canvas": [
+        160,
+        190
+      ]
+    },
+    {
+      "id": "H2_r4c5",
+      "file": "01_解读/3D参考帧/H2_r4c5.png",
+      "board": "H2",
+      "direction": "front",
+      "dir8": "NE",
+      "batch": "B",
+      "direction_label": "B批 · 右前斜 front-right",
+      "confidence": "中",
+      "row": 4,
+      "col": 5,
+      "alpha_px": 6628,
+      "green_left": 0,
+      "src_box": [
+        1027,
+        865,
+        1274,
+        1140
+      ],
+      "canvas": [
+        160,
+        190
+      ]
+    },
+    {
+      "id": "H2_r4c6",
+      "file": "01_解读/3D参考帧/H2_r4c6.png",
+      "board": "H2",
+      "direction": "front",
+      "dir8": "NE",
+      "batch": "B",
+      "direction_label": "B批 · 右前斜 front-right",
+      "confidence": "中",
+      "row": 4,
+      "col": 6,
+      "alpha_px": 6776,
+      "green_left": 0,
+      "src_box": [
+        1284,
+        865,
+        1531,
+        1140
+      ],
+      "canvas": [
+        160,
+        190
+      ]
+    },
+    {
+      "id": "H2_r4c7",
+      "file": "01_解读/3D参考帧/H2_r4c7.png",
+      "board": "H2",
+      "direction": "front",
+      "dir8": "NE",
+      "batch": "B",
+      "direction_label": "B批 · 右前斜 front-right",
+      "confidence": "中",
+      "row": 4,
+      "col": 7,
+      "alpha_px": 6809,
+      "green_left": 0,
+      "src_box": [
+        1540,
+        865,
+        1787,
+        1140
+      ],
+      "canvas": [
+        160,
+        190
+      ]
+    },
+    {
+      "id": "H2_r4c8",
+      "file": "01_解读/3D参考帧/H2_r4c8.png",
+      "board": "H2",
+      "direction": "front",
+      "dir8": "NE",
+      "batch": "B",
+      "direction_label": "B批 · 右前斜 front-right",
+      "confidence": "中",
+      "row": 4,
+      "col": 8,
+      "alpha_px": 6629,
+      "green_left": 0,
+      "src_box": [
+        1799,
+        865,
+        2046,
+        1140
+      ],
+      "canvas": [
+        160,
+        190
+      ]
+    },
+    {
+      "id": "H3_r1c1",
+      "file": "01_解读/3D参考帧/H3_r1c1.png",
+      "board": "H3",
+      "direction": "side",
+      "dir8": "E",
+      "batch": "B",
+      "direction_label": "B批 · 右侧 right",
+      "confidence": "高",
+      "row": 1,
+      "col": 1,
+      "alpha_px": 8630,
+      "green_left": 0,
+      "src_box": [
+        2,
+        12,
+        247,
+        283
+      ],
+      "canvas": [
+        160,
+        190
+      ]
+    },
+    {
+      "id": "H3_r1c2",
+      "file": "01_解读/3D参考帧/H3_r1c2.png",
+      "board": "H3",
+      "direction": "side",
+      "dir8": "E",
+      "batch": "B",
+      "direction_label": "B批 · 右侧 right",
+      "confidence": "高",
+      "row": 1,
+      "col": 2,
+      "alpha_px": 8596,
+      "green_left": 0,
+      "src_box": [
+        255,
+        12,
+        500,
+        283
+      ],
+      "canvas": [
+        160,
+        190
+      ]
+    },
+    {
+      "id": "H3_r1c3",
+      "file": "01_解读/3D参考帧/H3_r1c3.png",
+      "board": "H3",
+      "direction": "side",
+      "dir8": "E",
+      "batch": "B",
+      "direction_label": "B批 · 右侧 right",
+      "confidence": "高",
+      "row": 1,
+      "col": 3,
+      "alpha_px": 8776,
+      "green_left": 0,
+      "src_box": [
+        512,
+        12,
+        757,
+        283
+      ],
+      "canvas": [
+        160,
+        190
+      ]
+    },
+    {
+      "id": "H3_r1c4",
+      "file": "01_解读/3D参考帧/H3_r1c4.png",
+      "board": "H3",
+      "direction": "side",
+      "dir8": "E",
+      "batch": "B",
+      "direction_label": "B批 · 右侧 right",
+      "confidence": "高",
+      "row": 1,
+      "col": 4,
+      "alpha_px": 8630,
+      "green_left": 0,
+      "src_box": [
+        772,
+        12,
+        1017,
+        283
+      ],
+      "canvas": [
+        160,
+        190
+      ]
+    },
+    {
+      "id": "H3_r1c5",
+      "file": "01_解读/3D参考帧/H3_r1c5.png",
+      "board": "H3",
+      "direction": "side",
+      "dir8": "E",
+      "batch": "B",
+      "direction_label": "B批 · 右侧 right",
+      "confidence": "高",
+      "row": 1,
+      "col": 5,
+      "alpha_px": 8625,
+      "green_left": 0,
+      "src_box": [
+        1026,
+        12,
+        1271,
+        283
+      ],
+      "canvas": [
+        160,
+        190
+      ]
+    },
+    {
+      "id": "H3_r1c6",
+      "file": "01_解读/3D参考帧/H3_r1c6.png",
+      "board": "H3",
+      "direction": "side",
+      "dir8": "E",
+      "batch": "B",
+      "direction_label": "B批 · 右侧 right",
+      "confidence": "高",
+      "row": 1,
+      "col": 6,
+      "alpha_px": 8472,
+      "green_left": 0,
+      "src_box": [
+        1284,
+        12,
+        1529,
+        283
+      ],
+      "canvas": [
+        160,
+        190
+      ]
+    },
+    {
+      "id": "H3_r1c7",
+      "file": "01_解读/3D参考帧/H3_r1c7.png",
+      "board": "H3",
+      "direction": "side",
+      "dir8": "E",
+      "batch": "B",
+      "direction_label": "B批 · 右侧 right",
+      "confidence": "高",
+      "row": 1,
+      "col": 7,
+      "alpha_px": 8316,
+      "green_left": 0,
+      "src_box": [
+        1540,
+        12,
+        1785,
+        283
+      ],
+      "canvas": [
+        160,
+        190
+      ]
+    },
+    {
+      "id": "H3_r1c8",
+      "file": "01_解读/3D参考帧/H3_r1c8.png",
+      "board": "H3",
+      "direction": "side",
+      "dir8": "E",
+      "batch": "B",
+      "direction_label": "B批 · 右侧 right",
+      "confidence": "高",
+      "row": 1,
+      "col": 8,
+      "alpha_px": 8594,
+      "green_left": 0,
+      "src_box": [
+        1796,
+        12,
+        2041,
+        283
+      ],
+      "canvas": [
+        160,
+        190
+      ]
+    },
+    {
+      "id": "H3_r2c1",
+      "file": "01_解读/3D参考帧/H3_r2c1.png",
+      "board": "H3",
+      "direction": "side",
+      "dir8": "E",
+      "batch": "B",
+      "direction_label": "B批 · 右侧 right",
+      "confidence": "高",
+      "row": 2,
+      "col": 1,
+      "alpha_px": 7779,
+      "green_left": 0,
+      "src_box": [
+        2,
+        295,
+        247,
+        566
+      ],
+      "canvas": [
+        160,
+        190
+      ]
+    },
+    {
+      "id": "H3_r2c2",
+      "file": "01_解读/3D参考帧/H3_r2c2.png",
+      "board": "H3",
+      "direction": "side",
+      "dir8": "E",
+      "batch": "B",
+      "direction_label": "B批 · 右侧 right",
+      "confidence": "高",
+      "row": 2,
+      "col": 2,
+      "alpha_px": 7869,
+      "green_left": 0,
+      "src_box": [
+        255,
+        295,
+        500,
+        566
+      ],
+      "canvas": [
+        160,
+        190
+      ]
+    },
+    {
+      "id": "H3_r2c3",
+      "file": "01_解读/3D参考帧/H3_r2c3.png",
+      "board": "H3",
+      "direction": "side",
+      "dir8": "E",
+      "batch": "B",
+      "direction_label": "B批 · 右侧 right",
+      "confidence": "高",
+      "row": 2,
+      "col": 3,
+      "alpha_px": 8150,
+      "green_left": 0,
+      "src_box": [
+        512,
+        295,
+        757,
+        566
+      ],
+      "canvas": [
+        160,
+        190
+      ]
+    },
+    {
+      "id": "H3_r2c4",
+      "file": "01_解读/3D参考帧/H3_r2c4.png",
+      "board": "H3",
+      "direction": "side",
+      "dir8": "E",
+      "batch": "B",
+      "direction_label": "B批 · 右侧 right",
+      "confidence": "高",
+      "row": 2,
+      "col": 4,
+      "alpha_px": 8420,
+      "green_left": 0,
+      "src_box": [
+        772,
+        295,
+        1017,
+        566
+      ],
+      "canvas": [
+        160,
+        190
+      ]
+    },
+    {
+      "id": "H3_r2c5",
+      "file": "01_解读/3D参考帧/H3_r2c5.png",
+      "board": "H3",
+      "direction": "side",
+      "dir8": "E",
+      "batch": "B",
+      "direction_label": "B批 · 右侧 right",
+      "confidence": "高",
+      "row": 2,
+      "col": 5,
+      "alpha_px": 8430,
+      "green_left": 0,
+      "src_box": [
+        1026,
+        295,
+        1271,
+        566
+      ],
+      "canvas": [
+        160,
+        190
+      ]
+    },
+    {
+      "id": "H3_r2c6",
+      "file": "01_解读/3D参考帧/H3_r2c6.png",
+      "board": "H3",
+      "direction": "side",
+      "dir8": "E",
+      "batch": "B",
+      "direction_label": "B批 · 右侧 right",
+      "confidence": "高",
+      "row": 2,
+      "col": 6,
+      "alpha_px": 8427,
+      "green_left": 0,
+      "src_box": [
+        1284,
+        295,
+        1529,
+        566
+      ],
+      "canvas": [
+        160,
+        190
+      ]
+    },
+    {
+      "id": "H3_r2c7",
+      "file": "01_解读/3D参考帧/H3_r2c7.png",
+      "board": "H3",
+      "direction": "side",
+      "dir8": "E",
+      "batch": "B",
+      "direction_label": "B批 · 右侧 right",
+      "confidence": "高",
+      "row": 2,
+      "col": 7,
+      "alpha_px": 8488,
+      "green_left": 0,
+      "src_box": [
+        1540,
+        295,
+        1785,
+        566
+      ],
+      "canvas": [
+        160,
+        190
+      ]
+    },
+    {
+      "id": "H3_r2c8",
+      "file": "01_解读/3D参考帧/H3_r2c8.png",
+      "board": "H3",
+      "direction": "side",
+      "dir8": "E",
+      "batch": "B",
+      "direction_label": "B批 · 右侧 right",
+      "confidence": "高",
+      "row": 2,
+      "col": 8,
+      "alpha_px": 8455,
+      "green_left": 0,
+      "src_box": [
+        1796,
+        295,
+        2041,
+        566
+      ],
+      "canvas": [
+        160,
+        190
+      ]
+    },
+    {
+      "id": "H3_r3c1",
+      "file": "01_解读/3D参考帧/H3_r3c1.png",
+      "board": "H3",
+      "direction": "side",
+      "dir8": "E",
+      "batch": "B",
+      "direction_label": "B批 · 右侧 right",
+      "confidence": "高",
+      "row": 3,
+      "col": 1,
+      "alpha_px": 8374,
+      "green_left": 0,
+      "src_box": [
+        2,
+        576,
+        247,
+        847
+      ],
+      "canvas": [
+        160,
+        190
+      ]
+    },
+    {
+      "id": "H3_r3c2",
+      "file": "01_解读/3D参考帧/H3_r3c2.png",
+      "board": "H3",
+      "direction": "side",
+      "dir8": "E",
+      "batch": "B",
+      "direction_label": "B批 · 右侧 right",
+      "confidence": "高",
+      "row": 3,
+      "col": 2,
+      "alpha_px": 8476,
+      "green_left": 0,
+      "src_box": [
+        255,
+        576,
+        500,
+        847
+      ],
+      "canvas": [
+        160,
+        190
+      ]
+    },
+    {
+      "id": "H3_r3c3",
+      "file": "01_解读/3D参考帧/H3_r3c3.png",
+      "board": "H3",
+      "direction": "side",
+      "dir8": "E",
+      "batch": "B",
+      "direction_label": "B批 · 右侧 right",
+      "confidence": "高",
+      "row": 3,
+      "col": 3,
+      "alpha_px": 8245,
+      "green_left": 0,
+      "src_box": [
+        512,
+        576,
+        757,
+        847
+      ],
+      "canvas": [
+        160,
+        190
+      ]
+    },
+    {
+      "id": "H3_r3c4",
+      "file": "01_解读/3D参考帧/H3_r3c4.png",
+      "board": "H3",
+      "direction": "side",
+      "dir8": "E",
+      "batch": "B",
+      "direction_label": "B批 · 右侧 right",
+      "confidence": "高",
+      "row": 3,
+      "col": 4,
+      "alpha_px": 8162,
+      "green_left": 0,
+      "src_box": [
+        772,
+        576,
+        1017,
+        847
+      ],
+      "canvas": [
+        160,
+        190
+      ]
+    },
+    {
+      "id": "H3_r3c5",
+      "file": "01_解读/3D参考帧/H3_r3c5.png",
+      "board": "H3",
+      "direction": "side",
+      "dir8": "E",
+      "batch": "B",
+      "direction_label": "B批 · 右侧 right",
+      "confidence": "高",
+      "row": 3,
+      "col": 5,
+      "alpha_px": 8429,
+      "green_left": 0,
+      "src_box": [
+        1026,
+        576,
+        1271,
+        847
+      ],
+      "canvas": [
+        160,
+        190
+      ]
+    },
+    {
+      "id": "H3_r3c6",
+      "file": "01_解读/3D参考帧/H3_r3c6.png",
+      "board": "H3",
+      "direction": "side",
+      "dir8": "E",
+      "batch": "B",
+      "direction_label": "B批 · 右侧 right",
+      "confidence": "高",
+      "row": 3,
+      "col": 6,
+      "alpha_px": 8596,
+      "green_left": 0,
+      "src_box": [
+        1284,
+        576,
+        1529,
+        847
+      ],
+      "canvas": [
+        160,
+        190
+      ]
+    },
+    {
+      "id": "H3_r3c7",
+      "file": "01_解读/3D参考帧/H3_r3c7.png",
+      "board": "H3",
+      "direction": "side",
+      "dir8": "E",
+      "batch": "B",
+      "direction_label": "B批 · 右侧 right",
+      "confidence": "高",
+      "row": 3,
+      "col": 7,
+      "alpha_px": 8452,
+      "green_left": 0,
+      "src_box": [
+        1540,
+        576,
+        1785,
+        847
+      ],
+      "canvas": [
+        160,
+        190
+      ]
+    },
+    {
+      "id": "H3_r3c8",
+      "file": "01_解读/3D参考帧/H3_r3c8.png",
+      "board": "H3",
+      "direction": "side",
+      "dir8": "E",
+      "batch": "B",
+      "direction_label": "B批 · 右侧 right",
+      "confidence": "高",
+      "row": 3,
+      "col": 8,
+      "alpha_px": 8546,
+      "green_left": 0,
+      "src_box": [
+        1796,
+        576,
+        2041,
+        847
+      ],
+      "canvas": [
+        160,
+        190
+      ]
+    },
+    {
+      "id": "H3_r4c1",
+      "file": "01_解读/3D参考帧/H3_r4c1.png",
+      "board": "H3",
+      "direction": "side",
+      "dir8": "E",
+      "batch": "B",
+      "direction_label": "B批 · 右侧 right",
+      "confidence": "高",
+      "row": 4,
+      "col": 1,
+      "alpha_px": 8781,
+      "green_left": 0,
+      "src_box": [
+        2,
+        866,
+        247,
+        1137
+      ],
+      "canvas": [
+        160,
+        190
+      ]
+    },
+    {
+      "id": "H3_r4c2",
+      "file": "01_解读/3D参考帧/H3_r4c2.png",
+      "board": "H3",
+      "direction": "side",
+      "dir8": "E",
+      "batch": "B",
+      "direction_label": "B批 · 右侧 right",
+      "confidence": "高",
+      "row": 4,
+      "col": 2,
+      "alpha_px": 8593,
+      "green_left": 0,
+      "src_box": [
+        255,
+        866,
+        500,
+        1137
+      ],
+      "canvas": [
+        160,
+        190
+      ]
+    },
+    {
+      "id": "H3_r4c3",
+      "file": "01_解读/3D参考帧/H3_r4c3.png",
+      "board": "H3",
+      "direction": "side",
+      "dir8": "E",
+      "batch": "B",
+      "direction_label": "B批 · 右侧 right",
+      "confidence": "高",
+      "row": 4,
+      "col": 3,
+      "alpha_px": 8840,
+      "green_left": 0,
+      "src_box": [
+        512,
+        866,
+        757,
+        1137
+      ],
+      "canvas": [
+        160,
+        190
+      ]
+    },
+    {
+      "id": "H3_r4c4",
+      "file": "01_解读/3D参考帧/H3_r4c4.png",
+      "board": "H3",
+      "direction": "side",
+      "dir8": "E",
+      "batch": "B",
+      "direction_label": "B批 · 右侧 right",
+      "confidence": "高",
+      "row": 4,
+      "col": 4,
+      "alpha_px": 8090,
+      "green_left": 0,
+      "src_box": [
+        772,
+        866,
+        1017,
+        1137
+      ],
+      "canvas": [
+        160,
+        190
+      ]
+    },
+    {
+      "id": "H3_r4c5",
+      "file": "01_解读/3D参考帧/H3_r4c5.png",
+      "board": "H3",
+      "direction": "side",
+      "dir8": "E",
+      "batch": "B",
+      "direction_label": "B批 · 右侧 right",
+      "confidence": "高",
+      "row": 4,
+      "col": 5,
+      "alpha_px": 8294,
+      "green_left": 0,
+      "src_box": [
+        1026,
+        866,
+        1271,
+        1137
+      ],
+      "canvas": [
+        160,
+        190
+      ]
+    },
+    {
+      "id": "H3_r4c6",
+      "file": "01_解读/3D参考帧/H3_r4c6.png",
+      "board": "H3",
+      "direction": "side",
+      "dir8": "E",
+      "batch": "B",
+      "direction_label": "B批 · 右侧 right",
+      "confidence": "高",
+      "row": 4,
+      "col": 6,
+      "alpha_px": 8580,
+      "green_left": 0,
+      "src_box": [
+        1284,
+        866,
+        1529,
+        1137
+      ],
+      "canvas": [
+        160,
+        190
+      ]
+    },
+    {
+      "id": "H3_r4c7",
+      "file": "01_解读/3D参考帧/H3_r4c7.png",
+      "board": "H3",
+      "direction": "side",
+      "dir8": "E",
+      "batch": "B",
+      "direction_label": "B批 · 右侧 right",
+      "confidence": "高",
+      "row": 4,
+      "col": 7,
+      "alpha_px": 8271,
+      "green_left": 0,
+      "src_box": [
+        1540,
+        866,
+        1785,
+        1137
+      ],
+      "canvas": [
+        160,
+        190
+      ]
+    },
+    {
+      "id": "H3_r4c8",
+      "file": "01_解读/3D参考帧/H3_r4c8.png",
+      "board": "H3",
+      "direction": "side",
+      "dir8": "E",
+      "batch": "B",
+      "direction_label": "B批 · 右侧 right",
+      "confidence": "高",
+      "row": 4,
+      "col": 8,
+      "alpha_px": 8233,
+      "green_left": 0,
+      "src_box": [
+        1796,
+        866,
+        2041,
+        1137
+      ],
+      "canvas": [
+        160,
+        190
+      ]
+    },
+    {
+      "id": "H4_r1c1",
+      "file": "01_解读/3D参考帧/H4_r1c1.png",
+      "board": "H4",
+      "direction": "side",
+      "dir8": "W",
+      "batch": "B",
+      "direction_label": "B批 · 左侧 left",
+      "confidence": "高",
+      "row": 1,
+      "col": 1,
+      "alpha_px": 8637,
+      "green_left": 0,
+      "src_box": [
+        7,
+        12,
+        252,
+        283
+      ],
+      "canvas": [
+        160,
+        190
+      ]
+    },
+    {
+      "id": "H4_r1c2",
+      "file": "01_解读/3D参考帧/H4_r1c2.png",
+      "board": "H4",
+      "direction": "side",
+      "dir8": "W",
+      "batch": "B",
+      "direction_label": "B批 · 左侧 left",
+      "confidence": "高",
+      "row": 1,
+      "col": 2,
+      "alpha_px": 8583,
+      "green_left": 0,
+      "src_box": [
+        266,
+        12,
+        511,
+        283
+      ],
+      "canvas": [
+        160,
+        190
+      ]
+    },
+    {
+      "id": "H4_r1c3",
+      "file": "01_解读/3D参考帧/H4_r1c3.png",
+      "board": "H4",
+      "direction": "side",
+      "dir8": "W",
+      "batch": "B",
+      "direction_label": "B批 · 左侧 left",
+      "confidence": "高",
+      "row": 1,
+      "col": 3,
+      "alpha_px": 8754,
+      "green_left": 0,
+      "src_box": [
+        520,
+        12,
+        765,
+        283
+      ],
+      "canvas": [
+        160,
+        190
+      ]
+    },
+    {
+      "id": "H4_r1c4",
+      "file": "01_解读/3D参考帧/H4_r1c4.png",
+      "board": "H4",
+      "direction": "side",
+      "dir8": "W",
+      "batch": "B",
+      "direction_label": "B批 · 左侧 left",
+      "confidence": "高",
+      "row": 1,
+      "col": 4,
+      "alpha_px": 8638,
+      "green_left": 0,
+      "src_box": [
+        773,
+        12,
+        1018,
+        283
+      ],
+      "canvas": [
+        160,
+        190
+      ]
+    },
+    {
+      "id": "H4_r1c5",
+      "file": "01_解读/3D参考帧/H4_r1c5.png",
+      "board": "H4",
+      "direction": "side",
+      "dir8": "W",
+      "batch": "B",
+      "direction_label": "B批 · 左侧 left",
+      "confidence": "高",
+      "row": 1,
+      "col": 5,
+      "alpha_px": 8623,
+      "green_left": 0,
+      "src_box": [
+        1030,
+        12,
+        1275,
+        283
+      ],
+      "canvas": [
+        160,
+        190
+      ]
+    },
+    {
+      "id": "H4_r1c6",
+      "file": "01_解读/3D参考帧/H4_r1c6.png",
+      "board": "H4",
+      "direction": "side",
+      "dir8": "W",
+      "batch": "B",
+      "direction_label": "B批 · 左侧 left",
+      "confidence": "高",
+      "row": 1,
+      "col": 6,
+      "alpha_px": 8472,
+      "green_left": 0,
+      "src_box": [
+        1284,
+        12,
+        1529,
+        283
+      ],
+      "canvas": [
+        160,
+        190
+      ]
+    },
+    {
+      "id": "H4_r1c7",
+      "file": "01_解读/3D参考帧/H4_r1c7.png",
+      "board": "H4",
+      "direction": "side",
+      "dir8": "W",
+      "batch": "B",
+      "direction_label": "B批 · 左侧 left",
+      "confidence": "高",
+      "row": 1,
+      "col": 7,
+      "alpha_px": 8325,
+      "green_left": 0,
+      "src_box": [
+        1541,
+        12,
+        1786,
+        283
+      ],
+      "canvas": [
+        160,
+        190
+      ]
+    },
+    {
+      "id": "H4_r1c8",
+      "file": "01_解读/3D参考帧/H4_r1c8.png",
+      "board": "H4",
+      "direction": "side",
+      "dir8": "W",
+      "batch": "B",
+      "direction_label": "B批 · 左侧 left",
+      "confidence": "高",
+      "row": 1,
+      "col": 8,
+      "alpha_px": 8608,
+      "green_left": 0,
+      "src_box": [
+        1797,
+        12,
+        2042,
+        283
+      ],
+      "canvas": [
+        160,
+        190
+      ]
+    },
+    {
+      "id": "H4_r2c1",
+      "file": "01_解读/3D参考帧/H4_r2c1.png",
+      "board": "H4",
+      "direction": "side",
+      "dir8": "W",
+      "batch": "B",
+      "direction_label": "B批 · 左侧 left",
+      "confidence": "高",
+      "row": 2,
+      "col": 1,
+      "alpha_px": 7781,
+      "green_left": 0,
+      "src_box": [
+        7,
+        295,
+        252,
+        566
+      ],
+      "canvas": [
+        160,
+        190
+      ]
+    },
+    {
+      "id": "H4_r2c2",
+      "file": "01_解读/3D参考帧/H4_r2c2.png",
+      "board": "H4",
+      "direction": "side",
+      "dir8": "W",
+      "batch": "B",
+      "direction_label": "B批 · 左侧 left",
+      "confidence": "高",
+      "row": 2,
+      "col": 2,
+      "alpha_px": 7869,
+      "green_left": 0,
+      "src_box": [
+        266,
+        295,
+        511,
+        566
+      ],
+      "canvas": [
+        160,
+        190
+      ]
+    },
+    {
+      "id": "H4_r2c3",
+      "file": "01_解读/3D参考帧/H4_r2c3.png",
+      "board": "H4",
+      "direction": "side",
+      "dir8": "W",
+      "batch": "B",
+      "direction_label": "B批 · 左侧 left",
+      "confidence": "高",
+      "row": 2,
+      "col": 3,
+      "alpha_px": 8151,
+      "green_left": 0,
+      "src_box": [
+        520,
+        295,
+        765,
+        566
+      ],
+      "canvas": [
+        160,
+        190
+      ]
+    },
+    {
+      "id": "H4_r2c4",
+      "file": "01_解读/3D参考帧/H4_r2c4.png",
+      "board": "H4",
+      "direction": "side",
+      "dir8": "W",
+      "batch": "B",
+      "direction_label": "B批 · 左侧 left",
+      "confidence": "高",
+      "row": 2,
+      "col": 4,
+      "alpha_px": 8422,
+      "green_left": 0,
+      "src_box": [
+        773,
+        295,
+        1018,
+        566
+      ],
+      "canvas": [
+        160,
+        190
+      ]
+    },
+    {
+      "id": "H4_r2c5",
+      "file": "01_解读/3D参考帧/H4_r2c5.png",
+      "board": "H4",
+      "direction": "side",
+      "dir8": "W",
+      "batch": "B",
+      "direction_label": "B批 · 左侧 left",
+      "confidence": "高",
+      "row": 2,
+      "col": 5,
+      "alpha_px": 8429,
+      "green_left": 0,
+      "src_box": [
+        1030,
+        295,
+        1275,
+        566
+      ],
+      "canvas": [
+        160,
+        190
+      ]
+    },
+    {
+      "id": "H4_r2c6",
+      "file": "01_解读/3D参考帧/H4_r2c6.png",
+      "board": "H4",
+      "direction": "side",
+      "dir8": "W",
+      "batch": "B",
+      "direction_label": "B批 · 左侧 left",
+      "confidence": "高",
+      "row": 2,
+      "col": 6,
+      "alpha_px": 8430,
+      "green_left": 0,
+      "src_box": [
+        1284,
+        295,
+        1529,
+        566
+      ],
+      "canvas": [
+        160,
+        190
+      ]
+    },
+    {
+      "id": "H4_r2c7",
+      "file": "01_解读/3D参考帧/H4_r2c7.png",
+      "board": "H4",
+      "direction": "side",
+      "dir8": "W",
+      "batch": "B",
+      "direction_label": "B批 · 左侧 left",
+      "confidence": "高",
+      "row": 2,
+      "col": 7,
+      "alpha_px": 8489,
+      "green_left": 0,
+      "src_box": [
+        1541,
+        295,
+        1786,
+        566
+      ],
+      "canvas": [
+        160,
+        190
+      ]
+    },
+    {
+      "id": "H4_r2c8",
+      "file": "01_解读/3D参考帧/H4_r2c8.png",
+      "board": "H4",
+      "direction": "side",
+      "dir8": "W",
+      "batch": "B",
+      "direction_label": "B批 · 左侧 left",
+      "confidence": "高",
+      "row": 2,
+      "col": 8,
+      "alpha_px": 8458,
+      "green_left": 0,
+      "src_box": [
+        1797,
+        295,
+        2042,
+        566
+      ],
+      "canvas": [
+        160,
+        190
+      ]
+    },
+    {
+      "id": "H4_r3c1",
+      "file": "01_解读/3D参考帧/H4_r3c1.png",
+      "board": "H4",
+      "direction": "side",
+      "dir8": "W",
+      "batch": "B",
+      "direction_label": "B批 · 左侧 left",
+      "confidence": "高",
+      "row": 3,
+      "col": 1,
+      "alpha_px": 8369,
+      "green_left": 0,
+      "src_box": [
+        7,
+        576,
+        252,
+        847
+      ],
+      "canvas": [
+        160,
+        190
+      ]
+    },
+    {
+      "id": "H4_r3c2",
+      "file": "01_解读/3D参考帧/H4_r3c2.png",
+      "board": "H4",
+      "direction": "side",
+      "dir8": "W",
+      "batch": "B",
+      "direction_label": "B批 · 左侧 left",
+      "confidence": "高",
+      "row": 3,
+      "col": 2,
+      "alpha_px": 8488,
+      "green_left": 0,
+      "src_box": [
+        266,
+        576,
+        511,
+        847
+      ],
+      "canvas": [
+        160,
+        190
+      ]
+    },
+    {
+      "id": "H4_r3c3",
+      "file": "01_解读/3D参考帧/H4_r3c3.png",
+      "board": "H4",
+      "direction": "side",
+      "dir8": "W",
+      "batch": "B",
+      "direction_label": "B批 · 左侧 left",
+      "confidence": "高",
+      "row": 3,
+      "col": 3,
+      "alpha_px": 8243,
+      "green_left": 0,
+      "src_box": [
+        520,
+        576,
+        765,
+        847
+      ],
+      "canvas": [
+        160,
+        190
+      ]
+    },
+    {
+      "id": "H4_r3c4",
+      "file": "01_解读/3D参考帧/H4_r3c4.png",
+      "board": "H4",
+      "direction": "side",
+      "dir8": "W",
+      "batch": "B",
+      "direction_label": "B批 · 左侧 left",
+      "confidence": "高",
+      "row": 3,
+      "col": 4,
+      "alpha_px": 8153,
+      "green_left": 0,
+      "src_box": [
+        773,
+        576,
+        1018,
+        847
+      ],
+      "canvas": [
+        160,
+        190
+      ]
+    },
+    {
+      "id": "H4_r3c5",
+      "file": "01_解读/3D参考帧/H4_r3c5.png",
+      "board": "H4",
+      "direction": "side",
+      "dir8": "W",
+      "batch": "B",
+      "direction_label": "B批 · 左侧 left",
+      "confidence": "高",
+      "row": 3,
+      "col": 5,
+      "alpha_px": 8443,
+      "green_left": 0,
+      "src_box": [
+        1030,
+        576,
+        1275,
+        847
+      ],
+      "canvas": [
+        160,
+        190
+      ]
+    },
+    {
+      "id": "H4_r3c6",
+      "file": "01_解读/3D参考帧/H4_r3c6.png",
+      "board": "H4",
+      "direction": "side",
+      "dir8": "W",
+      "batch": "B",
+      "direction_label": "B批 · 左侧 left",
+      "confidence": "高",
+      "row": 3,
+      "col": 6,
+      "alpha_px": 8601,
+      "green_left": 0,
+      "src_box": [
+        1284,
+        576,
+        1529,
+        847
+      ],
+      "canvas": [
+        160,
+        190
+      ]
+    },
+    {
+      "id": "H4_r3c7",
+      "file": "01_解读/3D参考帧/H4_r3c7.png",
+      "board": "H4",
+      "direction": "side",
+      "dir8": "W",
+      "batch": "B",
+      "direction_label": "B批 · 左侧 left",
+      "confidence": "高",
+      "row": 3,
+      "col": 7,
+      "alpha_px": 8437,
+      "green_left": 0,
+      "src_box": [
+        1541,
+        576,
+        1786,
+        847
+      ],
+      "canvas": [
+        160,
+        190
+      ]
+    },
+    {
+      "id": "H4_r3c8",
+      "file": "01_解读/3D参考帧/H4_r3c8.png",
+      "board": "H4",
+      "direction": "side",
+      "dir8": "W",
+      "batch": "B",
+      "direction_label": "B批 · 左侧 left",
+      "confidence": "高",
+      "row": 3,
+      "col": 8,
+      "alpha_px": 8543,
+      "green_left": 0,
+      "src_box": [
+        1797,
+        576,
+        2042,
+        847
+      ],
+      "canvas": [
+        160,
+        190
+      ]
+    },
+    {
+      "id": "H4_r4c1",
+      "file": "01_解读/3D参考帧/H4_r4c1.png",
+      "board": "H4",
+      "direction": "side",
+      "dir8": "W",
+      "batch": "B",
+      "direction_label": "B批 · 左侧 left",
+      "confidence": "高",
+      "row": 4,
+      "col": 1,
+      "alpha_px": 8768,
+      "green_left": 0,
+      "src_box": [
+        7,
+        866,
+        252,
+        1137
+      ],
+      "canvas": [
+        160,
+        190
+      ]
+    },
+    {
+      "id": "H4_r4c2",
+      "file": "01_解读/3D参考帧/H4_r4c2.png",
+      "board": "H4",
+      "direction": "side",
+      "dir8": "W",
+      "batch": "B",
+      "direction_label": "B批 · 左侧 left",
+      "confidence": "高",
+      "row": 4,
+      "col": 2,
+      "alpha_px": 8583,
+      "green_left": 0,
+      "src_box": [
+        266,
+        866,
+        511,
+        1137
+      ],
+      "canvas": [
+        160,
+        190
+      ]
+    },
+    {
+      "id": "H4_r4c3",
+      "file": "01_解读/3D参考帧/H4_r4c3.png",
+      "board": "H4",
+      "direction": "side",
+      "dir8": "W",
+      "batch": "B",
+      "direction_label": "B批 · 左侧 left",
+      "confidence": "高",
+      "row": 4,
+      "col": 3,
+      "alpha_px": 8855,
+      "green_left": 0,
+      "src_box": [
+        520,
+        866,
+        765,
+        1137
+      ],
+      "canvas": [
+        160,
+        190
+      ]
+    },
+    {
+      "id": "H4_r4c4",
+      "file": "01_解读/3D参考帧/H4_r4c4.png",
+      "board": "H4",
+      "direction": "side",
+      "dir8": "W",
+      "batch": "B",
+      "direction_label": "B批 · 左侧 left",
+      "confidence": "高",
+      "row": 4,
+      "col": 4,
+      "alpha_px": 8093,
+      "green_left": 0,
+      "src_box": [
+        773,
+        866,
+        1018,
+        1137
+      ],
+      "canvas": [
+        160,
+        190
+      ]
+    },
+    {
+      "id": "H4_r4c5",
+      "file": "01_解读/3D参考帧/H4_r4c5.png",
+      "board": "H4",
+      "direction": "side",
+      "dir8": "W",
+      "batch": "B",
+      "direction_label": "B批 · 左侧 left",
+      "confidence": "高",
+      "row": 4,
+      "col": 5,
+      "alpha_px": 8296,
+      "green_left": 0,
+      "src_box": [
+        1030,
+        866,
+        1275,
+        1137
+      ],
+      "canvas": [
+        160,
+        190
+      ]
+    },
+    {
+      "id": "H4_r4c6",
+      "file": "01_解读/3D参考帧/H4_r4c6.png",
+      "board": "H4",
+      "direction": "side",
+      "dir8": "W",
+      "batch": "B",
+      "direction_label": "B批 · 左侧 left",
+      "confidence": "高",
+      "row": 4,
+      "col": 6,
+      "alpha_px": 8579,
+      "green_left": 0,
+      "src_box": [
+        1284,
+        866,
+        1529,
+        1137
+      ],
+      "canvas": [
+        160,
+        190
+      ]
+    },
+    {
+      "id": "H4_r4c7",
+      "file": "01_解读/3D参考帧/H4_r4c7.png",
+      "board": "H4",
+      "direction": "side",
+      "dir8": "W",
+      "batch": "B",
+      "direction_label": "B批 · 左侧 left",
+      "confidence": "高",
+      "row": 4,
+      "col": 7,
+      "alpha_px": 8284,
+      "green_left": 0,
+      "src_box": [
+        1541,
+        866,
+        1786,
+        1137
+      ],
+      "canvas": [
+        160,
+        190
+      ]
+    },
+    {
+      "id": "H4_r4c8",
+      "file": "01_解读/3D参考帧/H4_r4c8.png",
+      "board": "H4",
+      "direction": "side",
+      "dir8": "W",
+      "batch": "B",
+      "direction_label": "B批 · 左侧 left",
+      "confidence": "高",
+      "row": 4,
+      "col": 8,
+      "alpha_px": 8232,
+      "green_left": 0,
+      "src_box": [
+        1797,
+        866,
+        2042,
+        1137
+      ],
+      "canvas": [
+        160,
+        190
+      ]
+    },
+    {
+      "id": "H5_r1c1",
+      "file": "01_解读/3D参考帧/H5_r1c1.png",
+      "board": "H5",
+      "direction": "back",
+      "dir8": "SW",
+      "batch": "B",
+      "direction_label": "B批 · 左后斜 back-left",
+      "confidence": "中",
+      "row": 1,
+      "col": 1,
+      "alpha_px": 5331,
+      "green_left": 0,
+      "src_box": [
+        10,
+        11,
+        257,
+        284
+      ],
+      "canvas": [
+        160,
+        190
+      ]
+    },
+    {
+      "id": "H5_r1c2",
+      "file": "01_解读/3D参考帧/H5_r1c2.png",
+      "board": "H5",
+      "direction": "back",
+      "dir8": "SW",
+      "batch": "B",
+      "direction_label": "B批 · 左后斜 back-left",
+      "confidence": "中",
+      "row": 1,
+      "col": 2,
+      "alpha_px": 5815,
+      "green_left": 0,
+      "src_box": [
+        267,
+        11,
+        514,
+        284
+      ],
+      "canvas": [
+        160,
+        190
+      ]
+    },
+    {
+      "id": "H5_r1c3",
+      "file": "01_解读/3D参考帧/H5_r1c3.png",
+      "board": "H5",
+      "direction": "back",
+      "dir8": "SW",
+      "batch": "B",
+      "direction_label": "B批 · 左后斜 back-left",
+      "confidence": "中",
+      "row": 1,
+      "col": 3,
+      "alpha_px": 5405,
+      "green_left": 0,
+      "src_box": [
+        514,
+        11,
+        761,
+        284
+      ],
+      "canvas": [
+        160,
+        190
+      ]
+    },
+    {
+      "id": "H5_r1c4",
+      "file": "01_解读/3D参考帧/H5_r1c4.png",
+      "board": "H5",
+      "direction": "back",
+      "dir8": "SW",
+      "batch": "B",
+      "direction_label": "B批 · 左后斜 back-left",
+      "confidence": "中",
+      "row": 1,
+      "col": 4,
+      "alpha_px": 5380,
+      "green_left": 0,
+      "src_box": [
+        771,
+        11,
+        1018,
+        284
+      ],
+      "canvas": [
+        160,
+        190
+      ]
+    },
+    {
+      "id": "H5_r1c5",
+      "file": "01_解读/3D参考帧/H5_r1c5.png",
+      "board": "H5",
+      "direction": "back",
+      "dir8": "SW",
+      "batch": "B",
+      "direction_label": "B批 · 左后斜 back-left",
+      "confidence": "中",
+      "row": 1,
+      "col": 5,
+      "alpha_px": 5342,
+      "green_left": 0,
+      "src_box": [
+        1028,
+        11,
+        1275,
+        284
+      ],
+      "canvas": [
+        160,
+        190
+      ]
+    },
+    {
+      "id": "H5_r1c6",
+      "file": "01_解读/3D参考帧/H5_r1c6.png",
+      "board": "H5",
+      "direction": "back",
+      "dir8": "SW",
+      "batch": "B",
+      "direction_label": "B批 · 左后斜 back-left",
+      "confidence": "中",
+      "row": 1,
+      "col": 6,
+      "alpha_px": 5672,
+      "green_left": 0,
+      "src_box": [
+        1281,
+        11,
+        1528,
+        284
+      ],
+      "canvas": [
+        160,
+        190
+      ]
+    },
+    {
+      "id": "H5_r1c7",
+      "file": "01_解读/3D参考帧/H5_r1c7.png",
+      "board": "H5",
+      "direction": "back",
+      "dir8": "SW",
+      "batch": "B",
+      "direction_label": "B批 · 左后斜 back-left",
+      "confidence": "中",
+      "row": 1,
+      "col": 7,
+      "alpha_px": 5516,
+      "green_left": 0,
+      "src_box": [
+        1539,
+        11,
+        1786,
+        284
+      ],
+      "canvas": [
+        160,
+        190
+      ]
+    },
+    {
+      "id": "H5_r1c8",
+      "file": "01_解读/3D参考帧/H5_r1c8.png",
+      "board": "H5",
+      "direction": "back",
+      "dir8": "SW",
+      "batch": "B",
+      "direction_label": "B批 · 左后斜 back-left",
+      "confidence": "中",
+      "row": 1,
+      "col": 8,
+      "alpha_px": 5443,
+      "green_left": 0,
+      "src_box": [
+        1790,
+        11,
+        2037,
+        284
+      ],
+      "canvas": [
+        160,
+        190
+      ]
+    },
+    {
+      "id": "H5_r2c1",
+      "file": "01_解读/3D参考帧/H5_r2c1.png",
+      "board": "H5",
+      "direction": "back",
+      "dir8": "SW",
+      "batch": "B",
+      "direction_label": "B批 · 左后斜 back-left",
+      "confidence": "中",
+      "row": 2,
+      "col": 1,
+      "alpha_px": 6107,
+      "green_left": 0,
+      "src_box": [
+        10,
+        295,
+        257,
+        568
+      ],
+      "canvas": [
+        160,
+        190
+      ]
+    },
+    {
+      "id": "H5_r2c2",
+      "file": "01_解读/3D参考帧/H5_r2c2.png",
+      "board": "H5",
+      "direction": "back",
+      "dir8": "SW",
+      "batch": "B",
+      "direction_label": "B批 · 左后斜 back-left",
+      "confidence": "中",
+      "row": 2,
+      "col": 2,
+      "alpha_px": 6122,
+      "green_left": 0,
+      "src_box": [
+        267,
+        295,
+        514,
+        568
+      ],
+      "canvas": [
+        160,
+        190
+      ]
+    },
+    {
+      "id": "H5_r2c3",
+      "file": "01_解读/3D参考帧/H5_r2c3.png",
+      "board": "H5",
+      "direction": "back",
+      "dir8": "SW",
+      "batch": "B",
+      "direction_label": "B批 · 左后斜 back-left",
+      "confidence": "中",
+      "row": 2,
+      "col": 3,
+      "alpha_px": 5860,
+      "green_left": 0,
+      "src_box": [
+        514,
+        295,
+        761,
+        568
+      ],
+      "canvas": [
+        160,
+        190
+      ]
+    },
+    {
+      "id": "H5_r2c4",
+      "file": "01_解读/3D参考帧/H5_r2c4.png",
+      "board": "H5",
+      "direction": "back",
+      "dir8": "SW",
+      "batch": "B",
+      "direction_label": "B批 · 左后斜 back-left",
+      "confidence": "中",
+      "row": 2,
+      "col": 4,
+      "alpha_px": 5582,
+      "green_left": 0,
+      "src_box": [
+        771,
+        295,
+        1018,
+        568
+      ],
+      "canvas": [
+        160,
+        190
+      ]
+    },
+    {
+      "id": "H5_r2c5",
+      "file": "01_解读/3D参考帧/H5_r2c5.png",
+      "board": "H5",
+      "direction": "back",
+      "dir8": "SW",
+      "batch": "B",
+      "direction_label": "B批 · 左后斜 back-left",
+      "confidence": "中",
+      "row": 2,
+      "col": 5,
+      "alpha_px": 5888,
+      "green_left": 0,
+      "src_box": [
+        1028,
+        295,
+        1275,
+        568
+      ],
+      "canvas": [
+        160,
+        190
+      ]
+    },
+    {
+      "id": "H5_r2c6",
+      "file": "01_解读/3D参考帧/H5_r2c6.png",
+      "board": "H5",
+      "direction": "back",
+      "dir8": "SW",
+      "batch": "B",
+      "direction_label": "B批 · 左后斜 back-left",
+      "confidence": "中",
+      "row": 2,
+      "col": 6,
+      "alpha_px": 5823,
+      "green_left": 0,
+      "src_box": [
+        1281,
+        295,
+        1528,
+        568
+      ],
+      "canvas": [
+        160,
+        190
+      ]
+    },
+    {
+      "id": "H5_r2c7",
+      "file": "01_解读/3D参考帧/H5_r2c7.png",
+      "board": "H5",
+      "direction": "back",
+      "dir8": "SW",
+      "batch": "B",
+      "direction_label": "B批 · 左后斜 back-left",
+      "confidence": "中",
+      "row": 2,
+      "col": 7,
+      "alpha_px": 5808,
+      "green_left": 0,
+      "src_box": [
+        1539,
+        295,
+        1786,
+        568
+      ],
+      "canvas": [
+        160,
+        190
+      ]
+    },
+    {
+      "id": "H5_r2c8",
+      "file": "01_解读/3D参考帧/H5_r2c8.png",
+      "board": "H5",
+      "direction": "back",
+      "dir8": "SW",
+      "batch": "B",
+      "direction_label": "B批 · 左后斜 back-left",
+      "confidence": "中",
+      "row": 2,
+      "col": 8,
+      "alpha_px": 5456,
+      "green_left": 0,
+      "src_box": [
+        1790,
+        295,
+        2037,
+        568
+      ],
+      "canvas": [
+        160,
+        190
+      ]
+    },
+    {
+      "id": "H5_r3c1",
+      "file": "01_解读/3D参考帧/H5_r3c1.png",
+      "board": "H5",
+      "direction": "back",
+      "dir8": "SW",
+      "batch": "B",
+      "direction_label": "B批 · 左后斜 back-left",
+      "confidence": "中",
+      "row": 3,
+      "col": 1,
+      "alpha_px": 5726,
+      "green_left": 0,
+      "src_box": [
+        10,
+        578,
+        257,
+        851
+      ],
+      "canvas": [
+        160,
+        190
+      ]
+    },
+    {
+      "id": "H5_r3c2",
+      "file": "01_解读/3D参考帧/H5_r3c2.png",
+      "board": "H5",
+      "direction": "back",
+      "dir8": "SW",
+      "batch": "B",
+      "direction_label": "B批 · 左后斜 back-left",
+      "confidence": "中",
+      "row": 3,
+      "col": 2,
+      "alpha_px": 6279,
+      "green_left": 0,
+      "src_box": [
+        267,
+        578,
+        514,
+        851
+      ],
+      "canvas": [
+        160,
+        190
+      ]
+    },
+    {
+      "id": "H5_r3c3",
+      "file": "01_解读/3D参考帧/H5_r3c3.png",
+      "board": "H5",
+      "direction": "back",
+      "dir8": "SW",
+      "batch": "B",
+      "direction_label": "B批 · 左后斜 back-left",
+      "confidence": "中",
+      "row": 3,
+      "col": 3,
+      "alpha_px": 5852,
+      "green_left": 0,
+      "src_box": [
+        514,
+        578,
+        761,
+        851
+      ],
+      "canvas": [
+        160,
+        190
+      ]
+    },
+    {
+      "id": "H5_r3c4",
+      "file": "01_解读/3D参考帧/H5_r3c4.png",
+      "board": "H5",
+      "direction": "back",
+      "dir8": "SW",
+      "batch": "B",
+      "direction_label": "B批 · 左后斜 back-left",
+      "confidence": "中",
+      "row": 3,
+      "col": 4,
+      "alpha_px": 5816,
+      "green_left": 0,
+      "src_box": [
+        771,
+        578,
+        1018,
+        851
+      ],
+      "canvas": [
+        160,
+        190
+      ]
+    },
+    {
+      "id": "H5_r3c5",
+      "file": "01_解读/3D参考帧/H5_r3c5.png",
+      "board": "H5",
+      "direction": "back",
+      "dir8": "SW",
+      "batch": "B",
+      "direction_label": "B批 · 左后斜 back-left",
+      "confidence": "中",
+      "row": 3,
+      "col": 5,
+      "alpha_px": 6258,
+      "green_left": 0,
+      "src_box": [
+        1028,
+        578,
+        1275,
+        851
+      ],
+      "canvas": [
+        160,
+        190
+      ]
+    },
+    {
+      "id": "H5_r3c6",
+      "file": "01_解读/3D参考帧/H5_r3c6.png",
+      "board": "H5",
+      "direction": "back",
+      "dir8": "SW",
+      "batch": "B",
+      "direction_label": "B批 · 左后斜 back-left",
+      "confidence": "中",
+      "row": 3,
+      "col": 6,
+      "alpha_px": 6108,
+      "green_left": 0,
+      "src_box": [
+        1281,
+        578,
+        1528,
+        851
+      ],
+      "canvas": [
+        160,
+        190
+      ]
+    },
+    {
+      "id": "H5_r3c7",
+      "file": "01_解读/3D参考帧/H5_r3c7.png",
+      "board": "H5",
+      "direction": "back",
+      "dir8": "SW",
+      "batch": "B",
+      "direction_label": "B批 · 左后斜 back-left",
+      "confidence": "中",
+      "row": 3,
+      "col": 7,
+      "alpha_px": 6307,
+      "green_left": 0,
+      "src_box": [
+        1539,
+        578,
+        1786,
+        851
+      ],
+      "canvas": [
+        160,
+        190
+      ]
+    },
+    {
+      "id": "H5_r3c8",
+      "file": "01_解读/3D参考帧/H5_r3c8.png",
+      "board": "H5",
+      "direction": "back",
+      "dir8": "SW",
+      "batch": "B",
+      "direction_label": "B批 · 左后斜 back-left",
+      "confidence": "中",
+      "row": 3,
+      "col": 8,
+      "alpha_px": 5723,
+      "green_left": 0,
+      "src_box": [
+        1790,
+        578,
+        2037,
+        851
+      ],
+      "canvas": [
+        160,
+        190
+      ]
+    },
+    {
+      "id": "H5_r4c1",
+      "file": "01_解读/3D参考帧/H5_r4c1.png",
+      "board": "H5",
+      "direction": "back",
+      "dir8": "SW",
+      "batch": "B",
+      "direction_label": "B批 · 左后斜 back-left",
+      "confidence": "中",
+      "row": 4,
+      "col": 1,
+      "alpha_px": 5761,
+      "green_left": 0,
+      "src_box": [
+        10,
+        865,
+        257,
+        1138
+      ],
+      "canvas": [
+        160,
+        190
+      ]
+    },
+    {
+      "id": "H5_r4c2",
+      "file": "01_解读/3D参考帧/H5_r4c2.png",
+      "board": "H5",
+      "direction": "back",
+      "dir8": "SW",
+      "batch": "B",
+      "direction_label": "B批 · 左后斜 back-left",
+      "confidence": "中",
+      "row": 4,
+      "col": 2,
+      "alpha_px": 5895,
+      "green_left": 0,
+      "src_box": [
+        267,
+        865,
+        514,
+        1138
+      ],
+      "canvas": [
+        160,
+        190
+      ]
+    },
+    {
+      "id": "H5_r4c3",
+      "file": "01_解读/3D参考帧/H5_r4c3.png",
+      "board": "H5",
+      "direction": "back",
+      "dir8": "SW",
+      "batch": "B",
+      "direction_label": "B批 · 左后斜 back-left",
+      "confidence": "中",
+      "row": 4,
+      "col": 3,
+      "alpha_px": 5843,
+      "green_left": 0,
+      "src_box": [
+        514,
+        865,
+        761,
+        1138
+      ],
+      "canvas": [
+        160,
+        190
+      ]
+    },
+    {
+      "id": "H5_r4c4",
+      "file": "01_解读/3D参考帧/H5_r4c4.png",
+      "board": "H5",
+      "direction": "back",
+      "dir8": "SW",
+      "batch": "B",
+      "direction_label": "B批 · 左后斜 back-left",
+      "confidence": "中",
+      "row": 4,
+      "col": 4,
+      "alpha_px": 5718,
+      "green_left": 0,
+      "src_box": [
+        771,
+        865,
+        1018,
+        1138
+      ],
+      "canvas": [
+        160,
+        190
+      ]
+    },
+    {
+      "id": "H5_r4c5",
+      "file": "01_解读/3D参考帧/H5_r4c5.png",
+      "board": "H5",
+      "direction": "back",
+      "dir8": "SW",
+      "batch": "B",
+      "direction_label": "B批 · 左后斜 back-left",
+      "confidence": "中",
+      "row": 4,
+      "col": 5,
+      "alpha_px": 5813,
+      "green_left": 0,
+      "src_box": [
+        1028,
+        865,
+        1275,
+        1138
+      ],
+      "canvas": [
+        160,
+        190
+      ]
+    },
+    {
+      "id": "H5_r4c6",
+      "file": "01_解读/3D参考帧/H5_r4c6.png",
+      "board": "H5",
+      "direction": "back",
+      "dir8": "SW",
+      "batch": "B",
+      "direction_label": "B批 · 左后斜 back-left",
+      "confidence": "中",
+      "row": 4,
+      "col": 6,
+      "alpha_px": 5414,
+      "green_left": 0,
+      "src_box": [
+        1281,
+        865,
+        1528,
+        1138
+      ],
+      "canvas": [
+        160,
+        190
+      ]
+    },
+    {
+      "id": "H5_r4c7",
+      "file": "01_解读/3D参考帧/H5_r4c7.png",
+      "board": "H5",
+      "direction": "back",
+      "dir8": "SW",
+      "batch": "B",
+      "direction_label": "B批 · 左后斜 back-left",
+      "confidence": "中",
+      "row": 4,
+      "col": 7,
+      "alpha_px": 5843,
+      "green_left": 0,
+      "src_box": [
+        1539,
+        865,
+        1786,
+        1138
+      ],
+      "canvas": [
+        160,
+        190
+      ]
+    },
+    {
+      "id": "H5_r4c8",
+      "file": "01_解读/3D参考帧/H5_r4c8.png",
+      "board": "H5",
+      "direction": "back",
+      "dir8": "SW",
+      "batch": "B",
+      "direction_label": "B批 · 左后斜 back-left",
+      "confidence": "中",
+      "row": 4,
+      "col": 8,
+      "alpha_px": 5345,
+      "green_left": 0,
+      "src_box": [
+        1790,
+        865,
+        2037,
+        1138
+      ],
+      "canvas": [
+        160,
+        190
+      ]
+    },
+    {
+      "id": "H6_r1c1",
+      "file": "01_解读/3D参考帧/H6_r1c1.png",
+      "board": "H6",
+      "direction": "front",
+      "dir8": "N",
+      "batch": "B",
+      "direction_label": "B批 · 正面 front",
+      "confidence": "中",
+      "row": 1,
+      "col": 1,
+      "alpha_px": 7289,
+      "green_left": 0,
+      "src_box": [
+        24,
+        21,
+        265,
+        290
+      ],
+      "canvas": [
+        160,
+        190
+      ]
+    },
+    {
+      "id": "H6_r1c2",
+      "file": "01_解读/3D参考帧/H6_r1c2.png",
+      "board": "H6",
+      "direction": "front",
+      "dir8": "N",
+      "batch": "B",
+      "direction_label": "B批 · 正面 front",
+      "confidence": "中",
+      "row": 1,
+      "col": 2,
+      "alpha_px": 7394,
+      "green_left": 0,
+      "src_box": [
+        273,
+        21,
+        514,
+        290
+      ],
+      "canvas": [
+        160,
+        190
+      ]
+    },
+    {
+      "id": "H6_r1c3",
+      "file": "01_解读/3D参考帧/H6_r1c3.png",
+      "board": "H6",
+      "direction": "front",
+      "dir8": "N",
+      "batch": "B",
+      "direction_label": "B批 · 正面 front",
+      "confidence": "中",
+      "row": 1,
+      "col": 3,
+      "alpha_px": 7233,
+      "green_left": 0,
+      "src_box": [
+        526,
+        21,
+        767,
+        290
+      ],
+      "canvas": [
+        160,
+        190
+      ]
+    },
+    {
+      "id": "H6_r1c4",
+      "file": "01_解读/3D参考帧/H6_r1c4.png",
+      "board": "H6",
+      "direction": "front",
+      "dir8": "N",
+      "batch": "B",
+      "direction_label": "B批 · 正面 front",
+      "confidence": "中",
+      "row": 1,
+      "col": 4,
+      "alpha_px": 7314,
+      "green_left": 0,
+      "src_box": [
+        777,
+        21,
+        1018,
+        290
+      ],
+      "canvas": [
+        160,
+        190
+      ]
+    },
+    {
+      "id": "H6_r1c5",
+      "file": "01_解读/3D参考帧/H6_r1c5.png",
+      "board": "H6",
+      "direction": "front",
+      "dir8": "N",
+      "batch": "B",
+      "direction_label": "B批 · 正面 front",
+      "confidence": "中",
+      "row": 1,
+      "col": 5,
+      "alpha_px": 7319,
+      "green_left": 0,
+      "src_box": [
+        1027,
+        21,
+        1268,
+        290
+      ],
+      "canvas": [
+        160,
+        190
+      ]
+    },
+    {
+      "id": "H6_r1c6",
+      "file": "01_解读/3D参考帧/H6_r1c6.png",
+      "board": "H6",
+      "direction": "front",
+      "dir8": "N",
+      "batch": "B",
+      "direction_label": "B批 · 正面 front",
+      "confidence": "中",
+      "row": 1,
+      "col": 6,
+      "alpha_px": 7303,
+      "green_left": 0,
+      "src_box": [
+        1278,
+        21,
+        1519,
+        290
+      ],
+      "canvas": [
+        160,
+        190
+      ]
+    },
+    {
+      "id": "H6_r1c7",
+      "file": "01_解读/3D参考帧/H6_r1c7.png",
+      "board": "H6",
+      "direction": "front",
+      "dir8": "N",
+      "batch": "B",
+      "direction_label": "B批 · 正面 front",
+      "confidence": "中",
+      "row": 1,
+      "col": 7,
+      "alpha_px": 7294,
+      "green_left": 0,
+      "src_box": [
+        1530,
+        21,
+        1771,
+        290
+      ],
+      "canvas": [
+        160,
+        190
+      ]
+    },
+    {
+      "id": "H6_r1c8",
+      "file": "01_解读/3D参考帧/H6_r1c8.png",
+      "board": "H6",
+      "direction": "front",
+      "dir8": "N",
+      "batch": "B",
+      "direction_label": "B批 · 正面 front",
+      "confidence": "中",
+      "row": 1,
+      "col": 8,
+      "alpha_px": 7291,
+      "green_left": 0,
+      "src_box": [
+        1781,
+        21,
+        2022,
+        290
+      ],
+      "canvas": [
+        160,
+        190
+      ]
+    },
+    {
+      "id": "H6_r2c1",
+      "file": "01_解读/3D参考帧/H6_r2c1.png",
+      "board": "H6",
+      "direction": "front",
+      "dir8": "N",
+      "batch": "B",
+      "direction_label": "B批 · 正面 front",
+      "confidence": "中",
+      "row": 2,
+      "col": 1,
+      "alpha_px": 7281,
+      "green_left": 0,
+      "src_box": [
+        24,
+        301,
+        265,
+        570
+      ],
+      "canvas": [
+        160,
+        190
+      ]
+    },
+    {
+      "id": "H6_r2c2",
+      "file": "01_解读/3D参考帧/H6_r2c2.png",
+      "board": "H6",
+      "direction": "front",
+      "dir8": "N",
+      "batch": "B",
+      "direction_label": "B批 · 正面 front",
+      "confidence": "中",
+      "row": 2,
+      "col": 2,
+      "alpha_px": 7175,
+      "green_left": 0,
+      "src_box": [
+        273,
+        301,
+        514,
+        570
+      ],
+      "canvas": [
+        160,
+        190
+      ]
+    },
+    {
+      "id": "H6_r2c3",
+      "file": "01_解读/3D参考帧/H6_r2c3.png",
+      "board": "H6",
+      "direction": "front",
+      "dir8": "N",
+      "batch": "B",
+      "direction_label": "B批 · 正面 front",
+      "confidence": "中",
+      "row": 2,
+      "col": 3,
+      "alpha_px": 7008,
+      "green_left": 0,
+      "src_box": [
+        526,
+        301,
+        767,
+        570
+      ],
+      "canvas": [
+        160,
+        190
+      ]
+    },
+    {
+      "id": "H6_r2c4",
+      "file": "01_解读/3D参考帧/H6_r2c4.png",
+      "board": "H6",
+      "direction": "front",
+      "dir8": "N",
+      "batch": "B",
+      "direction_label": "B批 · 正面 front",
+      "confidence": "中",
+      "row": 2,
+      "col": 4,
+      "alpha_px": 6902,
+      "green_left": 0,
+      "src_box": [
+        777,
+        301,
+        1018,
+        570
+      ],
+      "canvas": [
+        160,
+        190
+      ]
+    },
+    {
+      "id": "H6_r2c5",
+      "file": "01_解读/3D参考帧/H6_r2c5.png",
+      "board": "H6",
+      "direction": "front",
+      "dir8": "N",
+      "batch": "B",
+      "direction_label": "B批 · 正面 front",
+      "confidence": "中",
+      "row": 2,
+      "col": 5,
+      "alpha_px": 7106,
+      "green_left": 0,
+      "src_box": [
+        1027,
+        301,
+        1268,
+        570
+      ],
+      "canvas": [
+        160,
+        190
+      ]
+    },
+    {
+      "id": "H6_r2c6",
+      "file": "01_解读/3D参考帧/H6_r2c6.png",
+      "board": "H6",
+      "direction": "front",
+      "dir8": "N",
+      "batch": "B",
+      "direction_label": "B批 · 正面 front",
+      "confidence": "中",
+      "row": 2,
+      "col": 6,
+      "alpha_px": 7268,
+      "green_left": 0,
+      "src_box": [
+        1278,
+        301,
+        1519,
+        570
+      ],
+      "canvas": [
+        160,
+        190
+      ]
+    },
+    {
+      "id": "H6_r2c7",
+      "file": "01_解读/3D参考帧/H6_r2c7.png",
+      "board": "H6",
+      "direction": "front",
+      "dir8": "N",
+      "batch": "B",
+      "direction_label": "B批 · 正面 front",
+      "confidence": "中",
+      "row": 2,
+      "col": 7,
+      "alpha_px": 7190,
+      "green_left": 0,
+      "src_box": [
+        1530,
+        301,
+        1771,
+        570
+      ],
+      "canvas": [
+        160,
+        190
+      ]
+    },
+    {
+      "id": "H6_r2c8",
+      "file": "01_解读/3D参考帧/H6_r2c8.png",
+      "board": "H6",
+      "direction": "front",
+      "dir8": "N",
+      "batch": "B",
+      "direction_label": "B批 · 正面 front",
+      "confidence": "中",
+      "row": 2,
+      "col": 8,
+      "alpha_px": 7176,
+      "green_left": 0,
+      "src_box": [
+        1781,
+        301,
+        2022,
+        570
+      ],
+      "canvas": [
+        160,
+        190
+      ]
+    },
+    {
+      "id": "H6_r3c1",
+      "file": "01_解读/3D参考帧/H6_r3c1.png",
+      "board": "H6",
+      "direction": "front",
+      "dir8": "N",
+      "batch": "B",
+      "direction_label": "B批 · 正面 front",
+      "confidence": "中",
+      "row": 3,
+      "col": 1,
+      "alpha_px": 7127,
+      "green_left": 0,
+      "src_box": [
+        24,
+        581,
+        265,
+        850
+      ],
+      "canvas": [
+        160,
+        190
+      ]
+    },
+    {
+      "id": "H6_r3c2",
+      "file": "01_解读/3D参考帧/H6_r3c2.png",
+      "board": "H6",
+      "direction": "front",
+      "dir8": "N",
+      "batch": "B",
+      "direction_label": "B批 · 正面 front",
+      "confidence": "中",
+      "row": 3,
+      "col": 2,
+      "alpha_px": 6906,
+      "green_left": 0,
+      "src_box": [
+        273,
+        581,
+        514,
+        850
+      ],
+      "canvas": [
+        160,
+        190
+      ]
+    },
+    {
+      "id": "H6_r3c3",
+      "file": "01_解读/3D参考帧/H6_r3c3.png",
+      "board": "H6",
+      "direction": "front",
+      "dir8": "N",
+      "batch": "B",
+      "direction_label": "B批 · 正面 front",
+      "confidence": "中",
+      "row": 3,
+      "col": 3,
+      "alpha_px": 6677,
+      "green_left": 0,
+      "src_box": [
+        526,
+        581,
+        767,
+        850
+      ],
+      "canvas": [
+        160,
+        190
+      ]
+    },
+    {
+      "id": "H6_r3c4",
+      "file": "01_解读/3D参考帧/H6_r3c4.png",
+      "board": "H6",
+      "direction": "front",
+      "dir8": "N",
+      "batch": "B",
+      "direction_label": "B批 · 正面 front",
+      "confidence": "中",
+      "row": 3,
+      "col": 4,
+      "alpha_px": 6826,
+      "green_left": 0,
+      "src_box": [
+        777,
+        581,
+        1018,
+        850
+      ],
+      "canvas": [
+        160,
+        190
+      ]
+    },
+    {
+      "id": "H6_r3c5",
+      "file": "01_解读/3D参考帧/H6_r3c5.png",
+      "board": "H6",
+      "direction": "front",
+      "dir8": "N",
+      "batch": "B",
+      "direction_label": "B批 · 正面 front",
+      "confidence": "中",
+      "row": 3,
+      "col": 5,
+      "alpha_px": 7128,
+      "green_left": 0,
+      "src_box": [
+        1027,
+        581,
+        1268,
+        850
+      ],
+      "canvas": [
+        160,
+        190
+      ]
+    },
+    {
+      "id": "H6_r3c6",
+      "file": "01_解读/3D参考帧/H6_r3c6.png",
+      "board": "H6",
+      "direction": "front",
+      "dir8": "N",
+      "batch": "B",
+      "direction_label": "B批 · 正面 front",
+      "confidence": "中",
+      "row": 3,
+      "col": 6,
+      "alpha_px": 6955,
+      "green_left": 0,
+      "src_box": [
+        1278,
+        581,
+        1519,
+        850
+      ],
+      "canvas": [
+        160,
+        190
+      ]
+    },
+    {
+      "id": "H6_r3c7",
+      "file": "01_解读/3D参考帧/H6_r3c7.png",
+      "board": "H6",
+      "direction": "front",
+      "dir8": "N",
+      "batch": "B",
+      "direction_label": "B批 · 正面 front",
+      "confidence": "中",
+      "row": 3,
+      "col": 7,
+      "alpha_px": 7137,
+      "green_left": 0,
+      "src_box": [
+        1530,
+        581,
+        1771,
+        850
+      ],
+      "canvas": [
+        160,
+        190
+      ]
+    },
+    {
+      "id": "H6_r3c8",
+      "file": "01_解读/3D参考帧/H6_r3c8.png",
+      "board": "H6",
+      "direction": "front",
+      "dir8": "N",
+      "batch": "B",
+      "direction_label": "B批 · 正面 front",
+      "confidence": "中",
+      "row": 3,
+      "col": 8,
+      "alpha_px": 7196,
+      "green_left": 0,
+      "src_box": [
+        1781,
+        581,
+        2022,
+        850
+      ],
+      "canvas": [
+        160,
+        190
+      ]
+    },
+    {
+      "id": "H6_r4c1",
+      "file": "01_解读/3D参考帧/H6_r4c1.png",
+      "board": "H6",
+      "direction": "front",
+      "dir8": "N",
+      "batch": "B",
+      "direction_label": "B批 · 正面 front",
+      "confidence": "中",
+      "row": 4,
+      "col": 1,
+      "alpha_px": 7119,
+      "green_left": 0,
+      "src_box": [
+        24,
+        860,
+        265,
+        1129
+      ],
+      "canvas": [
+        160,
+        190
+      ]
+    },
+    {
+      "id": "H6_r4c2",
+      "file": "01_解读/3D参考帧/H6_r4c2.png",
+      "board": "H6",
+      "direction": "front",
+      "dir8": "N",
+      "batch": "B",
+      "direction_label": "B批 · 正面 front",
+      "confidence": "中",
+      "row": 4,
+      "col": 2,
+      "alpha_px": 7028,
+      "green_left": 0,
+      "src_box": [
+        273,
+        860,
+        514,
+        1129
+      ],
+      "canvas": [
+        160,
+        190
+      ]
+    },
+    {
+      "id": "H6_r4c3",
+      "file": "01_解读/3D参考帧/H6_r4c3.png",
+      "board": "H6",
+      "direction": "front",
+      "dir8": "N",
+      "batch": "B",
+      "direction_label": "B批 · 正面 front",
+      "confidence": "中",
+      "row": 4,
+      "col": 3,
+      "alpha_px": 7130,
+      "green_left": 0,
+      "src_box": [
+        526,
+        860,
+        767,
+        1129
+      ],
+      "canvas": [
+        160,
+        190
+      ]
+    },
+    {
+      "id": "H6_r4c4",
+      "file": "01_解读/3D参考帧/H6_r4c4.png",
+      "board": "H6",
+      "direction": "front",
+      "dir8": "N",
+      "batch": "B",
+      "direction_label": "B批 · 正面 front",
+      "confidence": "中",
+      "row": 4,
+      "col": 4,
+      "alpha_px": 6400,
+      "green_left": 0,
+      "src_box": [
+        777,
+        860,
+        1018,
+        1129
+      ],
+      "canvas": [
+        160,
+        190
+      ]
+    },
+    {
+      "id": "H6_r4c5",
+      "file": "01_解读/3D参考帧/H6_r4c5.png",
+      "board": "H6",
+      "direction": "front",
+      "dir8": "N",
+      "batch": "B",
+      "direction_label": "B批 · 正面 front",
+      "confidence": "中",
+      "row": 4,
+      "col": 5,
+      "alpha_px": 6981,
+      "green_left": 0,
+      "src_box": [
+        1027,
+        860,
+        1268,
+        1129
+      ],
+      "canvas": [
+        160,
+        190
+      ]
+    },
+    {
+      "id": "H6_r4c6",
+      "file": "01_解读/3D参考帧/H6_r4c6.png",
+      "board": "H6",
+      "direction": "front",
+      "dir8": "N",
+      "batch": "B",
+      "direction_label": "B批 · 正面 front",
+      "confidence": "中",
+      "row": 4,
+      "col": 6,
+      "alpha_px": 7120,
+      "green_left": 0,
+      "src_box": [
+        1278,
+        860,
+        1519,
+        1129
+      ],
+      "canvas": [
+        160,
+        190
+      ]
+    },
+    {
+      "id": "H6_r4c7",
+      "file": "01_解读/3D参考帧/H6_r4c7.png",
+      "board": "H6",
+      "direction": "front",
+      "dir8": "N",
+      "batch": "B",
+      "direction_label": "B批 · 正面 front",
+      "confidence": "中",
+      "row": 4,
+      "col": 7,
+      "alpha_px": 7122,
+      "green_left": 0,
+      "src_box": [
+        1530,
+        860,
+        1771,
+        1129
+      ],
+      "canvas": [
+        160,
+        190
+      ]
+    },
+    {
+      "id": "H6_r4c8",
+      "file": "01_解读/3D参考帧/H6_r4c8.png",
+      "board": "H6",
+      "direction": "front",
+      "dir8": "N",
+      "batch": "B",
+      "direction_label": "B批 · 正面 front",
+      "confidence": "中",
+      "row": 4,
+      "col": 8,
+      "alpha_px": 7069,
+      "green_left": 0,
+      "src_box": [
+        1781,
+        860,
+        2022,
+        1129
+      ],
+      "canvas": [
+        160,
+        190
+      ]
+    },
+    {
+      "id": "H7_r1c1",
+      "file": "01_解读/3D参考帧/H7_r1c1.png",
+      "board": "H7",
+      "direction": "back",
+      "dir8": "SE",
+      "batch": "B",
+      "direction_label": "B批 · 右后斜 back-right",
+      "confidence": "中",
+      "row": 1,
+      "col": 1,
+      "alpha_px": 5558,
+      "green_left": 0,
+      "src_box": [
+        0,
+        11,
+        242,
+        284
+      ],
+      "canvas": [
+        160,
+        190
+      ]
+    },
+    {
+      "id": "H7_r1c2",
+      "file": "01_解读/3D参考帧/H7_r1c2.png",
+      "board": "H7",
+      "direction": "back",
+      "dir8": "SE",
+      "batch": "B",
+      "direction_label": "B批 · 右后斜 back-right",
+      "confidence": "中",
+      "row": 1,
+      "col": 2,
+      "alpha_px": 5910,
+      "green_left": 0,
+      "src_box": [
+        253,
+        11,
+        498,
+        284
+      ],
+      "canvas": [
+        160,
+        190
+      ]
+    },
+    {
+      "id": "H7_r1c3",
+      "file": "01_解读/3D参考帧/H7_r1c3.png",
+      "board": "H7",
+      "direction": "back",
+      "dir8": "SE",
+      "batch": "B",
+      "direction_label": "B批 · 右后斜 back-right",
+      "confidence": "中",
+      "row": 1,
+      "col": 3,
+      "alpha_px": 5476,
+      "green_left": 0,
+      "src_box": [
+        517,
+        11,
+        762,
+        284
+      ],
+      "canvas": [
+        160,
+        190
+      ]
+    },
+    {
+      "id": "H7_r1c4",
+      "file": "01_解读/3D参考帧/H7_r1c4.png",
+      "board": "H7",
+      "direction": "back",
+      "dir8": "SE",
+      "batch": "B",
+      "direction_label": "B批 · 右后斜 back-right",
+      "confidence": "中",
+      "row": 1,
+      "col": 4,
+      "alpha_px": 5459,
+      "green_left": 0,
+      "src_box": [
+        772,
+        11,
+        1017,
+        284
+      ],
+      "canvas": [
+        160,
+        190
+      ]
+    },
+    {
+      "id": "H7_r1c5",
+      "file": "01_解读/3D参考帧/H7_r1c5.png",
+      "board": "H7",
+      "direction": "back",
+      "dir8": "SE",
+      "batch": "B",
+      "direction_label": "B批 · 右后斜 back-right",
+      "confidence": "中",
+      "row": 1,
+      "col": 5,
+      "alpha_px": 5432,
+      "green_left": 0,
+      "src_box": [
+        1028,
+        11,
+        1273,
+        284
+      ],
+      "canvas": [
+        160,
+        190
+      ]
+    },
+    {
+      "id": "H7_r1c6",
+      "file": "01_解读/3D参考帧/H7_r1c6.png",
+      "board": "H7",
+      "direction": "back",
+      "dir8": "SE",
+      "batch": "B",
+      "direction_label": "B批 · 右后斜 back-right",
+      "confidence": "中",
+      "row": 1,
+      "col": 6,
+      "alpha_px": 5739,
+      "green_left": 0,
+      "src_box": [
+        1287,
+        11,
+        1532,
+        284
+      ],
+      "canvas": [
+        160,
+        190
+      ]
+    },
+    {
+      "id": "H7_r1c7",
+      "file": "01_解读/3D参考帧/H7_r1c7.png",
+      "board": "H7",
+      "direction": "back",
+      "dir8": "SE",
+      "batch": "B",
+      "direction_label": "B批 · 右后斜 back-right",
+      "confidence": "中",
+      "row": 1,
+      "col": 7,
+      "alpha_px": 5610,
+      "green_left": 0,
+      "src_box": [
+        1541,
+        11,
+        1786,
+        284
+      ],
+      "canvas": [
+        160,
+        190
+      ]
+    },
+    {
+      "id": "H7_r1c8",
+      "file": "01_解读/3D参考帧/H7_r1c8.png",
+      "board": "H7",
+      "direction": "back",
+      "dir8": "SE",
+      "batch": "B",
+      "direction_label": "B批 · 右后斜 back-right",
+      "confidence": "中",
+      "row": 1,
+      "col": 8,
+      "alpha_px": 5502,
+      "green_left": 0,
+      "src_box": [
+        1801,
+        11,
+        2046,
+        284
+      ],
+      "canvas": [
+        160,
+        190
+      ]
+    },
+    {
+      "id": "H7_r2c1",
+      "file": "01_解读/3D参考帧/H7_r2c1.png",
+      "board": "H7",
+      "direction": "back",
+      "dir8": "SE",
+      "batch": "B",
+      "direction_label": "B批 · 右后斜 back-right",
+      "confidence": "中",
+      "row": 2,
+      "col": 1,
+      "alpha_px": 6333,
+      "green_left": 0,
+      "src_box": [
+        0,
+        295,
+        242,
+        568
+      ],
+      "canvas": [
+        160,
+        190
+      ]
+    },
+    {
+      "id": "H7_r2c2",
+      "file": "01_解读/3D参考帧/H7_r2c2.png",
+      "board": "H7",
+      "direction": "back",
+      "dir8": "SE",
+      "batch": "B",
+      "direction_label": "B批 · 右后斜 back-right",
+      "confidence": "中",
+      "row": 2,
+      "col": 2,
+      "alpha_px": 6207,
+      "green_left": 0,
+      "src_box": [
+        253,
+        295,
+        498,
+        568
+      ],
+      "canvas": [
+        160,
+        190
+      ]
+    },
+    {
+      "id": "H7_r2c3",
+      "file": "01_解读/3D参考帧/H7_r2c3.png",
+      "board": "H7",
+      "direction": "back",
+      "dir8": "SE",
+      "batch": "B",
+      "direction_label": "B批 · 右后斜 back-right",
+      "confidence": "中",
+      "row": 2,
+      "col": 3,
+      "alpha_px": 5936,
+      "green_left": 0,
+      "src_box": [
+        517,
+        295,
+        762,
+        568
+      ],
+      "canvas": [
+        160,
+        190
+      ]
+    },
+    {
+      "id": "H7_r2c4",
+      "file": "01_解读/3D参考帧/H7_r2c4.png",
+      "board": "H7",
+      "direction": "back",
+      "dir8": "SE",
+      "batch": "B",
+      "direction_label": "B批 · 右后斜 back-right",
+      "confidence": "中",
+      "row": 2,
+      "col": 4,
+      "alpha_px": 5657,
+      "green_left": 0,
+      "src_box": [
+        772,
+        295,
+        1017,
+        568
+      ],
+      "canvas": [
+        160,
+        190
+      ]
+    },
+    {
+      "id": "H7_r2c5",
+      "file": "01_解读/3D参考帧/H7_r2c5.png",
+      "board": "H7",
+      "direction": "back",
+      "dir8": "SE",
+      "batch": "B",
+      "direction_label": "B批 · 右后斜 back-right",
+      "confidence": "中",
+      "row": 2,
+      "col": 5,
+      "alpha_px": 5975,
+      "green_left": 0,
+      "src_box": [
+        1028,
+        295,
+        1273,
+        568
+      ],
+      "canvas": [
+        160,
+        190
+      ]
+    },
+    {
+      "id": "H7_r2c6",
+      "file": "01_解读/3D参考帧/H7_r2c6.png",
+      "board": "H7",
+      "direction": "back",
+      "dir8": "SE",
+      "batch": "B",
+      "direction_label": "B批 · 右后斜 back-right",
+      "confidence": "中",
+      "row": 2,
+      "col": 6,
+      "alpha_px": 5905,
+      "green_left": 0,
+      "src_box": [
+        1287,
+        295,
+        1532,
+        568
+      ],
+      "canvas": [
+        160,
+        190
+      ]
+    },
+    {
+      "id": "H7_r2c7",
+      "file": "01_解读/3D参考帧/H7_r2c7.png",
+      "board": "H7",
+      "direction": "back",
+      "dir8": "SE",
+      "batch": "B",
+      "direction_label": "B批 · 右后斜 back-right",
+      "confidence": "中",
+      "row": 2,
+      "col": 7,
+      "alpha_px": 5900,
+      "green_left": 0,
+      "src_box": [
+        1541,
+        295,
+        1786,
+        568
+      ],
+      "canvas": [
+        160,
+        190
+      ]
+    },
+    {
+      "id": "H7_r2c8",
+      "file": "01_解读/3D参考帧/H7_r2c8.png",
+      "board": "H7",
+      "direction": "back",
+      "dir8": "SE",
+      "batch": "B",
+      "direction_label": "B批 · 右后斜 back-right",
+      "confidence": "中",
+      "row": 2,
+      "col": 8,
+      "alpha_px": 5523,
+      "green_left": 0,
+      "src_box": [
+        1801,
+        295,
+        2046,
+        568
+      ],
+      "canvas": [
+        160,
+        190
+      ]
+    },
+    {
+      "id": "H7_r3c1",
+      "file": "01_解读/3D参考帧/H7_r3c1.png",
+      "board": "H7",
+      "direction": "back",
+      "dir8": "SE",
+      "batch": "B",
+      "direction_label": "B批 · 右后斜 back-right",
+      "confidence": "中",
+      "row": 3,
+      "col": 1,
+      "alpha_px": 5946,
+      "green_left": 0,
+      "src_box": [
+        0,
+        578,
+        242,
+        851
+      ],
+      "canvas": [
+        160,
+        190
+      ]
+    },
+    {
+      "id": "H7_r3c2",
+      "file": "01_解读/3D参考帧/H7_r3c2.png",
+      "board": "H7",
+      "direction": "back",
+      "dir8": "SE",
+      "batch": "B",
+      "direction_label": "B批 · 右后斜 back-right",
+      "confidence": "中",
+      "row": 3,
+      "col": 2,
+      "alpha_px": 6373,
+      "green_left": 0,
+      "src_box": [
+        253,
+        578,
+        498,
+        851
+      ],
+      "canvas": [
+        160,
+        190
+      ]
+    },
+    {
+      "id": "H7_r3c3",
+      "file": "01_解读/3D参考帧/H7_r3c3.png",
+      "board": "H7",
+      "direction": "back",
+      "dir8": "SE",
+      "batch": "B",
+      "direction_label": "B批 · 右后斜 back-right",
+      "confidence": "中",
+      "row": 3,
+      "col": 3,
+      "alpha_px": 5925,
+      "green_left": 0,
+      "src_box": [
+        517,
+        578,
+        762,
+        851
+      ],
+      "canvas": [
+        160,
+        190
+      ]
+    },
+    {
+      "id": "H7_r3c4",
+      "file": "01_解读/3D参考帧/H7_r3c4.png",
+      "board": "H7",
+      "direction": "back",
+      "dir8": "SE",
+      "batch": "B",
+      "direction_label": "B批 · 右后斜 back-right",
+      "confidence": "中",
+      "row": 3,
+      "col": 4,
+      "alpha_px": 5893,
+      "green_left": 0,
+      "src_box": [
+        772,
+        578,
+        1017,
+        851
+      ],
+      "canvas": [
+        160,
+        190
+      ]
+    },
+    {
+      "id": "H7_r3c5",
+      "file": "01_解读/3D参考帧/H7_r3c5.png",
+      "board": "H7",
+      "direction": "back",
+      "dir8": "SE",
+      "batch": "B",
+      "direction_label": "B批 · 右后斜 back-right",
+      "confidence": "中",
+      "row": 3,
+      "col": 5,
+      "alpha_px": 6355,
+      "green_left": 0,
+      "src_box": [
+        1028,
+        578,
+        1273,
+        851
+      ],
+      "canvas": [
+        160,
+        190
+      ]
+    },
+    {
+      "id": "H7_r3c6",
+      "file": "01_解读/3D参考帧/H7_r3c6.png",
+      "board": "H7",
+      "direction": "back",
+      "dir8": "SE",
+      "batch": "B",
+      "direction_label": "B批 · 右后斜 back-right",
+      "confidence": "中",
+      "row": 3,
+      "col": 6,
+      "alpha_px": 6207,
+      "green_left": 0,
+      "src_box": [
+        1287,
+        578,
+        1532,
+        851
+      ],
+      "canvas": [
+        160,
+        190
+      ]
+    },
+    {
+      "id": "H7_r3c7",
+      "file": "01_解读/3D参考帧/H7_r3c7.png",
+      "board": "H7",
+      "direction": "back",
+      "dir8": "SE",
+      "batch": "B",
+      "direction_label": "B批 · 右后斜 back-right",
+      "confidence": "中",
+      "row": 3,
+      "col": 7,
+      "alpha_px": 6396,
+      "green_left": 0,
+      "src_box": [
+        1541,
+        578,
+        1786,
+        851
+      ],
+      "canvas": [
+        160,
+        190
+      ]
+    },
+    {
+      "id": "H7_r3c8",
+      "file": "01_解读/3D参考帧/H7_r3c8.png",
+      "board": "H7",
+      "direction": "back",
+      "dir8": "SE",
+      "batch": "B",
+      "direction_label": "B批 · 右后斜 back-right",
+      "confidence": "中",
+      "row": 3,
+      "col": 8,
+      "alpha_px": 5806,
+      "green_left": 0,
+      "src_box": [
+        1801,
+        578,
+        2046,
+        851
+      ],
+      "canvas": [
+        160,
+        190
+      ]
+    },
+    {
+      "id": "H7_r4c1",
+      "file": "01_解读/3D参考帧/H7_r4c1.png",
+      "board": "H7",
+      "direction": "back",
+      "dir8": "SE",
+      "batch": "B",
+      "direction_label": "B批 · 右后斜 back-right",
+      "confidence": "中",
+      "row": 4,
+      "col": 1,
+      "alpha_px": 5995,
+      "green_left": 0,
+      "src_box": [
+        0,
+        865,
+        242,
+        1138
+      ],
+      "canvas": [
+        160,
+        190
+      ]
+    },
+    {
+      "id": "H7_r4c2",
+      "file": "01_解读/3D参考帧/H7_r4c2.png",
+      "board": "H7",
+      "direction": "back",
+      "dir8": "SE",
+      "batch": "B",
+      "direction_label": "B批 · 右后斜 back-right",
+      "confidence": "中",
+      "row": 4,
+      "col": 2,
+      "alpha_px": 5982,
+      "green_left": 0,
+      "src_box": [
+        253,
+        865,
+        498,
+        1138
+      ],
+      "canvas": [
+        160,
+        190
+      ]
+    },
+    {
+      "id": "H7_r4c3",
+      "file": "01_解读/3D参考帧/H7_r4c3.png",
+      "board": "H7",
+      "direction": "back",
+      "dir8": "SE",
+      "batch": "B",
+      "direction_label": "B批 · 右后斜 back-right",
+      "confidence": "中",
+      "row": 4,
+      "col": 3,
+      "alpha_px": 5917,
+      "green_left": 0,
+      "src_box": [
+        517,
+        865,
+        762,
+        1138
+      ],
+      "canvas": [
+        160,
+        190
+      ]
+    },
+    {
+      "id": "H7_r4c4",
+      "file": "01_解读/3D参考帧/H7_r4c4.png",
+      "board": "H7",
+      "direction": "back",
+      "dir8": "SE",
+      "batch": "B",
+      "direction_label": "B批 · 右后斜 back-right",
+      "confidence": "中",
+      "row": 4,
+      "col": 4,
+      "alpha_px": 5809,
+      "green_left": 0,
+      "src_box": [
+        772,
+        865,
+        1017,
+        1138
+      ],
+      "canvas": [
+        160,
+        190
+      ]
+    },
+    {
+      "id": "H7_r4c5",
+      "file": "01_解读/3D参考帧/H7_r4c5.png",
+      "board": "H7",
+      "direction": "back",
+      "dir8": "SE",
+      "batch": "B",
+      "direction_label": "B批 · 右后斜 back-right",
+      "confidence": "中",
+      "row": 4,
+      "col": 5,
+      "alpha_px": 5899,
+      "green_left": 0,
+      "src_box": [
+        1028,
+        865,
+        1273,
+        1138
+      ],
+      "canvas": [
+        160,
+        190
+      ]
+    },
+    {
+      "id": "H7_r4c6",
+      "file": "01_解读/3D参考帧/H7_r4c6.png",
+      "board": "H7",
+      "direction": "back",
+      "dir8": "SE",
+      "batch": "B",
+      "direction_label": "B批 · 右后斜 back-right",
+      "confidence": "中",
+      "row": 4,
+      "col": 6,
+      "alpha_px": 5489,
+      "green_left": 0,
+      "src_box": [
+        1287,
+        865,
+        1532,
+        1138
+      ],
+      "canvas": [
+        160,
+        190
+      ]
+    },
+    {
+      "id": "H7_r4c7",
+      "file": "01_解读/3D参考帧/H7_r4c7.png",
+      "board": "H7",
+      "direction": "back",
+      "dir8": "SE",
+      "batch": "B",
+      "direction_label": "B批 · 右后斜 back-right",
+      "confidence": "中",
+      "row": 4,
+      "col": 7,
+      "alpha_px": 5918,
+      "green_left": 0,
+      "src_box": [
+        1541,
+        865,
+        1786,
+        1138
+      ],
+      "canvas": [
+        160,
+        190
+      ]
+    },
+    {
+      "id": "H7_r4c8",
+      "file": "01_解读/3D参考帧/H7_r4c8.png",
+      "board": "H7",
+      "direction": "back",
+      "dir8": "SE",
+      "batch": "B",
+      "direction_label": "B批 · 右后斜 back-right",
+      "confidence": "中",
+      "row": 4,
+      "col": 8,
+      "alpha_px": 5414,
+      "green_left": 0,
+      "src_box": [
+        1801,
+        865,
+        2046,
+        1138
+      ],
+      "canvas": [
+        160,
+        190
+      ]
+    },
+    {
+      "id": "H8_r1c1",
+      "file": "01_解读/3D参考帧/H8_r1c1.png",
+      "board": "H8",
+      "direction": "back",
+      "dir8": "S",
+      "batch": "B",
+      "direction_label": "B批 · 背面 back",
+      "confidence": "中",
+      "row": 1,
+      "col": 1,
+      "alpha_px": 9150,
+      "green_left": 0,
+      "src_box": [
+        7,
+        10,
+        252,
+        283
+      ],
+      "canvas": [
+        160,
+        190
+      ]
+    },
+    {
+      "id": "H8_r1c2",
+      "file": "01_解读/3D参考帧/H8_r1c2.png",
+      "board": "H8",
+      "direction": "back",
+      "dir8": "S",
+      "batch": "B",
+      "direction_label": "B批 · 背面 back",
+      "confidence": "中",
+      "row": 1,
+      "col": 2,
+      "alpha_px": 9101,
+      "green_left": 0,
+      "src_box": [
+        262,
+        10,
+        507,
+        283
+      ],
+      "canvas": [
+        160,
+        190
+      ]
+    },
+    {
+      "id": "H8_r1c3",
+      "file": "01_解读/3D参考帧/H8_r1c3.png",
+      "board": "H8",
+      "direction": "back",
+      "dir8": "S",
+      "batch": "B",
+      "direction_label": "B批 · 背面 back",
+      "confidence": "中",
+      "row": 1,
+      "col": 3,
+      "alpha_px": 9159,
+      "green_left": 0,
+      "src_box": [
+        516,
+        10,
+        761,
+        283
+      ],
+      "canvas": [
+        160,
+        190
+      ]
+    },
+    {
+      "id": "H8_r1c4",
+      "file": "01_解读/3D参考帧/H8_r1c4.png",
+      "board": "H8",
+      "direction": "back",
+      "dir8": "S",
+      "batch": "B",
+      "direction_label": "B批 · 背面 back",
+      "confidence": "中",
+      "row": 1,
+      "col": 4,
+      "alpha_px": 9079,
+      "green_left": 0,
+      "src_box": [
+        773,
+        10,
+        1018,
+        283
+      ],
+      "canvas": [
+        160,
+        190
+      ]
+    },
+    {
+      "id": "H8_r1c5",
+      "file": "01_解读/3D参考帧/H8_r1c5.png",
+      "board": "H8",
+      "direction": "back",
+      "dir8": "S",
+      "batch": "B",
+      "direction_label": "B批 · 背面 back",
+      "confidence": "中",
+      "row": 1,
+      "col": 5,
+      "alpha_px": 9098,
+      "green_left": 0,
+      "src_box": [
+        1029,
+        10,
+        1274,
+        283
+      ],
+      "canvas": [
+        160,
+        190
+      ]
+    },
+    {
+      "id": "H8_r1c6",
+      "file": "01_解读/3D参考帧/H8_r1c6.png",
+      "board": "H8",
+      "direction": "back",
+      "dir8": "S",
+      "batch": "B",
+      "direction_label": "B批 · 背面 back",
+      "confidence": "中",
+      "row": 1,
+      "col": 6,
+      "alpha_px": 9043,
+      "green_left": 0,
+      "src_box": [
+        1285,
+        10,
+        1530,
+        283
+      ],
+      "canvas": [
+        160,
+        190
+      ]
+    },
+    {
+      "id": "H8_r1c7",
+      "file": "01_解读/3D参考帧/H8_r1c7.png",
+      "board": "H8",
+      "direction": "back",
+      "dir8": "S",
+      "batch": "B",
+      "direction_label": "B批 · 背面 back",
+      "confidence": "中",
+      "row": 1,
+      "col": 7,
+      "alpha_px": 9077,
+      "green_left": 0,
+      "src_box": [
+        1541,
+        10,
+        1786,
+        283
+      ],
+      "canvas": [
+        160,
+        190
+      ]
+    },
+    {
+      "id": "H8_r1c8",
+      "file": "01_解读/3D参考帧/H8_r1c8.png",
+      "board": "H8",
+      "direction": "back",
+      "dir8": "S",
+      "batch": "B",
+      "direction_label": "B批 · 背面 back",
+      "confidence": "中",
+      "row": 1,
+      "col": 8,
+      "alpha_px": 9118,
+      "green_left": 0,
+      "src_box": [
+        1796,
+        10,
+        2041,
+        283
+      ],
+      "canvas": [
+        160,
+        190
+      ]
+    },
+    {
+      "id": "H8_r2c1",
+      "file": "01_解读/3D参考帧/H8_r2c1.png",
+      "board": "H8",
+      "direction": "back",
+      "dir8": "S",
+      "batch": "B",
+      "direction_label": "B批 · 背面 back",
+      "confidence": "中",
+      "row": 2,
+      "col": 1,
+      "alpha_px": 8967,
+      "green_left": 0,
+      "src_box": [
+        7,
+        294,
+        252,
+        567
+      ],
+      "canvas": [
+        160,
+        190
+      ]
+    },
+    {
+      "id": "H8_r2c2",
+      "file": "01_解读/3D参考帧/H8_r2c2.png",
+      "board": "H8",
+      "direction": "back",
+      "dir8": "S",
+      "batch": "B",
+      "direction_label": "B批 · 背面 back",
+      "confidence": "中",
+      "row": 2,
+      "col": 2,
+      "alpha_px": 9065,
+      "green_left": 0,
+      "src_box": [
+        262,
+        294,
+        507,
+        567
+      ],
+      "canvas": [
+        160,
+        190
+      ]
+    },
+    {
+      "id": "H8_r2c3",
+      "file": "01_解读/3D参考帧/H8_r2c3.png",
+      "board": "H8",
+      "direction": "back",
+      "dir8": "S",
+      "batch": "B",
+      "direction_label": "B批 · 背面 back",
+      "confidence": "中",
+      "row": 2,
+      "col": 3,
+      "alpha_px": 9051,
+      "green_left": 0,
+      "src_box": [
+        516,
+        294,
+        761,
+        567
+      ],
+      "canvas": [
+        160,
+        190
+      ]
+    },
+    {
+      "id": "H8_r2c4",
+      "file": "01_解读/3D参考帧/H8_r2c4.png",
+      "board": "H8",
+      "direction": "back",
+      "dir8": "S",
+      "batch": "B",
+      "direction_label": "B批 · 背面 back",
+      "confidence": "中",
+      "row": 2,
+      "col": 4,
+      "alpha_px": 9050,
+      "green_left": 0,
+      "src_box": [
+        773,
+        294,
+        1018,
+        567
+      ],
+      "canvas": [
+        160,
+        190
+      ]
+    },
+    {
+      "id": "H8_r2c5",
+      "file": "01_解读/3D参考帧/H8_r2c5.png",
+      "board": "H8",
+      "direction": "back",
+      "dir8": "S",
+      "batch": "B",
+      "direction_label": "B批 · 背面 back",
+      "confidence": "中",
+      "row": 2,
+      "col": 5,
+      "alpha_px": 8979,
+      "green_left": 0,
+      "src_box": [
+        1029,
+        294,
+        1274,
+        567
+      ],
+      "canvas": [
+        160,
+        190
+      ]
+    },
+    {
+      "id": "H8_r2c6",
+      "file": "01_解读/3D参考帧/H8_r2c6.png",
+      "board": "H8",
+      "direction": "back",
+      "dir8": "S",
+      "batch": "B",
+      "direction_label": "B批 · 背面 back",
+      "confidence": "中",
+      "row": 2,
+      "col": 6,
+      "alpha_px": 8987,
+      "green_left": 0,
+      "src_box": [
+        1285,
+        294,
+        1530,
+        567
+      ],
+      "canvas": [
+        160,
+        190
+      ]
+    },
+    {
+      "id": "H8_r2c7",
+      "file": "01_解读/3D参考帧/H8_r2c7.png",
+      "board": "H8",
+      "direction": "back",
+      "dir8": "S",
+      "batch": "B",
+      "direction_label": "B批 · 背面 back",
+      "confidence": "中",
+      "row": 2,
+      "col": 7,
+      "alpha_px": 9012,
+      "green_left": 0,
+      "src_box": [
+        1541,
+        294,
+        1786,
+        567
+      ],
+      "canvas": [
+        160,
+        190
+      ]
+    },
+    {
+      "id": "H8_r2c8",
+      "file": "01_解读/3D参考帧/H8_r2c8.png",
+      "board": "H8",
+      "direction": "back",
+      "dir8": "S",
+      "batch": "B",
+      "direction_label": "B批 · 背面 back",
+      "confidence": "中",
+      "row": 2,
+      "col": 8,
+      "alpha_px": 8986,
+      "green_left": 0,
+      "src_box": [
+        1796,
+        294,
+        2041,
+        567
+      ],
+      "canvas": [
+        160,
+        190
+      ]
+    },
+    {
+      "id": "H8_r3c1",
+      "file": "01_解读/3D参考帧/H8_r3c1.png",
+      "board": "H8",
+      "direction": "back",
+      "dir8": "S",
+      "batch": "B",
+      "direction_label": "B批 · 背面 back",
+      "confidence": "中",
+      "row": 3,
+      "col": 1,
+      "alpha_px": 8783,
+      "green_left": 0,
+      "src_box": [
+        7,
+        575,
+        252,
+        848
+      ],
+      "canvas": [
+        160,
+        190
+      ]
+    },
+    {
+      "id": "H8_r3c2",
+      "file": "01_解读/3D参考帧/H8_r3c2.png",
+      "board": "H8",
+      "direction": "back",
+      "dir8": "S",
+      "batch": "B",
+      "direction_label": "B批 · 背面 back",
+      "confidence": "中",
+      "row": 3,
+      "col": 2,
+      "alpha_px": 8599,
+      "green_left": 0,
+      "src_box": [
+        262,
+        575,
+        507,
+        848
+      ],
+      "canvas": [
+        160,
+        190
+      ]
+    },
+    {
+      "id": "H8_r3c3",
+      "file": "01_解读/3D参考帧/H8_r3c3.png",
+      "board": "H8",
+      "direction": "back",
+      "dir8": "S",
+      "batch": "B",
+      "direction_label": "B批 · 背面 back",
+      "confidence": "中",
+      "row": 3,
+      "col": 3,
+      "alpha_px": 8140,
+      "green_left": 0,
+      "src_box": [
+        516,
+        575,
+        761,
+        848
+      ],
+      "canvas": [
+        160,
+        190
+      ]
+    },
+    {
+      "id": "H8_r3c4",
+      "file": "01_解读/3D参考帧/H8_r3c4.png",
+      "board": "H8",
+      "direction": "back",
+      "dir8": "S",
+      "batch": "B",
+      "direction_label": "B批 · 背面 back",
+      "confidence": "中",
+      "row": 3,
+      "col": 4,
+      "alpha_px": 8601,
+      "green_left": 0,
+      "src_box": [
+        773,
+        575,
+        1018,
+        848
+      ],
+      "canvas": [
+        160,
+        190
+      ]
+    },
+    {
+      "id": "H8_r3c5",
+      "file": "01_解读/3D参考帧/H8_r3c5.png",
+      "board": "H8",
+      "direction": "back",
+      "dir8": "S",
+      "batch": "B",
+      "direction_label": "B批 · 背面 back",
+      "confidence": "中",
+      "row": 3,
+      "col": 5,
+      "alpha_px": 8542,
+      "green_left": 0,
+      "src_box": [
+        1029,
+        575,
+        1274,
+        848
+      ],
+      "canvas": [
+        160,
+        190
+      ]
+    },
+    {
+      "id": "H8_r3c6",
+      "file": "01_解读/3D参考帧/H8_r3c6.png",
+      "board": "H8",
+      "direction": "back",
+      "dir8": "S",
+      "batch": "B",
+      "direction_label": "B批 · 背面 back",
+      "confidence": "中",
+      "row": 3,
+      "col": 6,
+      "alpha_px": 8861,
+      "green_left": 0,
+      "src_box": [
+        1285,
+        575,
+        1530,
+        848
+      ],
+      "canvas": [
+        160,
+        190
+      ]
+    },
+    {
+      "id": "H8_r3c7",
+      "file": "01_解读/3D参考帧/H8_r3c7.png",
+      "board": "H8",
+      "direction": "back",
+      "dir8": "S",
+      "batch": "B",
+      "direction_label": "B批 · 背面 back",
+      "confidence": "中",
+      "row": 3,
+      "col": 7,
+      "alpha_px": 8823,
+      "green_left": 0,
+      "src_box": [
+        1541,
+        575,
+        1786,
+        848
+      ],
+      "canvas": [
+        160,
+        190
+      ]
+    },
+    {
+      "id": "H8_r3c8",
+      "file": "01_解读/3D参考帧/H8_r3c8.png",
+      "board": "H8",
+      "direction": "back",
+      "dir8": "S",
+      "batch": "B",
+      "direction_label": "B批 · 背面 back",
+      "confidence": "中",
+      "row": 3,
+      "col": 8,
+      "alpha_px": 8914,
+      "green_left": 0,
+      "src_box": [
+        1796,
+        575,
+        2041,
+        848
+      ],
+      "canvas": [
+        160,
+        190
+      ]
+    },
+    {
+      "id": "H8_r4c1",
+      "file": "01_解读/3D参考帧/H8_r4c1.png",
+      "board": "H8",
+      "direction": "back",
+      "dir8": "S",
+      "batch": "B",
+      "direction_label": "B批 · 背面 back",
+      "confidence": "中",
+      "row": 4,
+      "col": 1,
+      "alpha_px": 8503,
+      "green_left": 0,
+      "src_box": [
+        7,
+        865,
+        252,
+        1138
+      ],
+      "canvas": [
+        160,
+        190
+      ]
+    },
+    {
+      "id": "H8_r4c2",
+      "file": "01_解读/3D参考帧/H8_r4c2.png",
+      "board": "H8",
+      "direction": "back",
+      "dir8": "S",
+      "batch": "B",
+      "direction_label": "B批 · 背面 back",
+      "confidence": "中",
+      "row": 4,
+      "col": 2,
+      "alpha_px": 8808,
+      "green_left": 0,
+      "src_box": [
+        262,
+        865,
+        507,
+        1138
+      ],
+      "canvas": [
+        160,
+        190
+      ]
+    },
+    {
+      "id": "H8_r4c3",
+      "file": "01_解读/3D参考帧/H8_r4c3.png",
+      "board": "H8",
+      "direction": "back",
+      "dir8": "S",
+      "batch": "B",
+      "direction_label": "B批 · 背面 back",
+      "confidence": "中",
+      "row": 4,
+      "col": 3,
+      "alpha_px": 9099,
+      "green_left": 0,
+      "src_box": [
+        516,
+        865,
+        761,
+        1138
+      ],
+      "canvas": [
+        160,
+        190
+      ]
+    },
+    {
+      "id": "H8_r4c4",
+      "file": "01_解读/3D参考帧/H8_r4c4.png",
+      "board": "H8",
+      "direction": "back",
+      "dir8": "S",
+      "batch": "B",
+      "direction_label": "B批 · 背面 back",
+      "confidence": "中",
+      "row": 4,
+      "col": 4,
+      "alpha_px": 8548,
+      "green_left": 0,
+      "src_box": [
+        773,
+        865,
+        1018,
+        1138
+      ],
+      "canvas": [
+        160,
+        190
+      ]
+    },
+    {
+      "id": "H8_r4c5",
+      "file": "01_解读/3D参考帧/H8_r4c5.png",
+      "board": "H8",
+      "direction": "back",
+      "dir8": "S",
+      "batch": "B",
+      "direction_label": "B批 · 背面 back",
+      "confidence": "中",
+      "row": 4,
+      "col": 5,
+      "alpha_px": 8903,
+      "green_left": 0,
+      "src_box": [
+        1029,
+        865,
+        1274,
+        1138
+      ],
+      "canvas": [
+        160,
+        190
+      ]
+    },
+    {
+      "id": "H8_r4c6",
+      "file": "01_解读/3D参考帧/H8_r4c6.png",
+      "board": "H8",
+      "direction": "back",
+      "dir8": "S",
+      "batch": "B",
+      "direction_label": "B批 · 背面 back",
+      "confidence": "中",
+      "row": 4,
+      "col": 6,
+      "alpha_px": 9000,
+      "green_left": 0,
+      "src_box": [
+        1285,
+        865,
+        1530,
+        1138
+      ],
+      "canvas": [
+        160,
+        190
+      ]
+    },
+    {
+      "id": "H8_r4c7",
+      "file": "01_解读/3D参考帧/H8_r4c7.png",
+      "board": "H8",
+      "direction": "back",
+      "dir8": "S",
+      "batch": "B",
+      "direction_label": "B批 · 背面 back",
+      "confidence": "中",
+      "row": 4,
+      "col": 7,
+      "alpha_px": 8912,
+      "green_left": 0,
+      "src_box": [
+        1541,
+        865,
+        1786,
+        1138
+      ],
+      "canvas": [
+        160,
+        190
+      ]
+    },
+    {
+      "id": "H8_r4c8",
+      "file": "01_解读/3D参考帧/H8_r4c8.png",
+      "board": "H8",
+      "direction": "back",
+      "dir8": "S",
+      "batch": "B",
+      "direction_label": "B批 · 背面 back",
+      "confidence": "中",
+      "row": 4,
+      "col": 8,
+      "alpha_px": 8681,
+      "green_left": 0,
+      "src_box": [
+        1796,
+        865,
+        2041,
+        1138
+      ],
+      "canvas": [
+        160,
+        190
+      ]
+    }
+  ]
+}
