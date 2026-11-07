@@ -1,0 +1,43 @@
+{
+  "imgs": 109,
+  "badge": "参考层 8/8 · 候选层 4/8（未转正）· 资产层 1/8 · 16 帧候选可挑",
+  "dirbtns": 8,
+  "now_N": "方向 N 正面 · 相位 1/4\n参考层该向 32 帧 · 候选 4 帧",
+  "capC_N": "N_p1\nN 正面 · 相位 1/4 · status=candidate",
+  "capA_N": "act_stand1\n现有 64 帧资产 · 全部 direction=N",
+  "gap": "参考层 8/8（每向 32 帧 / 共 412）\n候选层 4/8（N/E/S/W，未转正）\n资产层 1/8（仅 N，64 帧）\n资产层仍缺 NE / E / SE / S / SW / W / NW\n候选层仍缺 NE / SE / SW / NW",
+  "capC_NE": "本轮未生成\n模型没画出 NE 右前斜",
+  "now_NE": "方向 NE 右前斜 · 相位 1/4\n参考层该向 32 帧 · 候选 0 帧",
+  "capC_E": "E_p1\nE 右侧 · 相位 1/4 · status=candidate",
+  "capA_E": "资产层 0 帧\n该向从未转正",
+  "capC_W": "W_p1\nW 左侧 · 相位 1/4 · status=candidate",
+  "playing": true,
+  "i_after_play": 5,
+  "mark": {
+    "N_p1": "ok"
+  },
+  "markInfo": "当前候选 N_p1 · 标记 ok",
+  "rectInfo0": "FRAME 0 · N_p1\nrect=[0,0,160,190] · row1 col1\ndir8=N 正面 · 并脚站立 · candidate",
+  "hl": [
+    "0px",
+    "0px",
+    "160px",
+    "190px"
+  ],
+  "rectInfo1": "FRAME 8 · N_p2\nrect=[0,190,160,190] · row2 col1\ndir8=N 正面 · 迈左腿 · candidate",
+  "rectInfo_NE": "FRAME 1 · 未生成\nrect=[160,0,160,190] · row1 col2\ndir8=NE 右前斜 · 并脚站立 · not_generated",
+  "rectIdx_after_play": 9,
+  "dInfo": "底图 N_p1 · N 正面 · 并脚站立\nstatus=candidate · 配件为历史 320×380 锚点叠层",
+  "dChips": "N_p1\nhair_short\near_cat\neye_open\nmouth_open\nblush\nglasses_round",
+  "dInfo_E": "底图 E_p1 · E 右侧 · 并脚站立\nstatus=candidate · 配件为历史 320×380 锚点叠层",
+  "dress_px": 121600,
+  "bare_chips": "E_p1",
+  "reviewStat": "16 帧候选 · 认可 1 · 作废 0 · 未判定 15",
+  "tbl_rows": 17,
+  "big": "flex",
+  "big_closed": "none",
+  "doc_len": 2212,
+  "doc_manifest_len": 6559,
+  "fs": true,
+  "errors": []
+}

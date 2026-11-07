@@ -1,0 +1,1840 @@
+{
+  "total": 32,
+  "canvas": [
+    160,
+    190
+  ],
+  "foot_y": 178,
+  "status": "candidate",
+  "generation_notes": {
+    "board1": "图生图，输入=厚涂Q版纯素体身份锚 + 正/背白模姿态卡",
+    "board2_4": "文生图（同 seed=5，无输入图）：因单次请求输入图额度已用满",
+    "all_pure_cream_bg": true,
+    "green_ratio": 0.0
+  },
+  "measured_direction_coverage": {
+    "N": 21,
+    "NE": 0,
+    "E": 0,
+    "SE": 0,
+    "S": 6,
+    "SW": 0,
+    "W": 2,
+    "NW": 3
+  },
+  "claimed_direction_coverage": {
+    "N": 4,
+    "NE": 4,
+    "E": 4,
+    "SE": 4,
+    "S": 4,
+    "SW": 4,
+    "W": 4,
+    "NW": 4
+  },
+  "mismatch": 30,
+  "cross_board_similarity": {
+    "N_p1_板1|E_p1_板2": 0.2821,
+    "N_p1_板1|NE_p1_板3": 0.2667,
+    "N_p1_板1|SE_p1_板4": 0.351,
+    "E_p1_板2|NE_p1_板3": 0.1576,
+    "E_p1_板2|SE_p1_板4": 0.1782,
+    "NE_p1_板3|SE_p1_板4": 0.1123
+  },
+  "items": [
+    {
+      "id": "N_p1_板1",
+      "board": "板1_正面背面",
+      "row": 1,
+      "col": 1,
+      "phase": "并脚站立",
+      "claimed_dir": "N",
+      "measured_dir": "S",
+      "dir_scores": {
+        "N": 0.2424,
+        "NE": 0.588,
+        "E": 0.4806,
+        "SE": 0.9767,
+        "S": 0.1925,
+        "SW": 0.9801,
+        "W": 0.4817,
+        "NW": 0.5859
+      },
+      "status": "candidate",
+      "file": "八向资产/03_裁切帧/板1_正面背面/N_p1_板1.png",
+      "alpha_px": 12583,
+      "green_left": 0,
+      "hard_edge": 0,
+      "blobs": 1,
+      "holes": 0,
+      "skeleton_endpoints": 4,
+      "bbox": [
+        31,
+        2,
+        128,
+        176
+      ],
+      "src_box": [
+        145,
+        92,
+        384,
+        519
+      ],
+      "phase_diff_mean": 0.0369
+    },
+    {
+      "id": "N_p2_板1",
+      "board": "板1_正面背面",
+      "row": 1,
+      "col": 2,
+      "phase": "迈左腿",
+      "claimed_dir": "N",
+      "measured_dir": "S",
+      "dir_scores": {
+        "N": 0.2452,
+        "NE": 0.5908,
+        "E": 0.4834,
+        "SE": 0.9795,
+        "S": 0.1937,
+        "SW": 0.9829,
+        "W": 0.4845,
+        "NW": 0.5887
+      },
+      "status": "candidate",
+      "file": "八向资产/03_裁切帧/板1_正面背面/N_p2_板1.png",
+      "alpha_px": 12616,
+      "green_left": 0,
+      "hard_edge": 0,
+      "blobs": 1,
+      "holes": 0,
+      "skeleton_endpoints": 5,
+      "bbox": [
+        30,
+        2,
+        128,
+        176
+      ],
+      "src_box": [
+        637,
+        92,
+        877,
+        519
+      ],
+      "phase_diff_mean": 0.0369
+    },
+    {
+      "id": "N_p3_板1",
+      "board": "板1_正面背面",
+      "row": 1,
+      "col": 3,
+      "phase": "双腿交错",
+      "claimed_dir": "N",
+      "measured_dir": "S",
+      "dir_scores": {
+        "N": 0.3294,
+        "NE": 0.7048,
+        "E": 0.619,
+        "SE": 1.1334,
+        "S": 0.2826,
+        "SW": 1.1365,
+        "W": 0.6202,
+        "NW": 0.7034
+      },
+      "status": "candidate",
+      "file": "八向资产/03_裁切帧/板1_正面背面/N_p3_板1.png",
+      "alpha_px": 12632,
+      "green_left": 0,
+      "hard_edge": 0,
+      "blobs": 1,
+      "holes": 0,
+      "skeleton_endpoints": 6,
+      "bbox": [
+        29,
+        2,
+        128,
+        176
+      ],
+      "src_box": [
+        1163,
+        92,
+        1407,
+        519
+      ],
+      "phase_diff_mean": 0.0369
+    },
+    {
+      "id": "N_p4_板1",
+      "board": "板1_正面背面",
+      "row": 1,
+      "col": 4,
+      "phase": "迈右腿",
+      "claimed_dir": "N",
+      "measured_dir": "S",
+      "dir_scores": {
+        "N": 0.3178,
+        "NE": 0.6803,
+        "E": 0.5944,
+        "SE": 1.1088,
+        "S": 0.2763,
+        "SW": 1.1119,
+        "W": 0.5956,
+        "NW": 0.6788
+      },
+      "status": "candidate",
+      "file": "八向资产/03_裁切帧/板1_正面背面/N_p4_板1.png",
+      "alpha_px": 12590,
+      "green_left": 0,
+      "hard_edge": 0,
+      "blobs": 1,
+      "holes": 0,
+      "skeleton_endpoints": 4,
+      "bbox": [
+        31,
+        2,
+        127,
+        176
+      ],
+      "src_box": [
+        1657,
+        92,
+        1893,
+        519
+      ],
+      "phase_diff_mean": 0.0369
+    },
+    {
+      "id": "S_p1_板1",
+      "board": "板1_正面背面",
+      "row": 2,
+      "col": 1,
+      "phase": "并脚站立",
+      "claimed_dir": "S",
+      "measured_dir": "S",
+      "dir_scores": {
+        "N": 0.2288,
+        "NE": 0.591,
+        "E": 0.5052,
+        "SE": 1.0196,
+        "S": 0.1863,
+        "SW": 1.0226,
+        "W": 0.5063,
+        "NW": 0.5896
+      },
+      "status": "candidate",
+      "file": "八向资产/03_裁切帧/板1_正面背面/S_p1_板1.png",
+      "alpha_px": 12218,
+      "green_left": 0,
+      "hard_edge": 0,
+      "blobs": 1,
+      "holes": 0,
+      "skeleton_endpoints": 4,
+      "bbox": [
+        31,
+        3,
+        128,
+        176
+      ],
+      "src_box": [
+        148,
+        662,
+        382,
+        1076
+      ],
+      "phase_diff_mean": 0.0522
+    },
+    {
+      "id": "S_p2_板1",
+      "board": "板1_正面背面",
+      "row": 2,
+      "col": 2,
+      "phase": "迈左腿",
+      "claimed_dir": "S",
+      "measured_dir": "N",
+      "dir_scores": {
+        "N": 0.2134,
+        "NE": 0.5753,
+        "E": 0.4981,
+        "SE": 1.0386,
+        "S": 0.2236,
+        "SW": 1.0416,
+        "W": 0.4993,
+        "NW": 0.5741
+      },
+      "status": "candidate",
+      "file": "八向资产/03_裁切帧/板1_正面背面/S_p2_板1.png",
+      "alpha_px": 12074,
+      "green_left": 0,
+      "hard_edge": 0,
+      "blobs": 1,
+      "holes": 0,
+      "skeleton_endpoints": 5,
+      "bbox": [
+        31,
+        3,
+        128,
+        176
+      ],
+      "src_box": [
+        640,
+        662,
+        874,
+        1076
+      ],
+      "phase_diff_mean": 0.0522
+    },
+    {
+      "id": "S_p3_板1",
+      "board": "板1_正面背面",
+      "row": 2,
+      "col": 3,
+      "phase": "双腿交错",
+      "claimed_dir": "S",
+      "measured_dir": "S",
+      "dir_scores": {
+        "N": 0.2724,
+        "NE": 0.6481,
+        "E": 0.5709,
+        "SE": 1.1114,
+        "S": 0.2559,
+        "SW": 1.1144,
+        "W": 0.5721,
+        "NW": 0.6469
+      },
+      "status": "candidate",
+      "file": "八向资产/03_裁切帧/板1_正面背面/S_p3_板1.png",
+      "alpha_px": 12258,
+      "green_left": 0,
+      "hard_edge": 0,
+      "blobs": 1,
+      "holes": 0,
+      "skeleton_endpoints": 6,
+      "bbox": [
+        31,
+        3,
+        127,
+        176
+      ],
+      "src_box": [
+        1168,
+        662,
+        1400,
+        1076
+      ],
+      "phase_diff_mean": 0.0522
+    },
+    {
+      "id": "S_p4_板1",
+      "board": "板1_正面背面",
+      "row": 2,
+      "col": 4,
+      "phase": "迈右腿",
+      "claimed_dir": "S",
+      "measured_dir": "N",
+      "dir_scores": {
+        "N": 0.1873,
+        "NE": 0.5586,
+        "E": 0.4813,
+        "SE": 1.0219,
+        "S": 0.1876,
+        "SW": 1.0248,
+        "W": 0.4826,
+        "NW": 0.5574
+      },
+      "status": "candidate",
+      "file": "八向资产/03_裁切帧/板1_正面背面/S_p4_板1.png",
+      "alpha_px": 11801,
+      "green_left": 0,
+      "hard_edge": 0,
+      "blobs": 1,
+      "holes": 0,
+      "skeleton_endpoints": 5,
+      "bbox": [
+        31,
+        3,
+        128,
+        176
+      ],
+      "src_box": [
+        1661,
+        662,
+        1894,
+        1076
+      ],
+      "phase_diff_mean": 0.0522
+    },
+    {
+      "id": "E_p1_板2",
+      "board": "板2_左右侧",
+      "row": 1,
+      "col": 1,
+      "phase": "并脚站立",
+      "claimed_dir": "E",
+      "measured_dir": "N",
+      "dir_scores": {
+        "N": 0.1016,
+        "NE": 0.3709,
+        "E": 0.2599,
+        "SE": 0.8145,
+        "S": 0.168,
+        "SW": 0.819,
+        "W": 0.2612,
+        "NW": 0.3677
+      },
+      "status": "candidate",
+      "file": "八向资产/03_裁切帧/板2_左右侧/E_p1_板2.png",
+      "alpha_px": 10973,
+      "green_left": 0,
+      "hard_edge": 0,
+      "blobs": 1,
+      "holes": 0,
+      "skeleton_endpoints": 3,
+      "bbox": [
+        29,
+        2,
+        129,
+        176
+      ],
+      "src_box": [
+        136,
+        64,
+        401,
+        543
+      ],
+      "phase_diff_mean": 0.1015
+    },
+    {
+      "id": "E_p2_板2",
+      "board": "板2_左右侧",
+      "row": 1,
+      "col": 2,
+      "phase": "迈左腿",
+      "claimed_dir": "E",
+      "measured_dir": "N",
+      "dir_scores": {
+        "N": 0.0829,
+        "NE": 0.3258,
+        "E": 0.2486,
+        "SE": 0.7891,
+        "S": 0.1794,
+        "SW": 0.7921,
+        "W": 0.2498,
+        "NW": 0.3246
+      },
+      "status": "candidate",
+      "file": "八向资产/03_裁切帧/板2_左右侧/E_p2_板2.png",
+      "alpha_px": 11857,
+      "green_left": 0,
+      "hard_edge": 0,
+      "blobs": 1,
+      "holes": 0,
+      "skeleton_endpoints": 3,
+      "bbox": [
+        30,
+        2,
+        128,
+        176
+      ],
+      "src_box": [
+        634,
+        64,
+        902,
+        543
+      ],
+      "phase_diff_mean": 0.1015
+    },
+    {
+      "id": "E_p3_板2",
+      "board": "板2_左右侧",
+      "row": 1,
+      "col": 3,
+      "phase": "双腿交错",
+      "claimed_dir": "E",
+      "measured_dir": "N",
+      "dir_scores": {
+        "N": 0.0866,
+        "NE": 0.3327,
+        "E": 0.2554,
+        "SE": 0.7959,
+        "S": 0.1725,
+        "SW": 0.7989,
+        "W": 0.2567,
+        "NW": 0.3315
+      },
+      "status": "candidate",
+      "file": "八向资产/03_裁切帧/板2_左右侧/E_p3_板2.png",
+      "alpha_px": 12120,
+      "green_left": 0,
+      "hard_edge": 0,
+      "blobs": 1,
+      "holes": 0,
+      "skeleton_endpoints": 3,
+      "bbox": [
+        30,
+        2,
+        127,
+        176
+      ],
+      "src_box": [
+        1140,
+        64,
+        1403,
+        543
+      ],
+      "phase_diff_mean": 0.1015
+    },
+    {
+      "id": "E_p4_板2",
+      "board": "板2_左右侧",
+      "row": 1,
+      "col": 4,
+      "phase": "迈右腿",
+      "claimed_dir": "E",
+      "measured_dir": "N",
+      "dir_scores": {
+        "N": 0.1011,
+        "NE": 0.3988,
+        "E": 0.3216,
+        "SE": 0.8621,
+        "S": 0.1442,
+        "SW": 0.8651,
+        "W": 0.3228,
+        "NW": 0.3976
+      },
+      "status": "candidate",
+      "file": "八向资产/03_裁切帧/板2_左右侧/E_p4_板2.png",
+      "alpha_px": 12267,
+      "green_left": 0,
+      "hard_edge": 0,
+      "blobs": 1,
+      "holes": 0,
+      "skeleton_endpoints": 3,
+      "bbox": [
+        30,
+        2,
+        127,
+        176
+      ],
+      "src_box": [
+        1636,
+        64,
+        1910,
+        543
+      ],
+      "phase_diff_mean": 0.1015
+    },
+    {
+      "id": "W_p1_板2",
+      "board": "板2_左右侧",
+      "row": 2,
+      "col": 1,
+      "phase": "并脚站立",
+      "claimed_dir": "W",
+      "measured_dir": "N",
+      "dir_scores": {
+        "N": 0.1039,
+        "NE": 0.3765,
+        "E": 0.2672,
+        "SE": 0.8201,
+        "S": 0.1607,
+        "SW": 0.8245,
+        "W": 0.2684,
+        "NW": 0.3732
+      },
+      "status": "candidate",
+      "file": "八向资产/03_裁切帧/板2_左右侧/W_p1_板2.png",
+      "alpha_px": 11064,
+      "green_left": 0,
+      "hard_edge": 0,
+      "blobs": 1,
+      "holes": 0,
+      "skeleton_endpoints": 3,
+      "bbox": [
+        30,
+        2,
+        127,
+        176
+      ],
+      "src_box": [
+        137,
+        601,
+        400,
+        1071
+      ],
+      "phase_diff_mean": 0.1088
+    },
+    {
+      "id": "W_p2_板2",
+      "board": "板2_左右侧",
+      "row": 2,
+      "col": 2,
+      "phase": "迈左腿",
+      "claimed_dir": "W",
+      "measured_dir": "N",
+      "dir_scores": {
+        "N": 0.0726,
+        "NE": 0.3498,
+        "E": 0.2725,
+        "SE": 0.813,
+        "S": 0.1554,
+        "SW": 0.816,
+        "W": 0.2738,
+        "NW": 0.3486
+      },
+      "status": "candidate",
+      "file": "八向资产/03_裁切帧/板2_左右侧/W_p2_板2.png",
+      "alpha_px": 12114,
+      "green_left": 0,
+      "hard_edge": 0,
+      "blobs": 1,
+      "holes": 0,
+      "skeleton_endpoints": 3,
+      "bbox": [
+        29,
+        2,
+        128,
+        176
+      ],
+      "src_box": [
+        633,
+        601,
+        902,
+        1071
+      ],
+      "phase_diff_mean": 0.1088
+    },
+    {
+      "id": "W_p3_板2",
+      "board": "板2_左右侧",
+      "row": 2,
+      "col": 3,
+      "phase": "双腿交错",
+      "claimed_dir": "W",
+      "measured_dir": "N",
+      "dir_scores": {
+        "N": 0.0787,
+        "NE": 0.3874,
+        "E": 0.3101,
+        "SE": 0.8506,
+        "S": 0.1262,
+        "SW": 0.8536,
+        "W": 0.3114,
+        "NW": 0.3862
+      },
+      "status": "candidate",
+      "file": "八向资产/03_裁切帧/板2_左右侧/W_p3_板2.png",
+      "alpha_px": 12384,
+      "green_left": 0,
+      "hard_edge": 0,
+      "blobs": 1,
+      "holes": 0,
+      "skeleton_endpoints": 4,
+      "bbox": [
+        29,
+        2,
+        128,
+        176
+      ],
+      "src_box": [
+        1142,
+        601,
+        1405,
+        1071
+      ],
+      "phase_diff_mean": 0.1088
+    },
+    {
+      "id": "W_p4_板2",
+      "board": "板2_左右侧",
+      "row": 2,
+      "col": 4,
+      "phase": "迈右腿",
+      "claimed_dir": "W",
+      "measured_dir": "N",
+      "dir_scores": {
+        "N": 0.0781,
+        "NE": 0.3867,
+        "E": 0.2969,
+        "SE": 0.8375,
+        "S": 0.131,
+        "SW": 0.8404,
+        "W": 0.2982,
+        "NW": 0.3835
+      },
+      "status": "candidate",
+      "file": "八向资产/03_裁切帧/板2_左右侧/W_p4_板2.png",
+      "alpha_px": 11553,
+      "green_left": 0,
+      "hard_edge": 0,
+      "blobs": 1,
+      "holes": 0,
+      "skeleton_endpoints": 4,
+      "bbox": [
+        26,
+        2,
+        132,
+        176
+      ],
+      "src_box": [
+        1639,
+        601,
+        1911,
+        1071
+      ],
+      "phase_diff_mean": 0.1088
+    },
+    {
+      "id": "NE_p1_板3",
+      "board": "板3_前斜",
+      "row": 1,
+      "col": 1,
+      "phase": "并脚站立",
+      "claimed_dir": "NE",
+      "measured_dir": "N",
+      "dir_scores": {
+        "N": 0.0722,
+        "NE": 0.416,
+        "E": 0.3388,
+        "SE": 0.8793,
+        "S": 0.1147,
+        "SW": 0.8823,
+        "W": 0.34,
+        "NW": 0.4148
+      },
+      "status": "candidate",
+      "file": "八向资产/03_裁切帧/板3_前斜/NE_p1_板3.png",
+      "alpha_px": 11731,
+      "green_left": 0,
+      "hard_edge": 0,
+      "blobs": 1,
+      "holes": 0,
+      "skeleton_endpoints": 5,
+      "bbox": [
+        31,
+        2,
+        126,
+        176
+      ],
+      "src_box": [
+        145,
+        80,
+        395,
+        543
+      ],
+      "phase_diff_mean": 0.094
+    },
+    {
+      "id": "NE_p2_板3",
+      "board": "板3_前斜",
+      "row": 1,
+      "col": 2,
+      "phase": "迈左腿",
+      "claimed_dir": "NE",
+      "measured_dir": "N",
+      "dir_scores": {
+        "N": 0.1515,
+        "NE": 0.422,
+        "E": 0.3447,
+        "SE": 0.8852,
+        "S": 0.1946,
+        "SW": 0.8882,
+        "W": 0.346,
+        "NW": 0.4208
+      },
+      "status": "candidate",
+      "file": "八向资产/03_裁切帧/板3_前斜/NE_p2_板3.png",
+      "alpha_px": 12218,
+      "green_left": 0,
+      "hard_edge": 0,
+      "blobs": 1,
+      "holes": 0,
+      "skeleton_endpoints": 4,
+      "bbox": [
+        32,
+        2,
+        126,
+        176
+      ],
+      "src_box": [
+        648,
+        80,
+        895,
+        543
+      ],
+      "phase_diff_mean": 0.094
+    },
+    {
+      "id": "NE_p3_板3",
+      "board": "板3_前斜",
+      "row": 1,
+      "col": 3,
+      "phase": "双腿交错",
+      "claimed_dir": "NE",
+      "measured_dir": "N",
+      "dir_scores": {
+        "N": 0.134,
+        "NE": 0.4437,
+        "E": 0.3665,
+        "SE": 0.907,
+        "S": 0.1772,
+        "SW": 0.91,
+        "W": 0.3677,
+        "NW": 0.4425
+      },
+      "status": "candidate",
+      "file": "八向资产/03_裁切帧/板3_前斜/NE_p3_板3.png",
+      "alpha_px": 12102,
+      "green_left": 0,
+      "hard_edge": 0,
+      "blobs": 1,
+      "holes": 0,
+      "skeleton_endpoints": 4,
+      "bbox": [
+        31,
+        2,
+        127,
+        176
+      ],
+      "src_box": [
+        1151,
+        80,
+        1399,
+        543
+      ],
+      "phase_diff_mean": 0.094
+    },
+    {
+      "id": "NE_p4_板3",
+      "board": "板3_前斜",
+      "row": 1,
+      "col": 4,
+      "phase": "迈右腿",
+      "claimed_dir": "NE",
+      "measured_dir": "N",
+      "dir_scores": {
+        "N": 0.1256,
+        "NE": 0.437,
+        "E": 0.3598,
+        "SE": 0.9003,
+        "S": 0.1687,
+        "SW": 0.9033,
+        "W": 0.361,
+        "NW": 0.4358
+      },
+      "status": "candidate",
+      "file": "八向资产/03_裁切帧/板3_前斜/NE_p4_板3.png",
+      "alpha_px": 12333,
+      "green_left": 0,
+      "hard_edge": 0,
+      "blobs": 1,
+      "holes": 0,
+      "skeleton_endpoints": 5,
+      "bbox": [
+        31,
+        2,
+        128,
+        176
+      ],
+      "src_box": [
+        1649,
+        80,
+        1895,
+        543
+      ],
+      "phase_diff_mean": 0.094
+    },
+    {
+      "id": "NW_p1_板3",
+      "board": "板3_前斜",
+      "row": 2,
+      "col": 1,
+      "phase": "并脚站立",
+      "claimed_dir": "NW",
+      "measured_dir": "N",
+      "dir_scores": {
+        "N": 0.072,
+        "NE": 0.4103,
+        "E": 0.333,
+        "SE": 0.8735,
+        "S": 0.1202,
+        "SW": 0.8765,
+        "W": 0.3343,
+        "NW": 0.4091
+      },
+      "status": "candidate",
+      "file": "八向资产/03_裁切帧/板3_前斜/NW_p1_板3.png",
+      "alpha_px": 11671,
+      "green_left": 0,
+      "hard_edge": 0,
+      "blobs": 1,
+      "holes": 0,
+      "skeleton_endpoints": 5,
+      "bbox": [
+        33,
+        2,
+        125,
+        176
+      ],
+      "src_box": [
+        152,
+        609,
+        391,
+        1071
+      ],
+      "phase_diff_mean": 0.0834
+    },
+    {
+      "id": "NW_p2_板3",
+      "board": "板3_前斜",
+      "row": 2,
+      "col": 2,
+      "phase": "迈左腿",
+      "claimed_dir": "NW",
+      "measured_dir": "N",
+      "dir_scores": {
+        "N": 0.1444,
+        "NE": 0.4581,
+        "E": 0.3809,
+        "SE": 0.9214,
+        "S": 0.1875,
+        "SW": 0.9244,
+        "W": 0.3822,
+        "NW": 0.457
+      },
+      "status": "candidate",
+      "file": "八向资产/03_裁切帧/板3_前斜/NW_p2_板3.png",
+      "alpha_px": 12182,
+      "green_left": 0,
+      "hard_edge": 0,
+      "blobs": 1,
+      "holes": 0,
+      "skeleton_endpoints": 4,
+      "bbox": [
+        32,
+        2,
+        126,
+        176
+      ],
+      "src_box": [
+        647,
+        609,
+        895,
+        1071
+      ],
+      "phase_diff_mean": 0.0834
+    },
+    {
+      "id": "NW_p3_板3",
+      "board": "板3_前斜",
+      "row": 2,
+      "col": 3,
+      "phase": "双腿交错",
+      "claimed_dir": "NW",
+      "measured_dir": "N",
+      "dir_scores": {
+        "N": 0.1311,
+        "NE": 0.434,
+        "E": 0.3568,
+        "SE": 0.8973,
+        "S": 0.1742,
+        "SW": 0.9003,
+        "W": 0.358,
+        "NW": 0.4328
+      },
+      "status": "candidate",
+      "file": "八向资产/03_裁切帧/板3_前斜/NW_p3_板3.png",
+      "alpha_px": 12005,
+      "green_left": 0,
+      "hard_edge": 0,
+      "blobs": 1,
+      "holes": 0,
+      "skeleton_endpoints": 5,
+      "bbox": [
+        32,
+        3,
+        125,
+        176
+      ],
+      "src_box": [
+        1152,
+        609,
+        1399,
+        1071
+      ],
+      "phase_diff_mean": 0.0834
+    },
+    {
+      "id": "NW_p4_板3",
+      "board": "板3_前斜",
+      "row": 2,
+      "col": 4,
+      "phase": "迈右腿",
+      "claimed_dir": "NW",
+      "measured_dir": "N",
+      "dir_scores": {
+        "N": 0.1272,
+        "NE": 0.4878,
+        "E": 0.4105,
+        "SE": 0.951,
+        "S": 0.1376,
+        "SW": 0.954,
+        "W": 0.4118,
+        "NW": 0.4866
+      },
+      "status": "candidate",
+      "file": "八向资产/03_裁切帧/板3_前斜/NW_p4_板3.png",
+      "alpha_px": 12026,
+      "green_left": 0,
+      "hard_edge": 0,
+      "blobs": 1,
+      "holes": 0,
+      "skeleton_endpoints": 4,
+      "bbox": [
+        31,
+        2,
+        127,
+        176
+      ],
+      "src_box": [
+        1648,
+        609,
+        1903,
+        1071
+      ],
+      "phase_diff_mean": 0.0834
+    },
+    {
+      "id": "SE_p1_板4",
+      "board": "板4_后斜",
+      "row": 1,
+      "col": 1,
+      "phase": "并脚站立",
+      "claimed_dir": "SE",
+      "measured_dir": "N",
+      "dir_scores": {
+        "N": 0.1163,
+        "NE": 0.3037,
+        "E": 0.2264,
+        "SE": 0.7669,
+        "S": 0.2015,
+        "SW": 0.7699,
+        "W": 0.2277,
+        "NW": 0.3025
+      },
+      "status": "candidate",
+      "file": "八向资产/03_裁切帧/板4_后斜/SE_p1_板4.png",
+      "alpha_px": 10667,
+      "green_left": 0,
+      "hard_edge": 0,
+      "blobs": 1,
+      "holes": 0,
+      "skeleton_endpoints": 5,
+      "bbox": [
+        33,
+        2,
+        125,
+        176
+      ],
+      "src_box": [
+        144,
+        67,
+        387,
+        539
+      ],
+      "phase_diff_mean": 0.0893
+    },
+    {
+      "id": "SE_p2_板4",
+      "board": "板4_后斜",
+      "row": 1,
+      "col": 2,
+      "phase": "迈左腿",
+      "claimed_dir": "SE",
+      "measured_dir": "NW",
+      "dir_scores": {
+        "N": 0.2737,
+        "NE": 0.1308,
+        "E": 0.2199,
+        "SE": 0.594,
+        "S": 0.3744,
+        "SW": 0.597,
+        "W": 0.219,
+        "NW": 0.1296
+      },
+      "status": "candidate",
+      "file": "八向资产/03_裁切帧/板4_后斜/SE_p2_板4.png",
+      "alpha_px": 10801,
+      "green_left": 0,
+      "hard_edge": 0,
+      "blobs": 1,
+      "holes": 0,
+      "skeleton_endpoints": 5,
+      "bbox": [
+        35,
+        2,
+        123,
+        177
+      ],
+      "src_box": [
+        648,
+        67,
+        887,
+        539
+      ],
+      "phase_diff_mean": 0.0893
+    },
+    {
+      "id": "SE_p3_板4",
+      "board": "板4_后斜",
+      "row": 1,
+      "col": 3,
+      "phase": "双腿交错",
+      "claimed_dir": "SE",
+      "measured_dir": "NW",
+      "dir_scores": {
+        "N": 0.2268,
+        "NE": 0.192,
+        "E": 0.2215,
+        "SE": 0.6553,
+        "S": 0.3132,
+        "SW": 0.6583,
+        "W": 0.2206,
+        "NW": 0.1908
+      },
+      "status": "candidate",
+      "file": "八向资产/03_裁切帧/板4_后斜/SE_p3_板4.png",
+      "alpha_px": 11248,
+      "green_left": 0,
+      "hard_edge": 0,
+      "blobs": 1,
+      "holes": 0,
+      "skeleton_endpoints": 4,
+      "bbox": [
+        33,
+        2,
+        125,
+        176
+      ],
+      "src_box": [
+        1158,
+        67,
+        1398,
+        539
+      ],
+      "phase_diff_mean": 0.0893
+    },
+    {
+      "id": "SE_p4_板4",
+      "board": "板4_后斜",
+      "row": 1,
+      "col": 4,
+      "phase": "迈右腿",
+      "claimed_dir": "SE",
+      "measured_dir": "NW",
+      "dir_scores": {
+        "N": 0.2322,
+        "NE": 0.2161,
+        "E": 0.2322,
+        "SE": 0.6794,
+        "S": 0.2928,
+        "SW": 0.6824,
+        "W": 0.2313,
+        "NW": 0.2149
+      },
+      "status": "candidate",
+      "file": "八向资产/03_裁切帧/板4_后斜/SE_p4_板4.png",
+      "alpha_px": 11359,
+      "green_left": 0,
+      "hard_edge": 0,
+      "blobs": 1,
+      "holes": 0,
+      "skeleton_endpoints": 4,
+      "bbox": [
+        34,
+        2,
+        123,
+        176
+      ],
+      "src_box": [
+        1653,
+        67,
+        1890,
+        539
+      ],
+      "phase_diff_mean": 0.0893
+    },
+    {
+      "id": "SW_p1_板4",
+      "board": "板4_后斜",
+      "row": 2,
+      "col": 1,
+      "phase": "并脚站立",
+      "claimed_dir": "SW",
+      "measured_dir": "N",
+      "dir_scores": {
+        "N": 0.1258,
+        "NE": 0.2974,
+        "E": 0.2202,
+        "SE": 0.7607,
+        "S": 0.2078,
+        "SW": 0.7637,
+        "W": 0.2214,
+        "NW": 0.2962
+      },
+      "status": "candidate",
+      "file": "八向资产/03_裁切帧/板4_后斜/SW_p1_板4.png",
+      "alpha_px": 10859,
+      "green_left": 0,
+      "hard_edge": 0,
+      "blobs": 1,
+      "holes": 0,
+      "skeleton_endpoints": 6,
+      "bbox": [
+        34,
+        2,
+        125,
+        176
+      ],
+      "src_box": [
+        150,
+        612,
+        385,
+        1078
+      ],
+      "phase_diff_mean": 0.093
+    },
+    {
+      "id": "SW_p2_板4",
+      "board": "板4_后斜",
+      "row": 2,
+      "col": 2,
+      "phase": "迈左腿",
+      "claimed_dir": "SW",
+      "measured_dir": "W",
+      "dir_scores": {
+        "N": 0.2089,
+        "NE": 0.234,
+        "E": 0.2089,
+        "SE": 0.6972,
+        "S": 0.2712,
+        "SW": 0.7002,
+        "W": 0.208,
+        "NW": 0.2328
+      },
+      "status": "candidate",
+      "file": "八向资产/03_裁切帧/板4_后斜/SW_p2_板4.png",
+      "alpha_px": 11240,
+      "green_left": 0,
+      "hard_edge": 0,
+      "blobs": 1,
+      "holes": 0,
+      "skeleton_endpoints": 5,
+      "bbox": [
+        34,
+        2,
+        123,
+        176
+      ],
+      "src_box": [
+        648,
+        612,
+        885,
+        1078
+      ],
+      "phase_diff_mean": 0.093
+    },
+    {
+      "id": "SW_p3_板4",
+      "board": "板4_后斜",
+      "row": 2,
+      "col": 3,
+      "phase": "双腿交错",
+      "claimed_dir": "SW",
+      "measured_dir": "N",
+      "dir_scores": {
+        "N": 0.2522,
+        "NE": 0.3498,
+        "E": 0.2922,
+        "SE": 0.8131,
+        "S": 0.2953,
+        "SW": 0.8161,
+        "W": 0.2925,
+        "NW": 0.3486
+      },
+      "status": "candidate",
+      "file": "八向资产/03_裁切帧/板4_后斜/SW_p3_板4.png",
+      "alpha_px": 11547,
+      "green_left": 0,
+      "hard_edge": 0,
+      "blobs": 1,
+      "holes": 0,
+      "skeleton_endpoints": 4,
+      "bbox": [
+        34,
+        2,
+        124,
+        176
+      ],
+      "src_box": [
+        1166,
+        612,
+        1402,
+        1078
+      ],
+      "phase_diff_mean": 0.093
+    },
+    {
+      "id": "SW_p4_板4",
+      "board": "板4_后斜",
+      "row": 2,
+      "col": 4,
+      "phase": "迈右腿",
+      "claimed_dir": "SW",
+      "measured_dir": "W",
+      "dir_scores": {
+        "N": 0.2523,
+        "NE": 0.2717,
+        "E": 0.2524,
+        "SE": 0.735,
+        "S": 0.2958,
+        "SW": 0.7379,
+        "W": 0.2514,
+        "NW": 0.2705
+      },
+      "status": "candidate",
+      "file": "八向资产/03_裁切帧/板4_后斜/SW_p4_板4.png",
+      "alpha_px": 11418,
+      "green_left": 0,
+      "hard_edge": 0,
+      "blobs": 1,
+      "holes": 0,
+      "skeleton_endpoints": 6,
+      "bbox": [
+        34,
+        2,
+        123,
+        176
+      ],
+      "src_box": [
+        1658,
+        612,
+        1896,
+        1078
+      ],
+      "phase_diff_mean": 0.093
+    }
+  ],
+  "sheet": [
+    {
+      "index": 0,
+      "dir8": "N",
+      "phase": "并脚站立",
+      "id": "N_p1_板1",
+      "measured_dir": "S",
+      "rect": [
+        0,
+        0,
+        160,
+        190
+      ],
+      "row": 1,
+      "col": 1,
+      "status": "candidate"
+    },
+    {
+      "index": 8,
+      "dir8": "N",
+      "phase": "迈左腿",
+      "id": "N_p2_板1",
+      "measured_dir": "S",
+      "rect": [
+        0,
+        190,
+        160,
+        190
+      ],
+      "row": 2,
+      "col": 1,
+      "status": "candidate"
+    },
+    {
+      "index": 16,
+      "dir8": "N",
+      "phase": "双腿交错",
+      "id": "N_p3_板1",
+      "measured_dir": "S",
+      "rect": [
+        0,
+        380,
+        160,
+        190
+      ],
+      "row": 3,
+      "col": 1,
+      "status": "candidate"
+    },
+    {
+      "index": 24,
+      "dir8": "N",
+      "phase": "迈右腿",
+      "id": "N_p4_板1",
+      "measured_dir": "S",
+      "rect": [
+        0,
+        570,
+        160,
+        190
+      ],
+      "row": 4,
+      "col": 1,
+      "status": "candidate"
+    },
+    {
+      "index": 1,
+      "dir8": "NE",
+      "phase": "并脚站立",
+      "id": "NE_p1_板3",
+      "measured_dir": "N",
+      "rect": [
+        160,
+        0,
+        160,
+        190
+      ],
+      "row": 1,
+      "col": 2,
+      "status": "candidate"
+    },
+    {
+      "index": 9,
+      "dir8": "NE",
+      "phase": "迈左腿",
+      "id": "NE_p2_板3",
+      "measured_dir": "N",
+      "rect": [
+        160,
+        190,
+        160,
+        190
+      ],
+      "row": 2,
+      "col": 2,
+      "status": "candidate"
+    },
+    {
+      "index": 17,
+      "dir8": "NE",
+      "phase": "双腿交错",
+      "id": "NE_p3_板3",
+      "measured_dir": "N",
+      "rect": [
+        160,
+        380,
+        160,
+        190
+      ],
+      "row": 3,
+      "col": 2,
+      "status": "candidate"
+    },
+    {
+      "index": 25,
+      "dir8": "NE",
+      "phase": "迈右腿",
+      "id": "NE_p4_板3",
+      "measured_dir": "N",
+      "rect": [
+        160,
+        570,
+        160,
+        190
+      ],
+      "row": 4,
+      "col": 2,
+      "status": "candidate"
+    },
+    {
+      "index": 2,
+      "dir8": "E",
+      "phase": "并脚站立",
+      "id": "E_p1_板2",
+      "measured_dir": "N",
+      "rect": [
+        320,
+        0,
+        160,
+        190
+      ],
+      "row": 1,
+      "col": 3,
+      "status": "candidate"
+    },
+    {
+      "index": 10,
+      "dir8": "E",
+      "phase": "迈左腿",
+      "id": "E_p2_板2",
+      "measured_dir": "N",
+      "rect": [
+        320,
+        190,
+        160,
+        190
+      ],
+      "row": 2,
+      "col": 3,
+      "status": "candidate"
+    },
+    {
+      "index": 18,
+      "dir8": "E",
+      "phase": "双腿交错",
+      "id": "E_p3_板2",
+      "measured_dir": "N",
+      "rect": [
+        320,
+        380,
+        160,
+        190
+      ],
+      "row": 3,
+      "col": 3,
+      "status": "candidate"
+    },
+    {
+      "index": 26,
+      "dir8": "E",
+      "phase": "迈右腿",
+      "id": "E_p4_板2",
+      "measured_dir": "N",
+      "rect": [
+        320,
+        570,
+        160,
+        190
+      ],
+      "row": 4,
+      "col": 3,
+      "status": "candidate"
+    },
+    {
+      "index": 3,
+      "dir8": "SE",
+      "phase": "并脚站立",
+      "id": "SE_p1_板4",
+      "measured_dir": "N",
+      "rect": [
+        480,
+        0,
+        160,
+        190
+      ],
+      "row": 1,
+      "col": 4,
+      "status": "candidate"
+    },
+    {
+      "index": 11,
+      "dir8": "SE",
+      "phase": "迈左腿",
+      "id": "SE_p2_板4",
+      "measured_dir": "NW",
+      "rect": [
+        480,
+        190,
+        160,
+        190
+      ],
+      "row": 2,
+      "col": 4,
+      "status": "candidate"
+    },
+    {
+      "index": 19,
+      "dir8": "SE",
+      "phase": "双腿交错",
+      "id": "SE_p3_板4",
+      "measured_dir": "NW",
+      "rect": [
+        480,
+        380,
+        160,
+        190
+      ],
+      "row": 3,
+      "col": 4,
+      "status": "candidate"
+    },
+    {
+      "index": 27,
+      "dir8": "SE",
+      "phase": "迈右腿",
+      "id": "SE_p4_板4",
+      "measured_dir": "NW",
+      "rect": [
+        480,
+        570,
+        160,
+        190
+      ],
+      "row": 4,
+      "col": 4,
+      "status": "candidate"
+    },
+    {
+      "index": 4,
+      "dir8": "S",
+      "phase": "并脚站立",
+      "id": "S_p1_板1",
+      "measured_dir": "S",
+      "rect": [
+        640,
+        0,
+        160,
+        190
+      ],
+      "row": 1,
+      "col": 5,
+      "status": "candidate"
+    },
+    {
+      "index": 12,
+      "dir8": "S",
+      "phase": "迈左腿",
+      "id": "S_p2_板1",
+      "measured_dir": "N",
+      "rect": [
+        640,
+        190,
+        160,
+        190
+      ],
+      "row": 2,
+      "col": 5,
+      "status": "candidate"
+    },
+    {
+      "index": 20,
+      "dir8": "S",
+      "phase": "双腿交错",
+      "id": "S_p3_板1",
+      "measured_dir": "S",
+      "rect": [
+        640,
+        380,
+        160,
+        190
+      ],
+      "row": 3,
+      "col": 5,
+      "status": "candidate"
+    },
+    {
+      "index": 28,
+      "dir8": "S",
+      "phase": "迈右腿",
+      "id": "S_p4_板1",
+      "measured_dir": "N",
+      "rect": [
+        640,
+        570,
+        160,
+        190
+      ],
+      "row": 4,
+      "col": 5,
+      "status": "candidate"
+    },
+    {
+      "index": 5,
+      "dir8": "SW",
+      "phase": "并脚站立",
+      "id": "SW_p1_板4",
+      "measured_dir": "N",
+      "rect": [
+        800,
+        0,
+        160,
+        190
+      ],
+      "row": 1,
+      "col": 6,
+      "status": "candidate"
+    },
+    {
+      "index": 13,
+      "dir8": "SW",
+      "phase": "迈左腿",
+      "id": "SW_p2_板4",
+      "measured_dir": "W",
+      "rect": [
+        800,
+        190,
+        160,
+        190
+      ],
+      "row": 2,
+      "col": 6,
+      "status": "candidate"
+    },
+    {
+      "index": 21,
+      "dir8": "SW",
+      "phase": "双腿交错",
+      "id": "SW_p3_板4",
+      "measured_dir": "N",
+      "rect": [
+        800,
+        380,
+        160,
+        190
+      ],
+      "row": 3,
+      "col": 6,
+      "status": "candidate"
+    },
+    {
+      "index": 29,
+      "dir8": "SW",
+      "phase": "迈右腿",
+      "id": "SW_p4_板4",
+      "measured_dir": "W",
+      "rect": [
+        800,
+        570,
+        160,
+        190
+      ],
+      "row": 4,
+      "col": 6,
+      "status": "candidate"
+    },
+    {
+      "index": 6,
+      "dir8": "W",
+      "phase": "并脚站立",
+      "id": "W_p1_板2",
+      "measured_dir": "N",
+      "rect": [
+        960,
+        0,
+        160,
+        190
+      ],
+      "row": 1,
+      "col": 7,
+      "status": "candidate"
+    },
+    {
+      "index": 14,
+      "dir8": "W",
+      "phase": "迈左腿",
+      "id": "W_p2_板2",
+      "measured_dir": "N",
+      "rect": [
+        960,
+        190,
+        160,
+        190
+      ],
+      "row": 2,
+      "col": 7,
+      "status": "candidate"
+    },
+    {
+      "index": 22,
+      "dir8": "W",
+      "phase": "双腿交错",
+      "id": "W_p3_板2",
+      "measured_dir": "N",
+      "rect": [
+        960,
+        380,
+        160,
+        190
+      ],
+      "row": 3,
+      "col": 7,
+      "status": "candidate"
+    },
+    {
+      "index": 30,
+      "dir8": "W",
+      "phase": "迈右腿",
+      "id": "W_p4_板2",
+      "measured_dir": "N",
+      "rect": [
+        960,
+        570,
+        160,
+        190
+      ],
+      "row": 4,
+      "col": 7,
+      "status": "candidate"
+    },
+    {
+      "index": 7,
+      "dir8": "NW",
+      "phase": "并脚站立",
+      "id": "NW_p1_板3",
+      "measured_dir": "N",
+      "rect": [
+        1120,
+        0,
+        160,
+        190
+      ],
+      "row": 1,
+      "col": 8,
+      "status": "candidate"
+    },
+    {
+      "index": 15,
+      "dir8": "NW",
+      "phase": "迈左腿",
+      "id": "NW_p2_板3",
+      "measured_dir": "N",
+      "rect": [
+        1120,
+        190,
+        160,
+        190
+      ],
+      "row": 2,
+      "col": 8,
+      "status": "candidate"
+    },
+    {
+      "index": 23,
+      "dir8": "NW",
+      "phase": "双腿交错",
+      "id": "NW_p3_板3",
+      "measured_dir": "N",
+      "rect": [
+        1120,
+        380,
+        160,
+        190
+      ],
+      "row": 3,
+      "col": 8,
+      "status": "candidate"
+    },
+    {
+      "index": 31,
+      "dir8": "NW",
+      "phase": "迈右腿",
+      "id": "NW_p4_板3",
+      "measured_dir": "N",
+      "rect": [
+        1120,
+        570,
+        160,
+        190
+      ],
+      "row": 4,
+      "col": 8,
+      "status": "candidate"
+    }
+  ]
+}

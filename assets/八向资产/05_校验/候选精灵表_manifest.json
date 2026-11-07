@@ -1,0 +1,529 @@
+{
+  "cell": [
+    160,
+    190
+  ],
+  "cols": 8,
+  "rows": 4,
+  "status": "candidate",
+  "directions": [
+    "N",
+    "NE",
+    "E",
+    "SE",
+    "S",
+    "SW",
+    "W",
+    "NW"
+  ],
+  "labels": {
+    "N": "正面",
+    "NE": "右前斜",
+    "E": "右侧",
+    "SE": "右后斜",
+    "S": "背面",
+    "SW": "左后斜",
+    "W": "左侧",
+    "NW": "左前斜"
+  },
+  "phases": [
+    "并脚站立",
+    "迈左腿",
+    "双腿交错",
+    "迈右腿"
+  ],
+  "covered": [
+    "N",
+    "E",
+    "S",
+    "W"
+  ],
+  "not_generated": [
+    "NE",
+    "SE",
+    "SW",
+    "NW"
+  ],
+  "frames": [
+    {
+      "index": 0,
+      "dir8": "N",
+      "phase": "并脚站立",
+      "id": "N_p1",
+      "rect": [
+        0,
+        0,
+        160,
+        190
+      ],
+      "row": 1,
+      "col": 1,
+      "status": "candidate"
+    },
+    {
+      "index": 8,
+      "dir8": "N",
+      "phase": "迈左腿",
+      "id": "N_p2",
+      "rect": [
+        0,
+        190,
+        160,
+        190
+      ],
+      "row": 2,
+      "col": 1,
+      "status": "candidate"
+    },
+    {
+      "index": 16,
+      "dir8": "N",
+      "phase": "双腿交错",
+      "id": "N_p3",
+      "rect": [
+        0,
+        380,
+        160,
+        190
+      ],
+      "row": 3,
+      "col": 1,
+      "status": "candidate"
+    },
+    {
+      "index": 24,
+      "dir8": "N",
+      "phase": "迈右腿",
+      "id": "N_p4",
+      "rect": [
+        0,
+        570,
+        160,
+        190
+      ],
+      "row": 4,
+      "col": 1,
+      "status": "candidate"
+    },
+    {
+      "index": 1,
+      "dir8": "NE",
+      "phase": "并脚站立",
+      "id": null,
+      "rect": [
+        160,
+        0,
+        160,
+        190
+      ],
+      "row": 1,
+      "col": 2,
+      "status": "not_generated"
+    },
+    {
+      "index": 9,
+      "dir8": "NE",
+      "phase": "迈左腿",
+      "id": null,
+      "rect": [
+        160,
+        190,
+        160,
+        190
+      ],
+      "row": 2,
+      "col": 2,
+      "status": "not_generated"
+    },
+    {
+      "index": 17,
+      "dir8": "NE",
+      "phase": "双腿交错",
+      "id": null,
+      "rect": [
+        160,
+        380,
+        160,
+        190
+      ],
+      "row": 3,
+      "col": 2,
+      "status": "not_generated"
+    },
+    {
+      "index": 25,
+      "dir8": "NE",
+      "phase": "迈右腿",
+      "id": null,
+      "rect": [
+        160,
+        570,
+        160,
+        190
+      ],
+      "row": 4,
+      "col": 2,
+      "status": "not_generated"
+    },
+    {
+      "index": 2,
+      "dir8": "E",
+      "phase": "并脚站立",
+      "id": "E_p1",
+      "rect": [
+        320,
+        0,
+        160,
+        190
+      ],
+      "row": 1,
+      "col": 3,
+      "status": "candidate"
+    },
+    {
+      "index": 10,
+      "dir8": "E",
+      "phase": "迈左腿",
+      "id": "E_p2",
+      "rect": [
+        320,
+        190,
+        160,
+        190
+      ],
+      "row": 2,
+      "col": 3,
+      "status": "candidate"
+    },
+    {
+      "index": 18,
+      "dir8": "E",
+      "phase": "双腿交错",
+      "id": "E_p3",
+      "rect": [
+        320,
+        380,
+        160,
+        190
+      ],
+      "row": 3,
+      "col": 3,
+      "status": "candidate"
+    },
+    {
+      "index": 26,
+      "dir8": "E",
+      "phase": "迈右腿",
+      "id": "E_p4",
+      "rect": [
+        320,
+        570,
+        160,
+        190
+      ],
+      "row": 4,
+      "col": 3,
+      "status": "candidate"
+    },
+    {
+      "index": 3,
+      "dir8": "SE",
+      "phase": "并脚站立",
+      "id": null,
+      "rect": [
+        480,
+        0,
+        160,
+        190
+      ],
+      "row": 1,
+      "col": 4,
+      "status": "not_generated"
+    },
+    {
+      "index": 11,
+      "dir8": "SE",
+      "phase": "迈左腿",
+      "id": null,
+      "rect": [
+        480,
+        190,
+        160,
+        190
+      ],
+      "row": 2,
+      "col": 4,
+      "status": "not_generated"
+    },
+    {
+      "index": 19,
+      "dir8": "SE",
+      "phase": "双腿交错",
+      "id": null,
+      "rect": [
+        480,
+        380,
+        160,
+        190
+      ],
+      "row": 3,
+      "col": 4,
+      "status": "not_generated"
+    },
+    {
+      "index": 27,
+      "dir8": "SE",
+      "phase": "迈右腿",
+      "id": null,
+      "rect": [
+        480,
+        570,
+        160,
+        190
+      ],
+      "row": 4,
+      "col": 4,
+      "status": "not_generated"
+    },
+    {
+      "index": 4,
+      "dir8": "S",
+      "phase": "并脚站立",
+      "id": "S_p1",
+      "rect": [
+        640,
+        0,
+        160,
+        190
+      ],
+      "row": 1,
+      "col": 5,
+      "status": "candidate"
+    },
+    {
+      "index": 12,
+      "dir8": "S",
+      "phase": "迈左腿",
+      "id": "S_p2",
+      "rect": [
+        640,
+        190,
+        160,
+        190
+      ],
+      "row": 2,
+      "col": 5,
+      "status": "candidate"
+    },
+    {
+      "index": 20,
+      "dir8": "S",
+      "phase": "双腿交错",
+      "id": "S_p3",
+      "rect": [
+        640,
+        380,
+        160,
+        190
+      ],
+      "row": 3,
+      "col": 5,
+      "status": "candidate"
+    },
+    {
+      "index": 28,
+      "dir8": "S",
+      "phase": "迈右腿",
+      "id": "S_p4",
+      "rect": [
+        640,
+        570,
+        160,
+        190
+      ],
+      "row": 4,
+      "col": 5,
+      "status": "candidate"
+    },
+    {
+      "index": 5,
+      "dir8": "SW",
+      "phase": "并脚站立",
+      "id": null,
+      "rect": [
+        800,
+        0,
+        160,
+        190
+      ],
+      "row": 1,
+      "col": 6,
+      "status": "not_generated"
+    },
+    {
+      "index": 13,
+      "dir8": "SW",
+      "phase": "迈左腿",
+      "id": null,
+      "rect": [
+        800,
+        190,
+        160,
+        190
+      ],
+      "row": 2,
+      "col": 6,
+      "status": "not_generated"
+    },
+    {
+      "index": 21,
+      "dir8": "SW",
+      "phase": "双腿交错",
+      "id": null,
+      "rect": [
+        800,
+        380,
+        160,
+        190
+      ],
+      "row": 3,
+      "col": 6,
+      "status": "not_generated"
+    },
+    {
+      "index": 29,
+      "dir8": "SW",
+      "phase": "迈右腿",
+      "id": null,
+      "rect": [
+        800,
+        570,
+        160,
+        190
+      ],
+      "row": 4,
+      "col": 6,
+      "status": "not_generated"
+    },
+    {
+      "index": 6,
+      "dir8": "W",
+      "phase": "并脚站立",
+      "id": "W_p1",
+      "rect": [
+        960,
+        0,
+        160,
+        190
+      ],
+      "row": 1,
+      "col": 7,
+      "status": "candidate"
+    },
+    {
+      "index": 14,
+      "dir8": "W",
+      "phase": "迈左腿",
+      "id": "W_p2",
+      "rect": [
+        960,
+        190,
+        160,
+        190
+      ],
+      "row": 2,
+      "col": 7,
+      "status": "candidate"
+    },
+    {
+      "index": 22,
+      "dir8": "W",
+      "phase": "双腿交错",
+      "id": "W_p3",
+      "rect": [
+        960,
+        380,
+        160,
+        190
+      ],
+      "row": 3,
+      "col": 7,
+      "status": "candidate"
+    },
+    {
+      "index": 30,
+      "dir8": "W",
+      "phase": "迈右腿",
+      "id": "W_p4",
+      "rect": [
+        960,
+        570,
+        160,
+        190
+      ],
+      "row": 4,
+      "col": 7,
+      "status": "candidate"
+    },
+    {
+      "index": 7,
+      "dir8": "NW",
+      "phase": "并脚站立",
+      "id": null,
+      "rect": [
+        1120,
+        0,
+        160,
+        190
+      ],
+      "row": 1,
+      "col": 8,
+      "status": "not_generated"
+    },
+    {
+      "index": 15,
+      "dir8": "NW",
+      "phase": "迈左腿",
+      "id": null,
+      "rect": [
+        1120,
+        190,
+        160,
+        190
+      ],
+      "row": 2,
+      "col": 8,
+      "status": "not_generated"
+    },
+    {
+      "index": 23,
+      "dir8": "NW",
+      "phase": "双腿交错",
+      "id": null,
+      "rect": [
+        1120,
+        380,
+        160,
+        190
+      ],
+      "row": 3,
+      "col": 8,
+      "status": "not_generated"
+    },
+    {
+      "index": 31,
+      "dir8": "NW",
+      "phase": "迈右腿",
+      "id": null,
+      "rect": [
+        1120,
+        570,
+        160,
+        190
+      ],
+      "row": 4,
+      "col": 8,
+      "status": "not_generated"
+    }
+  ]
+}

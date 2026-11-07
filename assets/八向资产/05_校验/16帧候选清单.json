@@ -1,0 +1,311 @@
+{
+  "target_rgb": [
+    216.4,
+    202.8,
+    188.8
+  ],
+  "colordiff": {
+    "N|E": 1.44,
+    "N|S": 1.3,
+    "N|W": 1.44,
+    "E|S": 0.51,
+    "E|W": 0.0,
+    "S|W": 0.51
+  },
+  "phase_diff": {
+    "N": 0.0369,
+    "E": 0.1015,
+    "S": 0.0522,
+    "W": 0.1015
+  },
+  "rows": [
+    {
+      "id": "N_p1",
+      "dir8": "N",
+      "dir_cn": "正面",
+      "phase": "并脚站立",
+      "source": "N_p1_板1",
+      "method": "图生图原始",
+      "status": "candidate",
+      "file": "八向资产/04_候选dist/N_p1.png",
+      "alpha_px": 12583,
+      "fg_rgb": [
+        217.0,
+        202.8,
+        188.9
+      ],
+      "green_left": 0,
+      "phase_diff_mean": 0.0369
+    },
+    {
+      "id": "N_p2",
+      "dir8": "N",
+      "dir_cn": "正面",
+      "phase": "迈左腿",
+      "source": "N_p2_板1",
+      "method": "图生图原始",
+      "status": "candidate",
+      "file": "八向资产/04_候选dist/N_p2.png",
+      "alpha_px": 12616,
+      "fg_rgb": [
+        217.0,
+        202.7,
+        188.8
+      ],
+      "green_left": 0,
+      "phase_diff_mean": 0.0369
+    },
+    {
+      "id": "N_p3",
+      "dir8": "N",
+      "dir_cn": "正面",
+      "phase": "双腿交错",
+      "source": "N_p3_板1",
+      "method": "图生图原始",
+      "status": "candidate",
+      "file": "八向资产/04_候选dist/N_p3.png",
+      "alpha_px": 12632,
+      "fg_rgb": [
+        217.3,
+        203.3,
+        189.5
+      ],
+      "green_left": 0,
+      "phase_diff_mean": 0.0369
+    },
+    {
+      "id": "N_p4",
+      "dir8": "N",
+      "dir_cn": "正面",
+      "phase": "迈右腿",
+      "source": "N_p4_板1",
+      "method": "图生图原始",
+      "status": "candidate",
+      "file": "八向资产/04_候选dist/N_p4.png",
+      "alpha_px": 12590,
+      "fg_rgb": [
+        216.8,
+        202.7,
+        188.8
+      ],
+      "green_left": 0,
+      "phase_diff_mean": 0.0369
+    },
+    {
+      "id": "S_p1",
+      "dir8": "S",
+      "dir_cn": "背面",
+      "phase": "并脚站立",
+      "source": "S_p1_板1",
+      "method": "图生图原始",
+      "status": "candidate",
+      "file": "八向资产/04_候选dist/S_p1.png",
+      "alpha_px": 12218,
+      "fg_rgb": [
+        216.5,
+        203.1,
+        189.2
+      ],
+      "green_left": 0,
+      "phase_diff_mean": 0.0522
+    },
+    {
+      "id": "S_p2",
+      "dir8": "S",
+      "dir_cn": "背面",
+      "phase": "迈左腿",
+      "source": "S_p2_板1",
+      "method": "图生图原始",
+      "status": "candidate",
+      "file": "八向资产/04_候选dist/S_p2.png",
+      "alpha_px": 12074,
+      "fg_rgb": [
+        215.7,
+        202.9,
+        188.8
+      ],
+      "green_left": 0,
+      "phase_diff_mean": 0.0522
+    },
+    {
+      "id": "S_p3",
+      "dir8": "S",
+      "dir_cn": "背面",
+      "phase": "双腿交错",
+      "source": "S_p3_板1",
+      "method": "图生图原始",
+      "status": "candidate",
+      "file": "八向资产/04_候选dist/S_p3.png",
+      "alpha_px": 12258,
+      "fg_rgb": [
+        215.6,
+        202.6,
+        188.5
+      ],
+      "green_left": 0,
+      "phase_diff_mean": 0.0522
+    },
+    {
+      "id": "S_p4",
+      "dir8": "S",
+      "dir_cn": "背面",
+      "phase": "迈右腿",
+      "source": "S_p4_板1",
+      "method": "图生图原始",
+      "status": "candidate",
+      "file": "八向资产/04_候选dist/S_p4.png",
+      "alpha_px": 11801,
+      "fg_rgb": [
+        215.4,
+        202.4,
+        187.8
+      ],
+      "green_left": 0,
+      "phase_diff_mean": 0.0522
+    },
+    {
+      "id": "E_p1",
+      "dir8": "E",
+      "dir_cn": "右侧",
+      "phase": "并脚站立",
+      "source": "E_p1_板2",
+      "method": "毛色归一化",
+      "status": "candidate",
+      "file": "八向资产/04_候选dist/E_p1.png",
+      "alpha_px": 10973,
+      "fg_rgb": [
+        215.9,
+        202.3,
+        188.3
+      ],
+      "green_left": 0,
+      "phase_diff_mean": 0.1015
+    },
+    {
+      "id": "E_p2",
+      "dir8": "E",
+      "dir_cn": "右侧",
+      "phase": "迈左腿",
+      "source": "E_p2_板2",
+      "method": "毛色归一化",
+      "status": "candidate",
+      "file": "八向资产/04_候选dist/E_p2.png",
+      "alpha_px": 11857,
+      "fg_rgb": [
+        215.9,
+        202.3,
+        188.3
+      ],
+      "green_left": 0,
+      "phase_diff_mean": 0.1015
+    },
+    {
+      "id": "E_p3",
+      "dir8": "E",
+      "dir_cn": "右侧",
+      "phase": "双腿交错",
+      "source": "E_p3_板2",
+      "method": "毛色归一化",
+      "status": "candidate",
+      "file": "八向资产/04_候选dist/E_p3.png",
+      "alpha_px": 12120,
+      "fg_rgb": [
+        215.9,
+        202.4,
+        188.3
+      ],
+      "green_left": 0,
+      "phase_diff_mean": 0.1015
+    },
+    {
+      "id": "E_p4",
+      "dir8": "E",
+      "dir_cn": "右侧",
+      "phase": "迈右腿",
+      "source": "E_p4_板2",
+      "method": "毛色归一化",
+      "status": "candidate",
+      "file": "八向资产/04_候选dist/E_p4.png",
+      "alpha_px": 12267,
+      "fg_rgb": [
+        215.9,
+        202.3,
+        188.3
+      ],
+      "green_left": 0,
+      "phase_diff_mean": 0.1015
+    },
+    {
+      "id": "W_p1",
+      "dir8": "W",
+      "dir_cn": "左侧",
+      "phase": "并脚站立",
+      "source": "E_p1_板2",
+      "method": "E 水平镜像",
+      "status": "candidate",
+      "file": "八向资产/04_候选dist/W_p1.png",
+      "alpha_px": 10973,
+      "fg_rgb": [
+        215.9,
+        202.3,
+        188.3
+      ],
+      "green_left": 0,
+      "phase_diff_mean": 0.1015
+    },
+    {
+      "id": "W_p2",
+      "dir8": "W",
+      "dir_cn": "左侧",
+      "phase": "迈左腿",
+      "source": "E_p2_板2",
+      "method": "E 水平镜像",
+      "status": "candidate",
+      "file": "八向资产/04_候选dist/W_p2.png",
+      "alpha_px": 11857,
+      "fg_rgb": [
+        215.9,
+        202.3,
+        188.3
+      ],
+      "green_left": 0,
+      "phase_diff_mean": 0.1015
+    },
+    {
+      "id": "W_p3",
+      "dir8": "W",
+      "dir_cn": "左侧",
+      "phase": "双腿交错",
+      "source": "E_p3_板2",
+      "method": "E 水平镜像",
+      "status": "candidate",
+      "file": "八向资产/04_候选dist/W_p3.png",
+      "alpha_px": 12120,
+      "fg_rgb": [
+        215.9,
+        202.4,
+        188.3
+      ],
+      "green_left": 0,
+      "phase_diff_mean": 0.1015
+    },
+    {
+      "id": "W_p4",
+      "dir8": "W",
+      "dir_cn": "左侧",
+      "phase": "迈右腿",
+      "source": "E_p4_板2",
+      "method": "E 水平镜像",
+      "status": "candidate",
+      "file": "八向资产/04_候选dist/W_p4.png",
+      "alpha_px": 12267,
+      "fg_rgb": [
+        215.9,
+        202.3,
+        188.3
+      ],
+      "green_left": 0,
+      "phase_diff_mean": 0.1015
+    }
+  ]
+}
