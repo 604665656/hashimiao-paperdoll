@@ -1,0 +1,17 @@
+# 生成物 / 临时
+__pycache__/
+*.pyc
+*.pyo
+素材入库/out/
+素材入库/_inbox/*
+!素材入库/_inbox/.gitkeep
+
+# 系统垃圾
+Thumbs.db
+desktop.ini
+.DS_Store
+
+# 编辑器
+.vscode/
+.idea/
+*.log

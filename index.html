@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>哈士喵 · 纸娃娃台</title>
+<link rel="stylesheet" href="css/app.css">
+</head>
+<body>
+
+<header>
+  <div class="brand">哈士喵 纸娃娃台<small>操作模型参照 纸娃娃4.0</small></div>
+  <div class="tabs" id="tabs">
+    <button data-tab="dress" class="on">1 装扮</button>
+    <button data-tab="canvas">2 画布</button>
+    <button data-tab="action">3 动作</button>
+    <button data-tab="save">4 存档</button>
+  </div>
+  <div class="spacer"></div>
+  <div class="drawer-btns">
+    <button id="btnLib" title="部件库">☰</button>
+    <button id="btnCtl" title="控制台">⚙</button>
+  </div>
+  <button id="btnCopy" title="复制当前搭配为一段可粘贴的短码">复制搭配码</button>
+  <button id="btnPng" class="primary" title="按当前视图导出 PNG">导出 PNG</button>
+</header>
+
+<main>
+  <aside class="side left">
+    <h3>部件库 <span class="badge" id="slotCount">11 槽位</span></h3>
+    <div class="searchrow">
+      <input type="text" id="q" placeholder="搜索槽位 / 配饰…">
+      <button id="btnRandom" title="随机一套装扮">随机</button>
+    </div>
+    <div class="scroll" id="lib"></div>
+  </aside>
+
+  <section class="stage" id="stage">
+    <canvas id="cv"></canvas>
+    <div class="hud" id="hud"></div>
+    <div class="framebar" id="framebar">
+      <button id="btnPlay" class="on" title="空格 播放/暂停">❚❚</button>
+      <span id="dots"></span>
+      <span id="fpsTag" style="color:#8b93a3;font-size:11px;margin-left:4px">8fps</span>
+    </div>
+    <div class="zoombar">
+      <button id="zOut">−</button>
+      <button id="zFit">适配</button>
+      <button id="z100">100%</button>
+      <button id="zIn">+</button>
+    </div>
+  </section>
+
+  <aside class="side right">
+    <!-- 装扮 -->
+    <div id="pane-dress">
+      <h3>图层与微动</h3>
+      <div class="scroll">
+        <div class="group">
+          <label class="h">整体</label>
+          <label class="chk"><input type="checkbox" id="hideBody"> 隐藏身体（只看配饰叠加）</label>
+          <label class="chk"><input type="checkbox" id="mirror"> 镜像翻转（左右互换）</label>
+          <div class="row" style="margin-top:6px"><span class="k">总透明</span><input type="range" id="globalAlpha" min="20" max="100" value="100"><span class="val" id="globalAlphaV">100%</span></div>
+        </div>
+        <div class="group">
+          <label class="h">配饰插入位置</label>
+          <select id="suitPos">
+            <option value="2">头部之上（L02 上）</option>
+            <option value="8">眼镜之上（L06 上）</option>
+            <option value="11">最顶层</option>
+            <option value="1">身体之上（L01 上）</option>
+          </select>
+          <div class="tip" style="margin-top:6px">配饰图＝假发＋衣身整图，位置决定它盖住哪些骨架层。</div>
+        </div>
+        <div class="group">
+          <label class="h">微动（正面分层模式）</label>
+          <label class="chk"><input type="checkbox" id="mBreath" checked> 呼吸起伏</label>
+          <label class="chk"><input type="checkbox" id="mBlink" checked> 自动眨眼</label>
+          <label class="chk"><input type="checkbox" id="mTalk"> 说话口型</label>
+          <div class="row" style="margin-top:6px"><span class="k">尾巴</span><input type="range" id="mTail" min="0" max="100" value="55"><span class="val" id="mTailV">55</span></div>
+          <div class="row"><span class="k">歪头</span><input type="range" id="mTilt" min="-14" max="14" value="0"><span class="val" id="mTiltV">0°</span></div>
+        </div>
+        <div class="group">
+          <label class="h">快捷</label>
+          <div class="grid2">
+            <button id="btnAllOn">全部显示</button>
+            <button id="btnAllOff">全部隐藏</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- 画布 -->
+    <div id="pane-canvas" class="hidden">
+      <h3>画布</h3>
+      <div class="scroll">
+        <div class="group">
+          <label class="h">背景</label>
+          <div class="grid4">
+            <button data-bg="checker" class="on">棋盘</button>
+            <button data-bg="solid">深色</button>
+            <button data-bg="white">白底</button>
+            <button data-bg="none">透明</button>
+          </div>
+        </div>
+        <div class="group">
+          <label class="h">辅助</label>
+          <label class="chk"><input type="checkbox" id="gridOn"> 网格</label>
+          <div class="row"><span class="k">格距</span><input type="range" id="gridSize" min="16" max="256" step="8" value="64"><span class="val" id="gridSizeV">64</span></div>
+          <label class="chk"><input type="checkbox" id="borderOn"> 画板边框</label>
+          <label class="chk"><input type="checkbox" id="pixelOn"> 像素放大（最近邻）</label>
+        </div>
+        <div class="group">
+          <label class="h">视图</label>
+          <div class="row"><span class="k">缩放</span><input type="range" id="zoomR" min="10" max="400" value="100"><span class="val" id="zoomV">100%</span></div>
+          <div class="grid2">
+            <button id="btnResetView">重置视图</button>
+            <button id="btnCenter">居中</button>
+          </div>
+          <div class="tip" style="margin-top:6px">滚轮缩放 · 拖拽平移 · 空格播放/暂停 · F 适配</div>
+        </div>
+        <div class="group">
+          <label class="h">导出</label>
+          <div class="grid2">
+            <button id="btnPng2">当前视图 PNG</button>
+            <button id="btnPngX2">×2 高清 PNG</button>
+            <button id="btnSheet" class="hidden">雪碧图</button>
+            <button id="btnLayers">分层 PNG</button>
+          </div>
+          <div class="tip" style="margin-top:6px">分层 PNG 会逐张下载 11 个骨架层，用于重打包或喂给 Live2D。</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- 动作 -->
+    <div id="pane-action" class="hidden">
+      <h3>方向与帧</h3>
+      <div class="scroll">
+        <div class="group">
+          <label class="h">渲染模式</label>
+          <div class="grid2">
+            <button id="modeFront" class="on">正面分层</button>
+            <button id="modeDir">八向帧</button>
+          </div>
+          <div class="tip" style="margin-top:6px">正面分层＝11 层可拆装 + 微动；八向帧＝16/32 张预生成帧播放。</div>
+        </div>
+        <div class="group" id="dirGroup">
+          <label class="h">方向</label>
+          <div class="grid4" id="dirBtns"></div>
+          <label class="chk" style="margin-top:8px"><input type="checkbox" id="useDist"> 用候选 dist 帧（仅 N/S/E/W）</label>
+        </div>
+        <div class="group" id="frameGroup">
+          <label class="h">帧</label>
+          <div class="grid4" id="frameBtns"></div>
+          <div class="row" style="margin-top:8px"><span class="k">FPS</span><input type="range" id="fpsR" min="2" max="24" value="8"><span class="val" id="fpsV">8</span></div>
+          <label class="chk"><input type="checkbox" id="loopOn" checked> 循环播放</label>
+          <label class="chk"><input type="checkbox" id="onionOn"> 洋葱皮（前后帧参考）</label>
+        </div>
+        <div class="group">
+          <label class="h">动作导出</label>
+          <div class="grid2">
+            <button id="btnSheet2">导出八向雪碧图</button>
+            <button id="btnStrip">导出当前向帧条</button>
+          </div>
+          <div class="tip" style="margin-top:6px">雪碧图 8 向 × 4 帧 = 32 格，可直接作为精灵表接入引擎。</div>
+        </div>
+        <div class="group">
+          <label class="h">参考</label>
+          <div class="grid2">
+            <button id="btnRefSheet">看精灵表原图</button>
+            <button id="btnRefCompare">看方向核验图</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- 存档 -->
+    <div id="pane-save" class="hidden">
+      <h3>方案存档</h3>
+      <div class="scroll">
+        <div class="group">
+          <label class="h">保存当前</label>
+          <div class="row">
+            <input type="text" id="saveName" placeholder="方案名，如 默认/神乐版">
+            <button id="btnSave" class="primary">保存</button>
+          </div>
+          <div class="grid2" style="margin-top:6px">
+            <button id="btnExportJson">导出 .json</button>
+            <button id="btnImportJson">导入 .json</button>
+          </div>
+          <input type="file" id="fileJson" accept=".json" class="hidden">
+        </div>
+        <div class="group">
+          <label class="h">已保存</label>
+          <div id="saveList" style="margin:-10px -12px"></div>
+          <div class="tip" id="saveEmpty">还没有方案。点上面的“保存”把当前搭配存下来，下次打开自动恢复。</div>
+        </div>
+        <div class="group">
+          <label class="h">分享</label>
+          <div class="grid2">
+            <button id="btnCopy2">复制搭配码</button>
+            <button id="btnPaste">从剪贴板载入</button>
+          </div>
+          <div class="tip" style="margin-top:6px">搭配码是一段 base64，只含槽位/可见性/帧参数，不含图片。</div>
+        </div>
+        <div class="group">
+          <label class="h">快捷键</label>
+          <div class="tip">
+            <code>空格</code> 播放/暂停 · <code>F</code> 适配 · <code>1-4</code> 切换标签<br>
+            <code>←/→</code> 逐帧 · <code>M</code> 镜像 · <code>R</code> 随机 · <code>Del</code> 隐藏选中层
+          </div>
+        </div>
+      </div>
+    </div>
+  </aside>
+</main>
+
+<div class="toast" id="toast"></div>
+<script src="js/parts.js"></script>
+<script src="js/app.js"></script>
+</body>
+</html>
