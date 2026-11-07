@@ -6,6 +6,10 @@ __pycache__/
 素材入库/_inbox/*
 !素材入库/_inbox/.gitkeep
 
+# 盘点 / 核对产生的中间数据（跑一次就变，不入库）
+_audit.json
+tools/_audit.json
+
 # 系统垃圾
 Thumbs.db
 desktop.ini
