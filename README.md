@@ -11,6 +11,7 @@
 ![预览](docs/预览.png)
 
 在线试用：**https://604665656.github.io/hashimiao-paperdoll/**
+　｜　路线图看板：[Projects · 哈士喵纸娃娃台](https://github.com/users/604665656/projects/2)
 
 > 操作模型参照 [纸娃娃4.0](https://mxd.dvg.cn/zhiwawa_v4/)，只复刻交互方式，
 > 未使用其任何图片、代码或数据。素材全部为本项目自有资产。
