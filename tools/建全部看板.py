@@ -52,7 +52,9 @@ TOPICS = {
     'qishui-plugin-coldstart': ['python', 'plugin', 'growth', 'traffic'],
     'bili-relation-manager': ['electron', 'javascript', 'bilibili', 'desktop-app', 'automation'],
     'ruochen-toy-games': ['game', 'html', 'bilibili', 'music', 'matching', 'mini-game'],
-    'skyworth-8s03-physkey': ['shell', 'android', 'adb', 'tv', 'keymap', 'hardware'],
+    # 这 9 个是 2026-10-28 建仓时的原值（见 2026-10-28 开发记忆），不要改
+    'skyworth-8s03-physkey': ['adb', 'android', 'hdmi', 'mstar', 'remote-control',
+                              'shell-script', 'skyworth', 'smart-tv', 'tv-hacking'],
     'live-copilot': ['javascript', 'ai', 'game', 'assistant', 'danmaku', 'vision'],
 }
 
